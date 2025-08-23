@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-08-23T19:35:49.974377",
+  "processed_apps": [
+    1102370,
+    2422850,
+    1588580,
+    772730,
+    3669020
+  ],
+  "stats": {
+    "start_time": "2025-08-23T19:35:47.466207",
+    "processed": 5,
+    "successful": 0,
+    "failed": 5,
+    "total_records": 0
+  }
+}
