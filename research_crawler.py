@@ -98,7 +98,6 @@ class ResearchCrawler:
         except FileNotFoundError:
             print(f"❌ Error: קובץ לא נמצא")
             print(f"   נתיב: {self.csv_file_path}")
-            print(f"   וודא שהנתיב נכון ושהרצת create_batches.py")
             return []
 
     def load_completed_apps(self):
