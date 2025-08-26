@@ -1,0 +1,8 @@
+timestamp: 2025-08-23T21:51:07.750522
+batch_file: /content/steam-dataset-crawler/app_id_batches/batch_6_apps.csv
+results_file: results_batch_6_apps.csv
+processed: 7539
+total: 41895
+success: 7500
+failed: 39
+progress_percent: 18.0
