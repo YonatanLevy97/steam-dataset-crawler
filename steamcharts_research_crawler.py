@@ -18,7 +18,7 @@ from datetime import datetime
 # 🔧 Single Setting - Only change this!
 # ==============================
 
-CSV_FILE_PATH = "app_id_batches/batch_5_apps.csv"
+CSV_FILE_PATH = "app_id_batches/batch_[i]_apps.csv"
 
 # Additional settings (optional)
 DELAY_RANGE = (0.3, 0.5)  # Delay between requests (seconds) - faster for SteamCharts
