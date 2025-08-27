@@ -23,7 +23,7 @@ from steam_crawler_refactored.utils import setup_logging
 CSV_FILE_PATH = "app_id_batches/batch_6_apps.csv"
 
 # Additional settings (optional)
-DELAY_RANGE = (1, 2)  # Delay between requests (seconds)
+DELAY_RANGE = (1, 1.5)  # Delay between requests (seconds)
 MAX_APPS = None  # Limit for testing (None = all)
 RESULTS_CSV = None  # Results file name (None = automatic)
 
