@@ -1,31 +1,16 @@
 #!/usr/bin/env python3
-"""
-Enrich a per-genre metadata CSV with players_data_merged by appid (one-to-many join).
-
-- Robustly detects the appid column (appid/AppID/app_id/etc).
-- Normalizes IDs to strings (strips spaces, drops trailing ".0").
-- Left-join: keeps ALL rows from the genre CSV and attaches matching rows from players_data_merged.
-- If there are multiple rows in players_data_merged per appid (e.g., monthly data), the output will have multiple rows per game accordingly.
-- Adds suffixes (_meta, _players) to overlapping columns to avoid collisions.
-
-Usage:
-    python enrich_genre_with_players.py \
-        --genre_csv /path/to/genre_X_games_metadata_merged.csv \
-        --players_csv /path/to/players_data_merged.csv \
-        --out /path/to/output.csv
-"""
 import argparse
 import os
 import re
 import pandas as pd
-from typing import Optional
+import numpy as np
+from typing import Optional, List
 
 def find_appid_col(df: pd.DataFrame) -> str:
     candidates = ["appid","app_id","AppID","AppId","appId","app id"]
     for c in df.columns:
         if c in candidates:
             return c
-    # heuristic fallback
     for c in df.columns:
         cl = c.strip().lower()
         if cl == "app" or cl == "id":
@@ -36,50 +21,93 @@ def find_appid_col(df: pd.DataFrame) -> str:
 
 def normalize_appid(series: pd.Series) -> pd.Series:
     s = series.astype(str).str.strip()
-    # remove trailing .0 (common when read from numeric columns)
     s = s.str.replace(r"\.0$", "", regex=True)
-    # collapse internal whitespace
     s = s.str.replace(r"\s+", "", regex=True)
     return s
 
-def load_csv(path: str) -> pd.DataFrame:
-    return pd.read_csv(path, low_memory=False)
+def autodetect_date_col(df: pd.DataFrame) -> Optional[str]:
+    candidates = []
+    for c in df.columns:
+        lc = c.lower()
+        if any(k in lc for k in ["month","date","yearmonth","year_month","timestamp","period"]):
+            candidates.append(c)
+    prefer_order = ["month","date","year_month","yearmonth","timestamp","period"]
+    candidates_sorted = sorted(candidates, key=lambda x: next((i for i,k in enumerate(prefer_order) if k in x.lower()), 99))
+    for c in candidates_sorted:
+        try:
+            pd.to_datetime(df[c], errors="raise")
+            return c
+        except Exception:
+            continue
+    return None
 
-def enrich(genre_csv: str, players_csv: str, out_path: Optional[str] = None) -> str:
-    df_genre = load_csv(genre_csv)
-    df_players = load_csv(players_csv)
+def reduce_players(df_players: pd.DataFrame, date_col: Optional[str], reduce_strategy: str) -> pd.DataFrame:
+    appid_col = find_appid_col(df_players)
+    df = df_players.copy()
+    df["__appid_norm"] = normalize_appid(df[appid_col])
 
-    genre_app = find_appid_col(df_genre)
-    players_app = find_appid_col(df_players)
+    if date_col and date_col in df.columns:
+        dt = pd.to_datetime(df[date_col], errors="coerce")
+        df["__dt"] = dt
+        if df["__dt"].notna().any():
+            idx = df.groupby("__appid_norm")["__dt"].idxmax()
+            reduced = df.loc[idx].copy()
+            reduced.drop(columns=["__dt"], inplace=True)
+        else:
+            date_col = None
+    if not date_col or date_col not in df.columns:
+        num_cols = df.select_dtypes(include=[np.number]).columns.tolist()
+        if appid_col in num_cols:
+            num_cols.remove(appid_col)
+        aggs = {c: reduce_strategy for c in num_cols}
+        reduced = df.groupby("__appid_norm", as_index=False).agg(aggs)
+        non_num = [c for c in df.columns if c not in num_cols + ["__appid_norm"]]
+        firsts = df.groupby("__appid_norm", as_index=False)[non_num].first()
+        reduced = firsts.merge(reduced, on="__appid_norm", how="left")
+    return reduced
 
-    df_genre["__appid_norm"] = normalize_appid(df_genre[genre_app])
-    df_players["__appid_norm"] = normalize_appid(df_players[players_app])
-
-    merged = df_genre.merge(
-        df_players,
-        on="__appid_norm",
-        how="left",
-        suffixes=("_meta", "_players")
-    )
-
-    # Optionally keep the original appid columns; drop helper
-    merged.drop(columns=["__appid_norm"], inplace=True)
-
-    if out_path is None:
-        base, ext = os.path.splitext(genre_csv)
-        out_path = f"{base}_enriched{ext or '.csv'}"
-    merged.to_csv(out_path, index=False)
-    return out_path, len(merged)
+def post_select_columns(df: pd.DataFrame, players_cols: Optional[List[str]]) -> pd.DataFrame:
+    if not players_cols:
+        return df
+    keep = set(["__appid_norm"]) | set(players_cols)
+    existing = [c for c in df.columns if c in keep]
+    if "__appid_norm" not in existing:
+        existing = ["__appid_norm"] + existing
+    return df[existing].copy()
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--genre_csv", required=True, help="Input per-genre metadata CSV")
-    ap.add_argument("--players_csv", default="/mnt/data/players_data_merged.csv", help="players_data_merged.csv path")
-    ap.add_argument("--out", default=None, help="Output CSV path (optional)")
+    ap.add_argument("--genre_csv", required=True)
+    ap.add_argument("--players_csv", required=True)
+    ap.add_argument("--out", required=True)
+    ap.add_argument("--date-col", default=None)
+    ap.add_argument("--reduce", default="mean", choices=["mean","max","min","median"])
+    ap.add_argument("--players-cols", default=None)
     args = ap.parse_args()
 
-    out_path, n = enrich(args.genre_csv, args.players_csv, args.out)
-    print(f"Wrote {n:,} rows to {out_path}")
+    df_genre = pd.read_csv(args.genre_csv, low_memory=False)
+    df_players = pd.read_csv(args.players_csv, low_memory=False)
+
+    genre_app_col = find_appid_col(df_genre)
+    df_genre["__appid_norm"] = normalize_appid(df_genre[genre_app_col])
+
+    date_col = args.date_col or autodetect_date_col(df_players)
+    reduced = reduce_players(df_players, date_col, args.reduce)
+
+    cols = None
+    if args.players_cols:
+        cols = [c.strip() for c in args.players_cols.split(",") if c.strip()]
+    reduced = post_select_columns(reduced, cols)
+
+    merged = df_genre.merge(reduced, on="__appid_norm", how="left", suffixes=("_meta","_players"))
+    merged.drop(columns=["__appid_norm"], inplace=True)
+    merged.to_csv(args.out, index=False)
+
+    print(f"Detected date column: {date_col}")
+    print(f"Input genre rows: {len(df_genre):,} -> Output rows: {len(merged):,}")
+    dupes = df_genre['__appid_norm'].duplicated().sum()
+    if dupes:
+        print(f"Note: input genre CSV contains {dupes:,} duplicated appids; output may include duplicates accordingly.")
 
 if __name__ == "__main__":
     main()
