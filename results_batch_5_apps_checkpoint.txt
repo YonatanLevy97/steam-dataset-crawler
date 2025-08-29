@@ -1,0 +1,8 @@
+timestamp: 2025-08-26T21:54:05.286382
+batch_file: app_id_batches/batch_5_apps.csv
+results_file: results_batch_5_apps.csv
+processed: 291
+total: 12860
+success: 290
+failed: 1
+progress_percent: 2.3

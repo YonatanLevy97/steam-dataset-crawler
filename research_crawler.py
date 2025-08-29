@@ -20,10 +20,10 @@ from steam_crawler_refactored.utils import setup_logging
 # 🔧 Single Setting - Only change this!
 # ==============================
 
-CSV_FILE_PATH = "app_id_batches/batch_5_apps.csv"
+CSV_FILE_PATH = "app_id_batches/batch_6_apps.csv"
 
 # Additional settings (optional)
-DELAY_RANGE = (1, 2)  # Delay between requests (seconds)
+DELAY_RANGE = (1, 1.5)  # Delay between requests (seconds)
 MAX_APPS = None  # Limit for testing (None = all)
 RESULTS_CSV = None  # Results file name (None = automatic)
 
@@ -61,13 +61,13 @@ class ResearchCrawler:
         print(f"   ⏱️  Delay: {DELAY_RANGE[0]}-{DELAY_RANGE[1]} seconds")
         if MAX_APPS:
             print(f"   🔒 Limit: {MAX_APPS:,} applications")
-        
+
         # Check if this is a resume or new run
         if os.path.exists(self.results_file):
             print(f"   🔄 Resume mode: ממשיך ריצה קיימת")
         else:
             print(f"   🆕 Fresh start: הרצה חדשה")
-        
+
         print("=" * 50)
 
     def load_app_ids(self):
@@ -98,7 +98,6 @@ class ResearchCrawler:
         except FileNotFoundError:
             print(f"❌ Error: קובץ לא נמצא")
             print(f"   נתיב: {self.csv_file_path}")
-            print(f"   וודא שהנתיב נכון ושהרצת create_batches.py")
             return []
 
     def load_completed_apps(self):
@@ -192,11 +191,11 @@ class ResearchCrawler:
                 'failed': failed_count,
                 'progress_percent': round(processed_count / total_count * 100, 1)
             }
-            
+
             with open(self.checkpoint_file, 'w', encoding='utf-8') as f:
                 for key, value in checkpoint_data.items():
                     f.write(f"{key}: {value}\n")
-            
+
             return True
         except Exception as e:
             print(f"⚠️  שגיאה בשמירת checkpoint: {e}")
@@ -224,7 +223,7 @@ class ResearchCrawler:
 
         # Creating results file
         self.create_results_file()
-        
+
         # Create backup checkpoint every successful completion
         self.checkpoint_file = self.results_file.replace('.csv', '_checkpoint.txt')
         print(f"💾 Checkpoint file: {self.checkpoint_file}")
