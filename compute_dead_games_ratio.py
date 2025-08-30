@@ -6,12 +6,49 @@ import numpy as np
 MONTH_CANDIDATES = ["month","date","year_month","yearmonth","timestamp","crawl_timestamp"]
 
 def pick_col(df, preferred, candidates):
+    """Pick a column name: prefer the explicit one, otherwise the first match from candidates."""
     if preferred and preferred in df.columns:
         return preferred
     for c in candidates:
         if c in df.columns:
             return c
     return None
+
+def compute_dead_games_pct(csv_path: str, threshold: float = 50.0, month_col: str | None = None) -> float:
+    """
+    Return the percentage (0..100) of 'dead' games among rows with a non-empty month-like value.
+    A 'dead' game is one with average players < threshold.
+    """
+    df = pd.read_csv(csv_path, low_memory=False)
+
+    # Find the month-like column
+    month_col = pick_col(df, month_col, MONTH_CANDIDATES)
+    if month_col is None:
+        raise ValueError(f"Could not find a month-like column (looked for: {MONTH_CANDIDATES})")
+
+    # Keep only rows where the month column is present and non-empty
+    month_series = df[month_col].astype(str).str.strip()
+    month_mask = month_series.notna() & (month_series != "") & (month_series.str.lower() != "nan")
+    df_considered = df[month_mask].copy()
+
+    # Choose the average players column (typo-safe)
+    if "avg_palyers" in df_considered.columns:
+        avg_col = "avg_palyers"
+    elif "avg_players" in df_considered.columns:
+        avg_col = "avg_players"
+    else:
+        raise ValueError("Could not find 'avg_palyers' or 'avg_players' columns.")
+
+    # Compute dead mask
+    avg_numeric = pd.to_numeric(df_considered[avg_col], errors="coerce")
+    dead_mask = avg_numeric < threshold
+
+    total = len(df_considered)
+    if total == 0:
+        return 0.0
+
+    dead = int(dead_mask.sum())
+    return dead / total * 100.0
 
 def main():
     ap = argparse.ArgumentParser()
@@ -20,33 +57,9 @@ def main():
     ap.add_argument("--month-col", default=None)
     args = ap.parse_args()
 
-    df = pd.read_csv(args.csv, low_memory=False)
-
-    month_col = pick_col(df, args.month_col, MONTH_CANDIDATES)
-    if month_col is None:
-        raise SystemExit("Could not find a month-like column (looked for: {})".format(MONTH_CANDIDATES))
-
-    month_series = df[month_col].astype(str).str.strip()
-    month_mask = month_series.notna() & (month_series != "") & (month_series.str.lower() != "nan")
-    df_considered = df[month_mask].copy()
-
-    avg_col = "avg_palyers" if "avg_palyers" in df_considered.columns else ("avg_players" if "avg_players" in df_considered.columns else None)
-    if avg_col is None:
-        raise SystemExit("Could not find 'avg_palyers' or 'avg_players' columns.")
-
-    avg_numeric = pd.to_numeric(df_considered[avg_col], errors="coerce")
-    dead_mask = avg_numeric < args.threshold
-
-    total = len(df_considered)
-    dead = int(dead_mask.sum())
-    pct = (dead / total * 100.0) if total > 0 else 0.0
-
-    print(f"File: {args.csv}")
-    print(f"Using month column: {month_col}")
-    print(f"Using average players column: {avg_col}")
-    print(f"Rows considered (month present): {total:,}")
-    print(f"Dead games (< {args.threshold}): {dead:,}")
-    print(f"Dead games %: {pct:.2f}%")
+    pct = compute_dead_games_pct(args.csv, args.threshold, args.month_col)
+    # CLI convenience: print only the percentage (you can remove this main if you don't need CLI)
+    print(f"{pct:.2f}")
 
 if __name__ == "__main__":
     main()
