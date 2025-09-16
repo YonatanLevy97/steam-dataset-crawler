@@ -1,0 +1,81 @@
+{
+  "n_rows": 19448,
+  "n_cols": 169,
+  "id_col": "appid",
+  "label_col": "label_dead_binary",
+  "numeric_cols": [
+    "initial_price",
+    "final_price",
+    "discount_percent",
+    "metacritic_score",
+    "dlc_count"
+  ],
+  "onehot_cols": [
+    "label_dead",
+    "type",
+    "has_dlc"
+  ],
+  "multi_cols": [
+    "genres"
+  ],
+  "hash_cols": [
+    "developers",
+    "publishers"
+  ],
+  "exclude_cols": [
+    "achievements_total",
+    "avg_players_median_6m",
+    "coming_soon",
+    "controller_support",
+    "crawl_status",
+    "crawl_timestamp",
+    "first_month_in_window",
+    "is_free",
+    "last_month",
+    "linux",
+    "mac",
+    "min_months_ok",
+    "min_months_required",
+    "months_used",
+    "pc_min_requirements",
+    "recommendations_total",
+    "required_age",
+    "tags",
+    "windows"
+  ],
+  "multi_delim": ";,|",
+  "multi_topk": 50,
+  "hash_dims": 64,
+  "numeric_stats": {
+    "initial_price": {
+      "median": 36.95,
+      "mean": 68.4887741772933,
+      "std": 188.59704716505033
+    },
+    "final_price": {
+      "median": 29.99,
+      "mean": 44.82297512340601,
+      "std": 62.12660038818173
+    },
+    "discount_percent": {
+      "median": 0.0,
+      "mean": 7.276737967914438,
+      "std": 20.03889753583518
+    },
+    "metacritic_score": {
+      "median": 77.0,
+      "mean": 76.79350061703003,
+      "std": 4.2324400613344295
+    },
+    "dlc_count": {
+      "median": 0.0,
+      "mean": 2.3388009049773757,
+      "std": 44.88481226324194
+    }
+  },
+  "feature_names_count": 169,
+  "parsed_price_cols": [
+    "initial_price",
+    "final_price"
+  ]
+}
