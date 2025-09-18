@@ -71,6 +71,7 @@ def add_edges_chunk(G: nx.Graph, df: pd.DataFrame, weight_col: str, min_weight: 
             continue
         if u == v:
             continue
+        u, v = str(u), str(v)
         # undirected, keep max weight
         if G.has_edge(u, v):
             if w > G[u][v].get("weight", 0.0):
@@ -83,19 +84,33 @@ def add_edges_chunk(G: nx.Graph, df: pd.DataFrame, weight_col: str, min_weight: 
 
 def load_graph_from_edges(edges_path: Path, weight_col: str, min_weight: Optional[float], chunksize: int = 1_000_000) -> nx.Graph:
     G = nx.Graph()
+
+    # Detect column names once
+    head = pd.read_csv(edges_path, nrows=5, low_memory=False)
+    if {"src_appid","dst_appid",weight_col}.issubset(head.columns):
+        src_col, dst_col = "src_appid", "dst_appid"
+    elif {"src","dst",weight_col}.issubset(head.columns):
+        src_col, dst_col = "src","dst"
+    else:
+        raise ValueError(f"Could not find src/dst columns in {edges_path} (looked for src_appid/dst_appid or src/dst).")
+
     total_rows = 0
-    usecols = ["src_appid", "dst_appid", weight_col]
+    usecols = [src_col, dst_col, weight_col]
     for chunk in pd.read_csv(edges_path, chunksize=chunksize, usecols=usecols, low_memory=False):
         total_rows += len(chunk)
+        # normalize to expected names for add_edges_chunk
+        chunk = chunk.rename(columns={src_col: "src_appid", dst_col: "dst_appid"})
         add_edges_chunk(G, chunk, weight_col, min_weight)
         print(f"[CHUNK] rows processed: {total_rows:,} | nodes: {G.number_of_nodes():,} | edges: {G.number_of_edges():,}", file=sys.stderr)
+
     return G
+
 
 
 # ---------------------- Node attributes & reductions ----------------------
 
 def attach_node_attributes(G: nx.Graph, csv_path: Path, key_col: str, cols: List[str], chunksize: int = 200_000):
-    present = set(G.nodes)
+    present = set(map(str, G.nodes))  # <-- שינוי: להשוות כמחרוזות
     used = 0
     for chunk in pd.read_csv(csv_path, chunksize=chunksize, low_memory=False):
         if key_col not in chunk.columns:
@@ -107,11 +122,14 @@ def attach_node_attributes(G: nx.Graph, csv_path: Path, key_col: str, cols: List
         if not keep:
             continue
         for _, row in sub.iterrows():
-            nid = str(row[key_col])
+            nid = str(row[key_col])                 # מזהה כ־str
+            if nid not in G:                        # <-- לא ליצור צמתים “יתומים”
+                continue
             attrs = {c: (None if pd.isna(row[c]) else row[c]) for c in keep}
             G.nodes[nid].update(attrs)
             used += 1
     print(f"[ATTR] Updated attributes for ~{used:,} nodes.", file=sys.stderr)
+
 
 
 def reduce_graph(G: nx.Graph, giant_only: bool, kcore: Optional[int]) -> nx.Graph:
@@ -171,42 +189,40 @@ def pick_layout(G: nx.Graph, layout: str, seed: int) -> Dict[str, Tuple[float, f
 
 
 def color_nodes(G: nx.Graph, color_field: Optional[str]) -> Tuple[List, List]:
-    """Return node_colors, node_sizes (scaled by degree)."""
     deg = dict(G.degree())
     base_sizes = np.array([deg.get(n, 0) for n in G.nodes()], dtype=float)
-    # node size: sqrt(degree)*scale
     node_sizes = 6.0 + 3.0 * np.sqrt(base_sizes)
 
-    if color_field and len(G.nodes()) > 0 and color_field in next(iter(G.nodes(data=True)))[1]:
-        vals = []
-        for n, data in G.nodes(data=True):
-            v = data.get(color_field)
-            if v is None:
-                vals.append(np.nan)
-            else:
-                s = str(v).strip().lower()
-                if s in {"1", "true", "yes"}:
-                    vals.append(1.0)
-                elif s in {"0", "false", "no"}:
-                    vals.append(0.0)
+    if color_field and len(G) > 0:
+        has_field = any(color_field in data for _, data in G.nodes(data=True))  # <-- שינוי
+        if has_field:
+            vals = []
+            for _, data in G.nodes(data=True):
+                v = data.get(color_field)
+                if v is None:
+                    vals.append(np.nan)
                 else:
-                    # try numeric parse
-                    try:
-                        vals.append(float(v))
-                    except Exception:
-                        vals.append(np.nan)
-        # Replace NaN with median
-        arr = np.array(vals, dtype=float)
-        if np.isnan(arr).all():
-            node_colors = "tab:blue"
-        else:
-            med = np.nanmedian(arr)
-            arr = np.where(np.isnan(arr), med, arr)
-            node_colors = arr
-        return node_colors, node_sizes.tolist()
+                    s = str(v).strip().lower()
+                    if s in {"1", "true", "yes"}:
+                        vals.append(1.0)
+                    elif s in {"0", "false", "no"}:
+                        vals.append(0.0)
+                    else:
+                        try:
+                            vals.append(float(v))
+                        except Exception:
+                            vals.append(np.nan)
+            arr = np.array(vals, dtype=float)
+            if np.isnan(arr).all():
+                node_colors = "tab:blue"
+            else:
+                med = np.nanmedian(arr)
+                arr = np.where(np.isnan(arr), med, arr)
+                node_colors = arr
+            return node_colors, node_sizes.tolist()
 
-    # default single color
     return "tab:blue", node_sizes.tolist()
+
 
 
 def draw_graph_to_jpeg(G: nx.Graph, out_path: Path, layout_name: str, seed: int, width_px: int, height_px: int, dpi: int,
