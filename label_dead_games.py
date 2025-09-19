@@ -1,3 +1,6 @@
+"""
+
+"""
 #!/usr/bin/env python3
 # file: label_dead_games.py
 import argparse
@@ -5,6 +8,7 @@ import sys
 from pathlib import Path
 import pandas as pd
 import numpy as np
+
 
 def detect_columns(cols):
     """Detect column names for appid and name, tolerant to merged files."""
@@ -15,6 +19,7 @@ def detect_columns(cols):
     if appid_col is None:
         raise ValueError("Could not find an appid column (tried appid_players/appid/appid_meta).")
     return appid_col, name_col
+
 
 def parse_args():
     p = argparse.ArgumentParser(description="Label games as Dead/Alive based on last-N-months avg_players.")
@@ -27,6 +32,7 @@ def parse_args():
     p.add_argument("--keep-insufficient", action="store_true",
                    help="If set, keep rows with fewer than --min-months and still compute a label over available months.")
     return p.parse_args()
+
 
 def main():
     args = parse_args()
