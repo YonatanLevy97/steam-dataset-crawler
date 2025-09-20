@@ -20,8 +20,8 @@ ED_WRAPPER="${SCRIPT_DIR}/run_build_cosine_edges.sh"
 GR_WRAPPER="${SCRIPT_DIR}/run_edges_to_graph.sh"
 
 # ---- Defaults ----
-INCSV="./out/dead_labels_enriched.csv"
-OUTROOT="./out/graph_runs"
+INCSV="../out/dead_labels_enriched.csv"
+OUTROOT="../out/graph_runs"
 RUNTAG="$(date +%Y%m%d_%H%M%S)"
 
 THRESHOLD="0.70"

@@ -211,3 +211,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+    # python ./enrich_dead_labels_with_metadata.py
+    #   --dead-labels   ./data/dead_labels.csv
+    #   --games-csv     ./data/games_metadata_merged.csv
+    #       --out           ./out/dead_labels_enriched.csv
+

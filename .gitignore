@@ -1,0 +1,5 @@
+/out/*
+/data/features/*
+/data/dead_labels.csv
+/data/games_metadata_merged.csv
+/data/players_data_merged.csv
