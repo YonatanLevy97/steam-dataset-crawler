@@ -1,0 +1,15 @@
+community_id,size,percentage_dataset,top_genre,top_genre_percentage,top_publisher,top_publisher_percentage,top_developer,top_developer_percentage,tag_1,tag_1_percentage,tag_2,tag_2_percentage,tag_3,tag_3_percentage,avg_metacritic,median_metacritic,games_with_metacritic,metacritic_coverage_percentage,has_dlc_percentage,language_1,language_1_percentage,language_2,language_2_percentage,language_3,language_3_percentage
+0,1126,14.96,Indie,36.59,Daedalic Entertainment,4.0,Daedalic Entertainment,1.51,Singleplayer,40.67,Indie,30.46,Adventure,26.91,73.3,74.0,121,10.7,22.11,English,54.0,German,34.37,French,33.39
+1,563,7.48,Action,31.08,LTD.,10.66,LTD.,11.72,Singleplayer,66.43,Action,38.37,Adventure,36.59,76.2,77.0,41,7.3,42.1,English,93.96,Japanese,58.26,French,49.73
+2,366,4.86,Action,52.46,THQ Nordic,3.55,Game Hollywood Games,1.91,Singleplayer,68.03,Action,56.01,Adventure,53.83,56.0,61.0,277,75.7,29.78,English,98.63,German,60.38,French,57.65
+3,315,4.19,Indie,73.02,Hosted Games,6.03,Hosted Games,6.03,Indie,60.95,Singleplayer,56.51,Casual,41.59,75.7,76.0,12,3.8,16.83,English,95.87,Simplified Chinese,45.08,German,37.14
+4,135,1.79,Indie,66.67,FIVE-BN GAMES,13.33,FIVE-BN GAMES,13.33,Singleplayer,60.0,Casual,50.37,Indie,47.41,74.0,75.0,7,5.2,28.15,English,96.3,Japanese,51.85,German,51.11
+5,85,1.13,Indie,81.18,Bloober Team SA,4.71,Bloober Team SA,4.71,Indie,60.0,Singleplayer,54.12,Action,45.88,73.0,73.0,5,5.9,17.65,English,100.0,French,40.0,German,40.0
+6,520,6.91,Indie,75.38,GameHouse,2.5,GameHouse,2.5,Indie,61.54,Singleplayer,53.27,Casual,49.04,77.5,77.0,11,2.1,12.88,English,95.96,Simplified Chinese,40.58,German,38.08
+7,1079,14.34,Indie,77.66,tinyBuild,1.11,WayForward,0.93,Indie,63.86,Singleplayer,59.04,Casual,45.23,77.8,78.0,48,4.4,18.81,English,96.57,German,38.0,French,37.91
+8,860,11.43,Indie,81.05,Inc.,2.44,Inc.,2.44,Indie,62.33,Singleplayer,56.63,Casual,46.86,77.9,78.0,39,4.5,22.44,English,96.05,Simplified Chinese,40.81,French,37.33
+9,512,6.8,Indie,70.12,Kairosoft Co.,4.49,Kairosoft Co.,4.49,Singleplayer,66.6,Indie,57.03,Action,46.29,84.0,85.0,152,29.7,25.2,English,96.09,French,41.41,German,40.04
+10,129,1.71,Indie,72.09,Qumaron,11.63,Qumaron,10.85,Casual,64.34,Indie,63.57,Adventure,57.36,82.0,82.0,11,8.5,31.01,English,98.45,Russian,47.29,German,45.74
+11,695,9.24,Indie,75.97,PlayWay S.A.,1.58,FreeMind S.A.,1.44,Indie,61.29,Singleplayer,59.57,Action,41.15,77.5,78.0,24,3.5,19.14,English,96.69,Simplified Chinese,37.12,German,35.83
+12,833,11.07,Indie,76.83,Alawar Casual,4.08,Alawar Casual,1.68,Indie,62.79,Singleplayer,60.26,Adventure,49.22,76.8,77.0,33,4.0,17.41,English,97.12,German,34.57,Russian,32.89
+13,307,4.08,Indie,82.41,Octo Games,2.93,Octo Games,2.93,Indie,67.1,Singleplayer,61.89,Casual,53.75,75.4,74.0,5,1.6,18.24,English,95.11,Simplified Chinese,41.37,German,34.85

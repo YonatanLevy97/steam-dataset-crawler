@@ -1,0 +1,7230 @@
+[
+  {
+    "community_id": 0,
+    "size": 1126,
+    "percentage_of_dataset": 14.96,
+    "features": {
+      "genres": {
+        "display_name": "Genres",
+        "top_values": [
+          {
+            "value": "Indie",
+            "count": 412,
+            "percentage": 36.59,
+            "games_with_feature": 412
+          },
+          {
+            "value": "Adventure",
+            "count": 283,
+            "percentage": 25.13,
+            "games_with_feature": 283
+          },
+          {
+            "value": "Casual",
+            "count": 229,
+            "percentage": 20.34,
+            "games_with_feature": 229
+          },
+          {
+            "value": "Action",
+            "count": 227,
+            "percentage": 20.16,
+            "games_with_feature": 227
+          },
+          {
+            "value": "Strategy",
+            "count": 162,
+            "percentage": 14.39,
+            "games_with_feature": 162
+          },
+          {
+            "value": "Simulation",
+            "count": 138,
+            "percentage": 12.26,
+            "games_with_feature": 138
+          },
+          {
+            "value": "RPG",
+            "count": 126,
+            "percentage": 11.19,
+            "games_with_feature": 126
+          },
+          {
+            "value": "Sports",
+            "count": 16,
+            "percentage": 1.42,
+            "games_with_feature": 16
+          },
+          {
+            "value": "Racing",
+            "count": 12,
+            "percentage": 1.07,
+            "games_with_feature": 12
+          },
+          {
+            "value": "Early Access",
+            "count": 9,
+            "percentage": 0.8,
+            "games_with_feature": 9
+          }
+        ],
+        "unique_values": 13,
+        "total_instances": 1629
+      },
+      "publishers": {
+        "display_name": "Publishers",
+        "top_values": [
+          {
+            "value": "Daedalic Entertainment",
+            "count": 45,
+            "percentage": 4.0,
+            "games_with_feature": 45
+          },
+          {
+            "value": "Grey Alien Games",
+            "count": 17,
+            "percentage": 1.51,
+            "games_with_feature": 17
+          },
+          {
+            "value": "Artifex Mundi",
+            "count": 13,
+            "percentage": 1.15,
+            "games_with_feature": 13
+          },
+          {
+            "value": "indie.io",
+            "count": 12,
+            "percentage": 1.07,
+            "games_with_feature": 12
+          },
+          {
+            "value": "Frogwares",
+            "count": 11,
+            "percentage": 0.98,
+            "games_with_feature": 11
+          },
+          {
+            "value": "SNEG",
+            "count": 10,
+            "percentage": 0.89,
+            "games_with_feature": 10
+          },
+          {
+            "value": "Assemble Entertainment",
+            "count": 9,
+            "percentage": 0.8,
+            "games_with_feature": 9
+          },
+          {
+            "value": "DSGame",
+            "count": 9,
+            "percentage": 0.8,
+            "games_with_feature": 9
+          },
+          {
+            "value": "Annapurna Interactive",
+            "count": 9,
+            "percentage": 0.8,
+            "games_with_feature": 9
+          },
+          {
+            "value": "SNK CORPORATION",
+            "count": 9,
+            "percentage": 0.8,
+            "games_with_feature": 9
+          }
+        ],
+        "unique_values": 316,
+        "total_instances": 668
+      },
+      "developers": {
+        "display_name": "Developers",
+        "top_values": [
+          {
+            "value": "Daedalic Entertainment",
+            "count": 17,
+            "percentage": 1.51,
+            "games_with_feature": 17
+          },
+          {
+            "value": "Frogwares",
+            "count": 10,
+            "percentage": 0.89,
+            "games_with_feature": 10
+          },
+          {
+            "value": "Suricate Software",
+            "count": 10,
+            "percentage": 0.89,
+            "games_with_feature": 10
+          },
+          {
+            "value": "Dotemu",
+            "count": 8,
+            "percentage": 0.71,
+            "games_with_feature": 8
+          },
+          {
+            "value": "DSGame",
+            "count": 7,
+            "percentage": 0.62,
+            "games_with_feature": 7
+          },
+          {
+            "value": "Jackbox Games",
+            "count": 7,
+            "percentage": 0.62,
+            "games_with_feature": 7
+          },
+          {
+            "value": "Inc.",
+            "count": 7,
+            "percentage": 0.62,
+            "games_with_feature": 7
+          },
+          {
+            "value": "Puzzles by Joe",
+            "count": 7,
+            "percentage": 0.62,
+            "games_with_feature": 7
+          },
+          {
+            "value": "SC Jogos",
+            "count": 6,
+            "percentage": 0.53,
+            "games_with_feature": 6
+          },
+          {
+            "value": "Stardock Entertainment",
+            "count": 6,
+            "percentage": 0.53,
+            "games_with_feature": 6
+          }
+        ],
+        "unique_values": 457,
+        "total_instances": 691
+      },
+      "categories": {
+        "display_name": "Categories",
+        "top_values": [
+          {
+            "value": "Indie",
+            "count": 412,
+            "percentage": 36.59,
+            "games_with_feature": 412
+          },
+          {
+            "value": "Adventure",
+            "count": 283,
+            "percentage": 25.13,
+            "games_with_feature": 283
+          },
+          {
+            "value": "Casual",
+            "count": 229,
+            "percentage": 20.34,
+            "games_with_feature": 229
+          },
+          {
+            "value": "Action",
+            "count": 227,
+            "percentage": 20.16,
+            "games_with_feature": 227
+          },
+          {
+            "value": "Strategy",
+            "count": 162,
+            "percentage": 14.39,
+            "games_with_feature": 162
+          },
+          {
+            "value": "Simulation",
+            "count": 138,
+            "percentage": 12.26,
+            "games_with_feature": 138
+          },
+          {
+            "value": "RPG",
+            "count": 126,
+            "percentage": 11.19,
+            "games_with_feature": 126
+          },
+          {
+            "value": "Sports",
+            "count": 16,
+            "percentage": 1.42,
+            "games_with_feature": 16
+          },
+          {
+            "value": "Racing",
+            "count": 12,
+            "percentage": 1.07,
+            "games_with_feature": 12
+          },
+          {
+            "value": "Early Access",
+            "count": 9,
+            "percentage": 0.8,
+            "games_with_feature": 9
+          }
+        ],
+        "unique_values": 13,
+        "total_instances": 1629
+      },
+      "tags": {
+        "display_name": "Tags",
+        "top_values": [
+          {
+            "value": "Singleplayer",
+            "count": 458,
+            "percentage": 40.67,
+            "games_with_feature": 458
+          },
+          {
+            "value": "Indie",
+            "count": 343,
+            "percentage": 30.46,
+            "games_with_feature": 343
+          },
+          {
+            "value": "Adventure",
+            "count": 303,
+            "percentage": 26.91,
+            "games_with_feature": 303
+          },
+          {
+            "value": "Action",
+            "count": 258,
+            "percentage": 22.91,
+            "games_with_feature": 258
+          },
+          {
+            "value": "Casual",
+            "count": 257,
+            "percentage": 22.82,
+            "games_with_feature": 257
+          },
+          {
+            "value": "2D",
+            "count": 252,
+            "percentage": 22.38,
+            "games_with_feature": 252
+          },
+          {
+            "value": "Story Rich",
+            "count": 188,
+            "percentage": 16.7,
+            "games_with_feature": 188
+          },
+          {
+            "value": "Puzzle",
+            "count": 178,
+            "percentage": 15.81,
+            "games_with_feature": 178
+          },
+          {
+            "value": "Strategy",
+            "count": 176,
+            "percentage": 15.63,
+            "games_with_feature": 176
+          },
+          {
+            "value": "Atmospheric",
+            "count": 176,
+            "percentage": 15.63,
+            "games_with_feature": 176
+          }
+        ],
+        "unique_values": 387,
+        "total_instances": 10070
+      },
+      "supported_languages": {
+        "display_name": "Languages",
+        "top_values": [
+          {
+            "value": "English",
+            "count": 608,
+            "percentage": 54.0,
+            "games_with_feature": 608
+          },
+          {
+            "value": "German",
+            "count": 387,
+            "percentage": 34.37,
+            "games_with_feature": 387
+          },
+          {
+            "value": "French",
+            "count": 376,
+            "percentage": 33.39,
+            "games_with_feature": 376
+          },
+          {
+            "value": "Spanish - Spain",
+            "count": 340,
+            "percentage": 30.2,
+            "games_with_feature": 340
+          },
+          {
+            "value": "Russian",
+            "count": 314,
+            "percentage": 27.89,
+            "games_with_feature": 314
+          },
+          {
+            "value": "Simplified Chinese",
+            "count": 313,
+            "percentage": 27.8,
+            "games_with_feature": 313
+          },
+          {
+            "value": "Italian",
+            "count": 301,
+            "percentage": 26.73,
+            "games_with_feature": 301
+          },
+          {
+            "value": "Japanese",
+            "count": 285,
+            "percentage": 25.31,
+            "games_with_feature": 285
+          },
+          {
+            "value": "Portuguese - Brazil",
+            "count": 225,
+            "percentage": 19.98,
+            "games_with_feature": 225
+          },
+          {
+            "value": "Korean",
+            "count": 210,
+            "percentage": 18.65,
+            "games_with_feature": 210
+          }
+        ],
+        "unique_values": 103,
+        "total_instances": 5563
+      },
+      "windows": {
+        "display_name": "Windows Support",
+        "distribution": [
+          {
+            "value": "True",
+            "count": 1126,
+            "percentage": 100.0
+          }
+        ]
+      },
+      "mac": {
+        "display_name": "Mac Support",
+        "distribution": [
+          {
+            "value": "True",
+            "count": 701,
+            "percentage": 62.26
+          },
+          {
+            "value": "False",
+            "count": 425,
+            "percentage": 37.74
+          }
+        ]
+      },
+      "linux": {
+        "display_name": "Linux Support",
+        "distribution": [
+          {
+            "value": "True",
+            "count": 656,
+            "percentage": 58.26
+          },
+          {
+            "value": "False",
+            "count": 470,
+            "percentage": 41.74
+          }
+        ]
+      },
+      "is_free": {
+        "display_name": "Free Games",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 1119,
+            "percentage": 99.38
+          },
+          {
+            "value": "True",
+            "count": 7,
+            "percentage": 0.62
+          }
+        ]
+      },
+      "has_dlc": {
+        "display_name": "Has DLC",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 877,
+            "percentage": 77.89
+          },
+          {
+            "value": "True",
+            "count": 249,
+            "percentage": 22.11
+          }
+        ]
+      },
+      "metacritic_score": {
+        "display_name": "Metacritic Score",
+        "statistics": {
+          "mean": 73.29,
+          "median": 74.0,
+          "std": 7.09,
+          "min": 50.0,
+          "max": 92.0,
+          "count": 121
+        }
+      },
+      "recommendations_total": {
+        "display_name": "Total Recommendations",
+        "statistics": {
+          "mean": 169.78,
+          "median": 12.0,
+          "std": 370.79,
+          "min": 0.0,
+          "max": 4494.0,
+          "count": 1126
+        }
+      },
+      "achievements_total": {
+        "display_name": "Total Achievements",
+        "statistics": {
+          "mean": 35.38,
+          "median": 0.0,
+          "std": 305.67,
+          "min": 0.0,
+          "max": 5394.0,
+          "count": 1126
+        }
+      }
+    }
+  },
+  {
+    "community_id": 1,
+    "size": 563,
+    "percentage_of_dataset": 7.48,
+    "features": {
+      "genres": {
+        "display_name": "Genres",
+        "top_values": [
+          {
+            "value": "Action",
+            "count": 175,
+            "percentage": 31.08,
+            "games_with_feature": 175
+          },
+          {
+            "value": "RPG",
+            "count": 162,
+            "percentage": 28.77,
+            "games_with_feature": 162
+          },
+          {
+            "value": "Indie",
+            "count": 157,
+            "percentage": 27.89,
+            "games_with_feature": 157
+          },
+          {
+            "value": "Adventure",
+            "count": 147,
+            "percentage": 26.11,
+            "games_with_feature": 147
+          },
+          {
+            "value": "Simulation",
+            "count": 131,
+            "percentage": 23.27,
+            "games_with_feature": 131
+          },
+          {
+            "value": "Strategy",
+            "count": 129,
+            "percentage": 22.91,
+            "games_with_feature": 129
+          },
+          {
+            "value": "Casual",
+            "count": 96,
+            "percentage": 17.05,
+            "games_with_feature": 96
+          },
+          {
+            "value": "Racing",
+            "count": 38,
+            "percentage": 6.75,
+            "games_with_feature": 38
+          },
+          {
+            "value": "Sports",
+            "count": 33,
+            "percentage": 5.86,
+            "games_with_feature": 33
+          },
+          {
+            "value": "Free To Play",
+            "count": 30,
+            "percentage": 5.33,
+            "games_with_feature": 30
+          }
+        ],
+        "unique_values": 22,
+        "total_instances": 1269
+      },
+      "publishers": {
+        "display_name": "Publishers",
+        "top_values": [
+          {
+            "value": "LTD.",
+            "count": 60,
+            "percentage": 10.66,
+            "games_with_feature": 60
+          },
+          {
+            "value": "KOEI TECMO GAMES CO.",
+            "count": 47,
+            "percentage": 8.35,
+            "games_with_feature": 47
+          },
+          {
+            "value": "Square Enix",
+            "count": 41,
+            "percentage": 7.28,
+            "games_with_feature": 41
+          },
+          {
+            "value": "Slitherine Ltd.",
+            "count": 27,
+            "percentage": 4.8,
+            "games_with_feature": 27
+          },
+          {
+            "value": "Milestone S.r.l.",
+            "count": 27,
+            "percentage": 4.8,
+            "games_with_feature": 27
+          },
+          {
+            "value": "Ltd.",
+            "count": 20,
+            "percentage": 3.55,
+            "games_with_feature": 20
+          },
+          {
+            "value": "Spike Chunsoft Co.",
+            "count": 13,
+            "percentage": 2.31,
+            "games_with_feature": 13
+          },
+          {
+            "value": "Inc.",
+            "count": 12,
+            "percentage": 2.13,
+            "games_with_feature": 12
+          },
+          {
+            "value": "BANDAI NAMCO Entertainment",
+            "count": 11,
+            "percentage": 1.95,
+            "games_with_feature": 11
+          },
+          {
+            "value": "NIS America",
+            "count": 11,
+            "percentage": 1.95,
+            "games_with_feature": 11
+          }
+        ],
+        "unique_values": 244,
+        "total_instances": 672
+      },
+      "developers": {
+        "display_name": "Developers",
+        "top_values": [
+          {
+            "value": "LTD.",
+            "count": 66,
+            "percentage": 11.72,
+            "games_with_feature": 66
+          },
+          {
+            "value": "KOEI TECMO GAMES CO.",
+            "count": 50,
+            "percentage": 8.88,
+            "games_with_feature": 50
+          },
+          {
+            "value": "Square Enix",
+            "count": 30,
+            "percentage": 5.33,
+            "games_with_feature": 30
+          },
+          {
+            "value": "Milestone S.r.l.",
+            "count": 27,
+            "percentage": 4.8,
+            "games_with_feature": 27
+          },
+          {
+            "value": "Ltd.",
+            "count": 15,
+            "percentage": 2.66,
+            "games_with_feature": 15
+          },
+          {
+            "value": "MAGES. Inc.",
+            "count": 11,
+            "percentage": 1.95,
+            "games_with_feature": 11
+          },
+          {
+            "value": "Nihon Falcom",
+            "count": 11,
+            "percentage": 1.95,
+            "games_with_feature": 11
+          },
+          {
+            "value": "INTI CREATES CO.",
+            "count": 10,
+            "percentage": 1.78,
+            "games_with_feature": 10
+          },
+          {
+            "value": "Idea Factory",
+            "count": 9,
+            "percentage": 1.6,
+            "games_with_feature": 9
+          },
+          {
+            "value": "Studio Goya",
+            "count": 8,
+            "percentage": 1.42,
+            "games_with_feature": 8
+          }
+        ],
+        "unique_values": 341,
+        "total_instances": 696
+      },
+      "categories": {
+        "display_name": "Categories",
+        "top_values": [
+          {
+            "value": "Action",
+            "count": 175,
+            "percentage": 31.08,
+            "games_with_feature": 175
+          },
+          {
+            "value": "RPG",
+            "count": 162,
+            "percentage": 28.77,
+            "games_with_feature": 162
+          },
+          {
+            "value": "Indie",
+            "count": 157,
+            "percentage": 27.89,
+            "games_with_feature": 157
+          },
+          {
+            "value": "Adventure",
+            "count": 147,
+            "percentage": 26.11,
+            "games_with_feature": 147
+          },
+          {
+            "value": "Simulation",
+            "count": 131,
+            "percentage": 23.27,
+            "games_with_feature": 131
+          },
+          {
+            "value": "Strategy",
+            "count": 129,
+            "percentage": 22.91,
+            "games_with_feature": 129
+          },
+          {
+            "value": "Casual",
+            "count": 96,
+            "percentage": 17.05,
+            "games_with_feature": 96
+          },
+          {
+            "value": "Racing",
+            "count": 38,
+            "percentage": 6.75,
+            "games_with_feature": 38
+          },
+          {
+            "value": "Sports",
+            "count": 33,
+            "percentage": 5.86,
+            "games_with_feature": 33
+          },
+          {
+            "value": "Free To Play",
+            "count": 30,
+            "percentage": 5.33,
+            "games_with_feature": 30
+          }
+        ],
+        "unique_values": 22,
+        "total_instances": 1269
+      },
+      "tags": {
+        "display_name": "Tags",
+        "top_values": [
+          {
+            "value": "Singleplayer",
+            "count": 374,
+            "percentage": 66.43,
+            "games_with_feature": 374
+          },
+          {
+            "value": "Action",
+            "count": 216,
+            "percentage": 38.37,
+            "games_with_feature": 216
+          },
+          {
+            "value": "Adventure",
+            "count": 206,
+            "percentage": 36.59,
+            "games_with_feature": 206
+          },
+          {
+            "value": "RPG",
+            "count": 183,
+            "percentage": 32.5,
+            "games_with_feature": 183
+          },
+          {
+            "value": "Anime",
+            "count": 181,
+            "percentage": 32.15,
+            "games_with_feature": 181
+          },
+          {
+            "value": "Simulation",
+            "count": 172,
+            "percentage": 30.55,
+            "games_with_feature": 172
+          },
+          {
+            "value": "Multiplayer",
+            "count": 157,
+            "percentage": 27.89,
+            "games_with_feature": 157
+          },
+          {
+            "value": "Story Rich",
+            "count": 155,
+            "percentage": 27.53,
+            "games_with_feature": 155
+          },
+          {
+            "value": "Strategy",
+            "count": 141,
+            "percentage": 25.04,
+            "games_with_feature": 141
+          },
+          {
+            "value": "Indie",
+            "count": 129,
+            "percentage": 22.91,
+            "games_with_feature": 129
+          }
+        ],
+        "unique_values": 380,
+        "total_instances": 8109
+      },
+      "supported_languages": {
+        "display_name": "Languages",
+        "top_values": [
+          {
+            "value": "English",
+            "count": 529,
+            "percentage": 93.96,
+            "games_with_feature": 529
+          },
+          {
+            "value": "Japanese",
+            "count": 328,
+            "percentage": 58.26,
+            "games_with_feature": 328
+          },
+          {
+            "value": "French",
+            "count": 280,
+            "percentage": 49.73,
+            "games_with_feature": 280
+          },
+          {
+            "value": "German",
+            "count": 275,
+            "percentage": 48.85,
+            "games_with_feature": 275
+          },
+          {
+            "value": "Spanish - Spain",
+            "count": 253,
+            "percentage": 44.94,
+            "games_with_feature": 253
+          },
+          {
+            "value": "Simplified Chinese",
+            "count": 220,
+            "percentage": 39.08,
+            "games_with_feature": 220
+          },
+          {
+            "value": "Italian",
+            "count": 210,
+            "percentage": 37.3,
+            "games_with_feature": 210
+          },
+          {
+            "value": "Traditional Chinese",
+            "count": 208,
+            "percentage": 36.94,
+            "games_with_feature": 208
+          },
+          {
+            "value": "Korean",
+            "count": 160,
+            "percentage": 28.42,
+            "games_with_feature": 160
+          },
+          {
+            "value": "Russian",
+            "count": 156,
+            "percentage": 27.71,
+            "games_with_feature": 156
+          }
+        ],
+        "unique_values": 103,
+        "total_instances": 3490
+      },
+      "windows": {
+        "display_name": "Windows Support",
+        "distribution": [
+          {
+            "value": "True",
+            "count": 558,
+            "percentage": 99.11
+          },
+          {
+            "value": "False",
+            "count": 5,
+            "percentage": 0.89
+          }
+        ]
+      },
+      "mac": {
+        "display_name": "Mac Support",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 467,
+            "percentage": 82.95
+          },
+          {
+            "value": "True",
+            "count": 96,
+            "percentage": 17.05
+          }
+        ]
+      },
+      "linux": {
+        "display_name": "Linux Support",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 509,
+            "percentage": 90.41
+          },
+          {
+            "value": "True",
+            "count": 54,
+            "percentage": 9.59
+          }
+        ]
+      },
+      "is_free": {
+        "display_name": "Free Games",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 526,
+            "percentage": 93.43
+          },
+          {
+            "value": "True",
+            "count": 37,
+            "percentage": 6.57
+          }
+        ]
+      },
+      "has_dlc": {
+        "display_name": "Has DLC",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 326,
+            "percentage": 57.9
+          },
+          {
+            "value": "True",
+            "count": 237,
+            "percentage": 42.1
+          }
+        ]
+      },
+      "metacritic_score": {
+        "display_name": "Metacritic Score",
+        "statistics": {
+          "mean": 76.17,
+          "median": 77.0,
+          "std": 5.66,
+          "min": 62.0,
+          "max": 85.0,
+          "count": 41
+        }
+      },
+      "recommendations_total": {
+        "display_name": "Total Recommendations",
+        "statistics": {
+          "mean": 308.61,
+          "median": 96.0,
+          "std": 534.02,
+          "min": 0.0,
+          "max": 7089.0,
+          "count": 563
+        }
+      },
+      "achievements_total": {
+        "display_name": "Total Achievements",
+        "statistics": {
+          "mean": 28.36,
+          "median": 21.0,
+          "std": 59.03,
+          "min": 0.0,
+          "max": 1176.0,
+          "count": 563
+        }
+      }
+    }
+  },
+  {
+    "community_id": 2,
+    "size": 366,
+    "percentage_of_dataset": 4.86,
+    "features": {
+      "genres": {
+        "display_name": "Genres",
+        "top_values": [
+          {
+            "value": "Action",
+            "count": 192,
+            "percentage": 52.46,
+            "games_with_feature": 192
+          },
+          {
+            "value": "Indie",
+            "count": 189,
+            "percentage": 51.64,
+            "games_with_feature": 189
+          },
+          {
+            "value": "Adventure",
+            "count": 163,
+            "percentage": 44.54,
+            "games_with_feature": 163
+          },
+          {
+            "value": "RPG",
+            "count": 82,
+            "percentage": 22.4,
+            "games_with_feature": 82
+          },
+          {
+            "value": "Strategy",
+            "count": 81,
+            "percentage": 22.13,
+            "games_with_feature": 81
+          },
+          {
+            "value": "Casual",
+            "count": 72,
+            "percentage": 19.67,
+            "games_with_feature": 72
+          },
+          {
+            "value": "Simulation",
+            "count": 63,
+            "percentage": 17.21,
+            "games_with_feature": 63
+          },
+          {
+            "value": "Free To Play",
+            "count": 35,
+            "percentage": 9.56,
+            "games_with_feature": 35
+          },
+          {
+            "value": "Massively Multiplayer",
+            "count": 19,
+            "percentage": 5.19,
+            "games_with_feature": 19
+          },
+          {
+            "value": "Early Access",
+            "count": 13,
+            "percentage": 3.55,
+            "games_with_feature": 13
+          }
+        ],
+        "unique_values": 13,
+        "total_instances": 932
+      },
+      "publishers": {
+        "display_name": "Publishers",
+        "top_values": [
+          {
+            "value": "THQ Nordic",
+            "count": 13,
+            "percentage": 3.55,
+            "games_with_feature": 13
+          },
+          {
+            "value": "Focus Entertainment",
+            "count": 8,
+            "percentage": 2.19,
+            "games_with_feature": 8
+          },
+          {
+            "value": "2K",
+            "count": 8,
+            "percentage": 2.19,
+            "games_with_feature": 8
+          },
+          {
+            "value": "Fulqrum Publishing",
+            "count": 8,
+            "percentage": 2.19,
+            "games_with_feature": 8
+          },
+          {
+            "value": "Game Hollywood Games",
+            "count": 7,
+            "percentage": 1.91,
+            "games_with_feature": 7
+          },
+          {
+            "value": "Ubisoft",
+            "count": 7,
+            "percentage": 1.91,
+            "games_with_feature": 7
+          },
+          {
+            "value": "Square Enix",
+            "count": 7,
+            "percentage": 1.91,
+            "games_with_feature": 7
+          },
+          {
+            "value": "Capcom",
+            "count": 7,
+            "percentage": 1.91,
+            "games_with_feature": 7
+          },
+          {
+            "value": "Kalypso Media Digital",
+            "count": 6,
+            "percentage": 1.64,
+            "games_with_feature": 6
+          },
+          {
+            "value": "Klei Entertainment",
+            "count": 5,
+            "percentage": 1.37,
+            "games_with_feature": 5
+          }
+        ],
+        "unique_values": 250,
+        "total_instances": 381
+      },
+      "developers": {
+        "display_name": "Developers",
+        "top_values": [
+          {
+            "value": "Game Hollywood Games",
+            "count": 7,
+            "percentage": 1.91,
+            "games_with_feature": 7
+          },
+          {
+            "value": "Rebellion",
+            "count": 6,
+            "percentage": 1.64,
+            "games_with_feature": 6
+          },
+          {
+            "value": "Klei Entertainment",
+            "count": 5,
+            "percentage": 1.37,
+            "games_with_feature": 5
+          },
+          {
+            "value": "Inc.",
+            "count": 4,
+            "percentage": 1.09,
+            "games_with_feature": 4
+          },
+          {
+            "value": "Inc",
+            "count": 4,
+            "percentage": 1.09,
+            "games_with_feature": 4
+          },
+          {
+            "value": "Ltd.",
+            "count": 3,
+            "percentage": 0.82,
+            "games_with_feature": 3
+          },
+          {
+            "value": "qureate",
+            "count": 3,
+            "percentage": 0.82,
+            "games_with_feature": 3
+          },
+          {
+            "value": "Capcom",
+            "count": 3,
+            "percentage": 0.82,
+            "games_with_feature": 3
+          },
+          {
+            "value": "IO Interactive",
+            "count": 3,
+            "percentage": 0.82,
+            "games_with_feature": 3
+          },
+          {
+            "value": "Enlight Software Limited",
+            "count": 3,
+            "percentage": 0.82,
+            "games_with_feature": 3
+          }
+        ],
+        "unique_values": 339,
+        "total_instances": 407
+      },
+      "categories": {
+        "display_name": "Categories",
+        "top_values": [
+          {
+            "value": "Action",
+            "count": 192,
+            "percentage": 52.46,
+            "games_with_feature": 192
+          },
+          {
+            "value": "Indie",
+            "count": 189,
+            "percentage": 51.64,
+            "games_with_feature": 189
+          },
+          {
+            "value": "Adventure",
+            "count": 163,
+            "percentage": 44.54,
+            "games_with_feature": 163
+          },
+          {
+            "value": "RPG",
+            "count": 82,
+            "percentage": 22.4,
+            "games_with_feature": 82
+          },
+          {
+            "value": "Strategy",
+            "count": 81,
+            "percentage": 22.13,
+            "games_with_feature": 81
+          },
+          {
+            "value": "Casual",
+            "count": 72,
+            "percentage": 19.67,
+            "games_with_feature": 72
+          },
+          {
+            "value": "Simulation",
+            "count": 63,
+            "percentage": 17.21,
+            "games_with_feature": 63
+          },
+          {
+            "value": "Free To Play",
+            "count": 35,
+            "percentage": 9.56,
+            "games_with_feature": 35
+          },
+          {
+            "value": "Massively Multiplayer",
+            "count": 19,
+            "percentage": 5.19,
+            "games_with_feature": 19
+          },
+          {
+            "value": "Early Access",
+            "count": 13,
+            "percentage": 3.55,
+            "games_with_feature": 13
+          }
+        ],
+        "unique_values": 13,
+        "total_instances": 932
+      },
+      "tags": {
+        "display_name": "Tags",
+        "top_values": [
+          {
+            "value": "Singleplayer",
+            "count": 249,
+            "percentage": 68.03,
+            "games_with_feature": 249
+          },
+          {
+            "value": "Action",
+            "count": 205,
+            "percentage": 56.01,
+            "games_with_feature": 205
+          },
+          {
+            "value": "Adventure",
+            "count": 197,
+            "percentage": 53.83,
+            "games_with_feature": 197
+          },
+          {
+            "value": "Indie",
+            "count": 170,
+            "percentage": 46.45,
+            "games_with_feature": 170
+          },
+          {
+            "value": "Multiplayer",
+            "count": 133,
+            "percentage": 36.34,
+            "games_with_feature": 133
+          },
+          {
+            "value": "Atmospheric",
+            "count": 99,
+            "percentage": 27.05,
+            "games_with_feature": 99
+          },
+          {
+            "value": "Strategy",
+            "count": 97,
+            "percentage": 26.5,
+            "games_with_feature": 97
+          },
+          {
+            "value": "RPG",
+            "count": 95,
+            "percentage": 25.96,
+            "games_with_feature": 95
+          },
+          {
+            "value": "Casual",
+            "count": 86,
+            "percentage": 23.5,
+            "games_with_feature": 86
+          },
+          {
+            "value": "Co-op",
+            "count": 85,
+            "percentage": 23.22,
+            "games_with_feature": 85
+          }
+        ],
+        "unique_values": 353,
+        "total_instances": 5479
+      },
+      "supported_languages": {
+        "display_name": "Languages",
+        "top_values": [
+          {
+            "value": "English",
+            "count": 361,
+            "percentage": 98.63,
+            "games_with_feature": 361
+          },
+          {
+            "value": "German",
+            "count": 221,
+            "percentage": 60.38,
+            "games_with_feature": 221
+          },
+          {
+            "value": "French",
+            "count": 211,
+            "percentage": 57.65,
+            "games_with_feature": 211
+          },
+          {
+            "value": "Spanish - Spain",
+            "count": 184,
+            "percentage": 50.27,
+            "games_with_feature": 184
+          },
+          {
+            "value": "Italian",
+            "count": 163,
+            "percentage": 44.54,
+            "games_with_feature": 163
+          },
+          {
+            "value": "Russian",
+            "count": 146,
+            "percentage": 39.89,
+            "games_with_feature": 146
+          },
+          {
+            "value": "Japanese",
+            "count": 100,
+            "percentage": 27.32,
+            "games_with_feature": 100
+          },
+          {
+            "value": "Simplified Chinese",
+            "count": 94,
+            "percentage": 25.68,
+            "games_with_feature": 94
+          },
+          {
+            "value": "Polish",
+            "count": 82,
+            "percentage": 22.4,
+            "games_with_feature": 82
+          },
+          {
+            "value": "Korean",
+            "count": 70,
+            "percentage": 19.13,
+            "games_with_feature": 70
+          }
+        ],
+        "unique_values": 34,
+        "total_instances": 1976
+      },
+      "windows": {
+        "display_name": "Windows Support",
+        "distribution": [
+          {
+            "value": "True",
+            "count": 356,
+            "percentage": 97.27
+          },
+          {
+            "value": "False",
+            "count": 10,
+            "percentage": 2.73
+          }
+        ]
+      },
+      "mac": {
+        "display_name": "Mac Support",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 269,
+            "percentage": 73.5
+          },
+          {
+            "value": "True",
+            "count": 97,
+            "percentage": 26.5
+          }
+        ]
+      },
+      "linux": {
+        "display_name": "Linux Support",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 306,
+            "percentage": 83.61
+          },
+          {
+            "value": "True",
+            "count": 60,
+            "percentage": 16.39
+          }
+        ]
+      },
+      "is_free": {
+        "display_name": "Free Games",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 329,
+            "percentage": 89.89
+          },
+          {
+            "value": "True",
+            "count": 37,
+            "percentage": 10.11
+          }
+        ]
+      },
+      "has_dlc": {
+        "display_name": "Has DLC",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 257,
+            "percentage": 70.22
+          },
+          {
+            "value": "True",
+            "count": 109,
+            "percentage": 29.78
+          }
+        ]
+      },
+      "metacritic_score": {
+        "display_name": "Metacritic Score",
+        "statistics": {
+          "mean": 56.02,
+          "median": 61.0,
+          "std": 14.08,
+          "min": 2.0,
+          "max": 78.0,
+          "count": 277
+        }
+      },
+      "recommendations_total": {
+        "display_name": "Total Recommendations",
+        "statistics": {
+          "mean": 451.69,
+          "median": 144.5,
+          "std": 722.94,
+          "min": 0.0,
+          "max": 6305.0,
+          "count": 366
+        }
+      },
+      "achievements_total": {
+        "display_name": "Total Achievements",
+        "statistics": {
+          "mean": 26.45,
+          "median": 20.0,
+          "std": 50.43,
+          "min": 0.0,
+          "max": 849.0,
+          "count": 366
+        }
+      }
+    }
+  },
+  {
+    "community_id": 3,
+    "size": 315,
+    "percentage_of_dataset": 4.19,
+    "features": {
+      "genres": {
+        "display_name": "Genres",
+        "top_values": [
+          {
+            "value": "Indie",
+            "count": 230,
+            "percentage": 73.02,
+            "games_with_feature": 230
+          },
+          {
+            "value": "Casual",
+            "count": 117,
+            "percentage": 37.14,
+            "games_with_feature": 117
+          },
+          {
+            "value": "Action",
+            "count": 114,
+            "percentage": 36.19,
+            "games_with_feature": 114
+          },
+          {
+            "value": "Adventure",
+            "count": 113,
+            "percentage": 35.87,
+            "games_with_feature": 113
+          },
+          {
+            "value": "Simulation",
+            "count": 98,
+            "percentage": 31.11,
+            "games_with_feature": 98
+          },
+          {
+            "value": "RPG",
+            "count": 77,
+            "percentage": 24.44,
+            "games_with_feature": 77
+          },
+          {
+            "value": "Strategy",
+            "count": 66,
+            "percentage": 20.95,
+            "games_with_feature": 66
+          },
+          {
+            "value": "Free To Play",
+            "count": 39,
+            "percentage": 12.38,
+            "games_with_feature": 39
+          },
+          {
+            "value": "Early Access",
+            "count": 28,
+            "percentage": 8.89,
+            "games_with_feature": 28
+          },
+          {
+            "value": "Sports",
+            "count": 11,
+            "percentage": 3.49,
+            "games_with_feature": 11
+          }
+        ],
+        "unique_values": 12,
+        "total_instances": 908
+      },
+      "publishers": {
+        "display_name": "Publishers",
+        "top_values": [
+          {
+            "value": "Hosted Games",
+            "count": 19,
+            "percentage": 6.03,
+            "games_with_feature": 19
+          },
+          {
+            "value": "Winged Cloud",
+            "count": 12,
+            "percentage": 3.81,
+            "games_with_feature": 12
+          },
+          {
+            "value": "Choice of Games",
+            "count": 8,
+            "percentage": 2.54,
+            "games_with_feature": 8
+          },
+          {
+            "value": "Bohemia Interactive",
+            "count": 8,
+            "percentage": 2.54,
+            "games_with_feature": 8
+          },
+          {
+            "value": "SCS Software",
+            "count": 6,
+            "percentage": 1.9,
+            "games_with_feature": 6
+          },
+          {
+            "value": "Avalon Digital",
+            "count": 5,
+            "percentage": 1.59,
+            "games_with_feature": 5
+          },
+          {
+            "value": "Very Very LITTLE Studio",
+            "count": 5,
+            "percentage": 1.59,
+            "games_with_feature": 5
+          },
+          {
+            "value": "Walaber Entertainment LLC",
+            "count": 4,
+            "percentage": 1.27,
+            "games_with_feature": 4
+          },
+          {
+            "value": "Milkstone Studios",
+            "count": 4,
+            "percentage": 1.27,
+            "games_with_feature": 4
+          },
+          {
+            "value": "PlayWay S.A.",
+            "count": 4,
+            "percentage": 1.27,
+            "games_with_feature": 4
+          }
+        ],
+        "unique_values": 223,
+        "total_instances": 316
+      },
+      "developers": {
+        "display_name": "Developers",
+        "top_values": [
+          {
+            "value": "Hosted Games",
+            "count": 19,
+            "percentage": 6.03,
+            "games_with_feature": 19
+          },
+          {
+            "value": "Winged Cloud",
+            "count": 12,
+            "percentage": 3.81,
+            "games_with_feature": 12
+          },
+          {
+            "value": "Choice of Games",
+            "count": 8,
+            "percentage": 2.54,
+            "games_with_feature": 8
+          },
+          {
+            "value": "Bohemia Interactive",
+            "count": 8,
+            "percentage": 2.54,
+            "games_with_feature": 8
+          },
+          {
+            "value": "SCS Software",
+            "count": 6,
+            "percentage": 1.9,
+            "games_with_feature": 6
+          },
+          {
+            "value": "Very Very LITTLE Studio",
+            "count": 5,
+            "percentage": 1.59,
+            "games_with_feature": 5
+          },
+          {
+            "value": "Walaber Entertainment LLC",
+            "count": 4,
+            "percentage": 1.27,
+            "games_with_feature": 4
+          },
+          {
+            "value": "Milkstone Studios",
+            "count": 4,
+            "percentage": 1.27,
+            "games_with_feature": 4
+          },
+          {
+            "value": "Strategy Game Studio",
+            "count": 3,
+            "percentage": 0.95,
+            "games_with_feature": 3
+          },
+          {
+            "value": "Supermassive Games",
+            "count": 3,
+            "percentage": 0.95,
+            "games_with_feature": 3
+          }
+        ],
+        "unique_values": 237,
+        "total_instances": 323
+      },
+      "categories": {
+        "display_name": "Categories",
+        "top_values": [
+          {
+            "value": "Indie",
+            "count": 230,
+            "percentage": 73.02,
+            "games_with_feature": 230
+          },
+          {
+            "value": "Casual",
+            "count": 117,
+            "percentage": 37.14,
+            "games_with_feature": 117
+          },
+          {
+            "value": "Action",
+            "count": 114,
+            "percentage": 36.19,
+            "games_with_feature": 114
+          },
+          {
+            "value": "Adventure",
+            "count": 113,
+            "percentage": 35.87,
+            "games_with_feature": 113
+          },
+          {
+            "value": "Simulation",
+            "count": 98,
+            "percentage": 31.11,
+            "games_with_feature": 98
+          },
+          {
+            "value": "RPG",
+            "count": 77,
+            "percentage": 24.44,
+            "games_with_feature": 77
+          },
+          {
+            "value": "Strategy",
+            "count": 66,
+            "percentage": 20.95,
+            "games_with_feature": 66
+          },
+          {
+            "value": "Free To Play",
+            "count": 39,
+            "percentage": 12.38,
+            "games_with_feature": 39
+          },
+          {
+            "value": "Early Access",
+            "count": 28,
+            "percentage": 8.89,
+            "games_with_feature": 28
+          },
+          {
+            "value": "Sports",
+            "count": 11,
+            "percentage": 3.49,
+            "games_with_feature": 11
+          }
+        ],
+        "unique_values": 12,
+        "total_instances": 908
+      },
+      "tags": {
+        "display_name": "Tags",
+        "top_values": [
+          {
+            "value": "Indie",
+            "count": 192,
+            "percentage": 60.95,
+            "games_with_feature": 192
+          },
+          {
+            "value": "Singleplayer",
+            "count": 178,
+            "percentage": 56.51,
+            "games_with_feature": 178
+          },
+          {
+            "value": "Casual",
+            "count": 131,
+            "percentage": 41.59,
+            "games_with_feature": 131
+          },
+          {
+            "value": "Adventure",
+            "count": 123,
+            "percentage": 39.05,
+            "games_with_feature": 123
+          },
+          {
+            "value": "Action",
+            "count": 120,
+            "percentage": 38.1,
+            "games_with_feature": 120
+          },
+          {
+            "value": "Simulation",
+            "count": 104,
+            "percentage": 33.02,
+            "games_with_feature": 104
+          },
+          {
+            "value": "2D",
+            "count": 85,
+            "percentage": 26.98,
+            "games_with_feature": 85
+          },
+          {
+            "value": "RPG",
+            "count": 82,
+            "percentage": 26.03,
+            "games_with_feature": 82
+          },
+          {
+            "value": "Multiplayer",
+            "count": 72,
+            "percentage": 22.86,
+            "games_with_feature": 72
+          },
+          {
+            "value": "Strategy",
+            "count": 69,
+            "percentage": 21.9,
+            "games_with_feature": 69
+          }
+        ],
+        "unique_values": 347,
+        "total_instances": 4512
+      },
+      "supported_languages": {
+        "display_name": "Languages",
+        "top_values": [
+          {
+            "value": "English",
+            "count": 302,
+            "percentage": 95.87,
+            "games_with_feature": 302
+          },
+          {
+            "value": "Simplified Chinese",
+            "count": 142,
+            "percentage": 45.08,
+            "games_with_feature": 142
+          },
+          {
+            "value": "German",
+            "count": 117,
+            "percentage": 37.14,
+            "games_with_feature": 117
+          },
+          {
+            "value": "French",
+            "count": 115,
+            "percentage": 36.51,
+            "games_with_feature": 115
+          },
+          {
+            "value": "Russian",
+            "count": 109,
+            "percentage": 34.6,
+            "games_with_feature": 109
+          },
+          {
+            "value": "Spanish - Spain",
+            "count": 104,
+            "percentage": 33.02,
+            "games_with_feature": 104
+          },
+          {
+            "value": "Japanese",
+            "count": 95,
+            "percentage": 30.16,
+            "games_with_feature": 95
+          },
+          {
+            "value": "Italian",
+            "count": 86,
+            "percentage": 27.3,
+            "games_with_feature": 86
+          },
+          {
+            "value": "Korean",
+            "count": 63,
+            "percentage": 20.0,
+            "games_with_feature": 63
+          },
+          {
+            "value": "Portuguese - Brazil",
+            "count": 62,
+            "percentage": 19.68,
+            "games_with_feature": 62
+          }
+        ],
+        "unique_values": 103,
+        "total_instances": 1927
+      },
+      "windows": {
+        "display_name": "Windows Support",
+        "distribution": [
+          {
+            "value": "True",
+            "count": 313,
+            "percentage": 99.37
+          },
+          {
+            "value": "False",
+            "count": 2,
+            "percentage": 0.63
+          }
+        ]
+      },
+      "mac": {
+        "display_name": "Mac Support",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 195,
+            "percentage": 61.9
+          },
+          {
+            "value": "True",
+            "count": 120,
+            "percentage": 38.1
+          }
+        ]
+      },
+      "linux": {
+        "display_name": "Linux Support",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 221,
+            "percentage": 70.16
+          },
+          {
+            "value": "True",
+            "count": 94,
+            "percentage": 29.84
+          }
+        ]
+      },
+      "is_free": {
+        "display_name": "Free Games",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 265,
+            "percentage": 84.13
+          },
+          {
+            "value": "True",
+            "count": 50,
+            "percentage": 15.87
+          }
+        ]
+      },
+      "has_dlc": {
+        "display_name": "Has DLC",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 262,
+            "percentage": 83.17
+          },
+          {
+            "value": "True",
+            "count": 53,
+            "percentage": 16.83
+          }
+        ]
+      },
+      "metacritic_score": {
+        "display_name": "Metacritic Score",
+        "statistics": {
+          "mean": 75.67,
+          "median": 76.0,
+          "std": 1.92,
+          "min": 72.0,
+          "max": 79.0,
+          "count": 12
+        }
+      },
+      "recommendations_total": {
+        "display_name": "Total Recommendations",
+        "statistics": {
+          "mean": 271.75,
+          "median": 84.0,
+          "std": 618.49,
+          "min": 0.0,
+          "max": 7808.0,
+          "count": 315
+        }
+      },
+      "achievements_total": {
+        "display_name": "Total Achievements",
+        "statistics": {
+          "mean": 21.46,
+          "median": 14.0,
+          "std": 29.24,
+          "min": 0.0,
+          "max": 221.0,
+          "count": 315
+        }
+      }
+    }
+  },
+  {
+    "community_id": 4,
+    "size": 135,
+    "percentage_of_dataset": 1.79,
+    "features": {
+      "genres": {
+        "display_name": "Genres",
+        "top_values": [
+          {
+            "value": "Indie",
+            "count": 90,
+            "percentage": 66.67,
+            "games_with_feature": 90
+          },
+          {
+            "value": "Casual",
+            "count": 62,
+            "percentage": 45.93,
+            "games_with_feature": 62
+          },
+          {
+            "value": "Adventure",
+            "count": 58,
+            "percentage": 42.96,
+            "games_with_feature": 58
+          },
+          {
+            "value": "Action",
+            "count": 39,
+            "percentage": 28.89,
+            "games_with_feature": 39
+          },
+          {
+            "value": "Strategy",
+            "count": 36,
+            "percentage": 26.67,
+            "games_with_feature": 36
+          },
+          {
+            "value": "RPG",
+            "count": 30,
+            "percentage": 22.22,
+            "games_with_feature": 30
+          },
+          {
+            "value": "Simulation",
+            "count": 26,
+            "percentage": 19.26,
+            "games_with_feature": 26
+          },
+          {
+            "value": "Free To Play",
+            "count": 17,
+            "percentage": 12.59,
+            "games_with_feature": 17
+          },
+          {
+            "value": "Early Access",
+            "count": 10,
+            "percentage": 7.41,
+            "games_with_feature": 10
+          },
+          {
+            "value": "Sports",
+            "count": 1,
+            "percentage": 0.74,
+            "games_with_feature": 1
+          }
+        ],
+        "unique_values": 10,
+        "total_instances": 369
+      },
+      "publishers": {
+        "display_name": "Publishers",
+        "top_values": [
+          {
+            "value": "FIVE-BN GAMES",
+            "count": 18,
+            "percentage": 13.33,
+            "games_with_feature": 18
+          },
+          {
+            "value": "L. Stotch",
+            "count": 6,
+            "percentage": 4.44,
+            "games_with_feature": 6
+          },
+          {
+            "value": "Peaksel",
+            "count": 4,
+            "percentage": 2.96,
+            "games_with_feature": 4
+          },
+          {
+            "value": "Zoo Corporation",
+            "count": 4,
+            "percentage": 2.96,
+            "games_with_feature": 4
+          },
+          {
+            "value": "Egosoft",
+            "count": 4,
+            "percentage": 2.96,
+            "games_with_feature": 4
+          },
+          {
+            "value": "Nostalgames",
+            "count": 4,
+            "percentage": 2.96,
+            "games_with_feature": 4
+          },
+          {
+            "value": "Team17",
+            "count": 3,
+            "percentage": 2.22,
+            "games_with_feature": 3
+          },
+          {
+            "value": "STP WORKS",
+            "count": 3,
+            "percentage": 2.22,
+            "games_with_feature": 3
+          },
+          {
+            "value": "Travellin Cats",
+            "count": 3,
+            "percentage": 2.22,
+            "games_with_feature": 3
+          },
+          {
+            "value": "HypeTrain Digital",
+            "count": 2,
+            "percentage": 1.48,
+            "games_with_feature": 2
+          }
+        ],
+        "unique_values": 88,
+        "total_instances": 138
+      },
+      "developers": {
+        "display_name": "Developers",
+        "top_values": [
+          {
+            "value": "FIVE-BN GAMES",
+            "count": 18,
+            "percentage": 13.33,
+            "games_with_feature": 18
+          },
+          {
+            "value": "L. Stotch",
+            "count": 6,
+            "percentage": 4.44,
+            "games_with_feature": 6
+          },
+          {
+            "value": "Peaksel",
+            "count": 4,
+            "percentage": 2.96,
+            "games_with_feature": 4
+          },
+          {
+            "value": "Zoo Corporation",
+            "count": 4,
+            "percentage": 2.96,
+            "games_with_feature": 4
+          },
+          {
+            "value": "Egosoft",
+            "count": 4,
+            "percentage": 2.96,
+            "games_with_feature": 4
+          },
+          {
+            "value": "Nostalgames",
+            "count": 4,
+            "percentage": 2.96,
+            "games_with_feature": 4
+          },
+          {
+            "value": "STP WORKS",
+            "count": 3,
+            "percentage": 2.22,
+            "games_with_feature": 3
+          },
+          {
+            "value": "Travellin Cats",
+            "count": 3,
+            "percentage": 2.22,
+            "games_with_feature": 3
+          },
+          {
+            "value": "PandaCat \u718a\u55b5\u72ec\u7acb\u6e38\u620f",
+            "count": 2,
+            "percentage": 1.48,
+            "games_with_feature": 2
+          },
+          {
+            "value": "\u6ed1\u7a3d\u5de5\u4f5c\u5ba4",
+            "count": 2,
+            "percentage": 1.48,
+            "games_with_feature": 2
+          }
+        ],
+        "unique_values": 92,
+        "total_instances": 140
+      },
+      "categories": {
+        "display_name": "Categories",
+        "top_values": [
+          {
+            "value": "Indie",
+            "count": 90,
+            "percentage": 66.67,
+            "games_with_feature": 90
+          },
+          {
+            "value": "Casual",
+            "count": 62,
+            "percentage": 45.93,
+            "games_with_feature": 62
+          },
+          {
+            "value": "Adventure",
+            "count": 58,
+            "percentage": 42.96,
+            "games_with_feature": 58
+          },
+          {
+            "value": "Action",
+            "count": 39,
+            "percentage": 28.89,
+            "games_with_feature": 39
+          },
+          {
+            "value": "Strategy",
+            "count": 36,
+            "percentage": 26.67,
+            "games_with_feature": 36
+          },
+          {
+            "value": "RPG",
+            "count": 30,
+            "percentage": 22.22,
+            "games_with_feature": 30
+          },
+          {
+            "value": "Simulation",
+            "count": 26,
+            "percentage": 19.26,
+            "games_with_feature": 26
+          },
+          {
+            "value": "Free To Play",
+            "count": 17,
+            "percentage": 12.59,
+            "games_with_feature": 17
+          },
+          {
+            "value": "Early Access",
+            "count": 10,
+            "percentage": 7.41,
+            "games_with_feature": 10
+          },
+          {
+            "value": "Sports",
+            "count": 1,
+            "percentage": 0.74,
+            "games_with_feature": 1
+          }
+        ],
+        "unique_values": 10,
+        "total_instances": 369
+      },
+      "tags": {
+        "display_name": "Tags",
+        "top_values": [
+          {
+            "value": "Singleplayer",
+            "count": 81,
+            "percentage": 60.0,
+            "games_with_feature": 81
+          },
+          {
+            "value": "Casual",
+            "count": 68,
+            "percentage": 50.37,
+            "games_with_feature": 68
+          },
+          {
+            "value": "Indie",
+            "count": 64,
+            "percentage": 47.41,
+            "games_with_feature": 64
+          },
+          {
+            "value": "Adventure",
+            "count": 56,
+            "percentage": 41.48,
+            "games_with_feature": 56
+          },
+          {
+            "value": "Action",
+            "count": 42,
+            "percentage": 31.11,
+            "games_with_feature": 42
+          },
+          {
+            "value": "2D",
+            "count": 38,
+            "percentage": 28.15,
+            "games_with_feature": 38
+          },
+          {
+            "value": "Strategy",
+            "count": 37,
+            "percentage": 27.41,
+            "games_with_feature": 37
+          },
+          {
+            "value": "Puzzle",
+            "count": 33,
+            "percentage": 24.44,
+            "games_with_feature": 33
+          },
+          {
+            "value": "RPG",
+            "count": 30,
+            "percentage": 22.22,
+            "games_with_feature": 30
+          },
+          {
+            "value": "Simulation",
+            "count": 28,
+            "percentage": 20.74,
+            "games_with_feature": 28
+          }
+        ],
+        "unique_values": 288,
+        "total_instances": 1941
+      },
+      "supported_languages": {
+        "display_name": "Languages",
+        "top_values": [
+          {
+            "value": "English",
+            "count": 130,
+            "percentage": 96.3,
+            "games_with_feature": 130
+          },
+          {
+            "value": "Japanese",
+            "count": 70,
+            "percentage": 51.85,
+            "games_with_feature": 70
+          },
+          {
+            "value": "German",
+            "count": 69,
+            "percentage": 51.11,
+            "games_with_feature": 69
+          },
+          {
+            "value": "Russian",
+            "count": 68,
+            "percentage": 50.37,
+            "games_with_feature": 68
+          },
+          {
+            "value": "French",
+            "count": 68,
+            "percentage": 50.37,
+            "games_with_feature": 68
+          },
+          {
+            "value": "Spanish - Spain",
+            "count": 64,
+            "percentage": 47.41,
+            "games_with_feature": 64
+          },
+          {
+            "value": "Simplified Chinese",
+            "count": 60,
+            "percentage": 44.44,
+            "games_with_feature": 60
+          },
+          {
+            "value": "Italian",
+            "count": 55,
+            "percentage": 40.74,
+            "games_with_feature": 55
+          },
+          {
+            "value": "Portuguese - Brazil",
+            "count": 50,
+            "percentage": 37.04,
+            "games_with_feature": 50
+          },
+          {
+            "value": "Korean",
+            "count": 47,
+            "percentage": 34.81,
+            "games_with_feature": 47
+          }
+        ],
+        "unique_values": 103,
+        "total_instances": 1510
+      },
+      "windows": {
+        "display_name": "Windows Support",
+        "distribution": [
+          {
+            "value": "True",
+            "count": 135,
+            "percentage": 100.0
+          }
+        ]
+      },
+      "mac": {
+        "display_name": "Mac Support",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 86,
+            "percentage": 63.7
+          },
+          {
+            "value": "True",
+            "count": 49,
+            "percentage": 36.3
+          }
+        ]
+      },
+      "linux": {
+        "display_name": "Linux Support",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 109,
+            "percentage": 80.74
+          },
+          {
+            "value": "True",
+            "count": 26,
+            "percentage": 19.26
+          }
+        ]
+      },
+      "is_free": {
+        "display_name": "Free Games",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 114,
+            "percentage": 84.44
+          },
+          {
+            "value": "True",
+            "count": 21,
+            "percentage": 15.56
+          }
+        ]
+      },
+      "has_dlc": {
+        "display_name": "Has DLC",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 97,
+            "percentage": 71.85
+          },
+          {
+            "value": "True",
+            "count": 38,
+            "percentage": 28.15
+          }
+        ]
+      },
+      "metacritic_score": {
+        "display_name": "Metacritic Score",
+        "statistics": {
+          "mean": 74.0,
+          "median": 75.0,
+          "std": 3.51,
+          "min": 67.0,
+          "max": 77.0,
+          "count": 7
+        }
+      },
+      "recommendations_total": {
+        "display_name": "Total Recommendations",
+        "statistics": {
+          "mean": 371.87,
+          "median": 96.0,
+          "std": 670.06,
+          "min": 0.0,
+          "max": 4415.0,
+          "count": 135
+        }
+      },
+      "achievements_total": {
+        "display_name": "Total Achievements",
+        "statistics": {
+          "mean": 31.92,
+          "median": 20.0,
+          "std": 49.35,
+          "min": 0.0,
+          "max": 410.0,
+          "count": 135
+        }
+      }
+    }
+  },
+  {
+    "community_id": 5,
+    "size": 85,
+    "percentage_of_dataset": 1.13,
+    "features": {
+      "genres": {
+        "display_name": "Genres",
+        "top_values": [
+          {
+            "value": "Indie",
+            "count": 69,
+            "percentage": 81.18,
+            "games_with_feature": 69
+          },
+          {
+            "value": "Adventure",
+            "count": 40,
+            "percentage": 47.06,
+            "games_with_feature": 40
+          },
+          {
+            "value": "Action",
+            "count": 37,
+            "percentage": 43.53,
+            "games_with_feature": 37
+          },
+          {
+            "value": "Casual",
+            "count": 30,
+            "percentage": 35.29,
+            "games_with_feature": 30
+          },
+          {
+            "value": "Simulation",
+            "count": 24,
+            "percentage": 28.24,
+            "games_with_feature": 24
+          },
+          {
+            "value": "Strategy",
+            "count": 16,
+            "percentage": 18.82,
+            "games_with_feature": 16
+          },
+          {
+            "value": "RPG",
+            "count": 13,
+            "percentage": 15.29,
+            "games_with_feature": 13
+          },
+          {
+            "value": "Free To Play",
+            "count": 12,
+            "percentage": 14.12,
+            "games_with_feature": 12
+          },
+          {
+            "value": "Early Access",
+            "count": 7,
+            "percentage": 8.24,
+            "games_with_feature": 7
+          },
+          {
+            "value": "Sports",
+            "count": 4,
+            "percentage": 4.71,
+            "games_with_feature": 4
+          }
+        ],
+        "unique_values": 12,
+        "total_instances": 257
+      },
+      "publishers": {
+        "display_name": "Publishers",
+        "top_values": [
+          {
+            "value": "Bloober Team SA",
+            "count": 4,
+            "percentage": 4.71,
+            "games_with_feature": 4
+          },
+          {
+            "value": "Ludosity",
+            "count": 3,
+            "percentage": 3.53,
+            "games_with_feature": 3
+          },
+          {
+            "value": "D-Dub Software",
+            "count": 2,
+            "percentage": 2.35,
+            "games_with_feature": 2
+          },
+          {
+            "value": "Crimsonite Games",
+            "count": 2,
+            "percentage": 2.35,
+            "games_with_feature": 2
+          },
+          {
+            "value": "PixelFade",
+            "count": 2,
+            "percentage": 2.35,
+            "games_with_feature": 2
+          },
+          {
+            "value": "MythicOwl",
+            "count": 2,
+            "percentage": 2.35,
+            "games_with_feature": 2
+          },
+          {
+            "value": "Gamious",
+            "count": 2,
+            "percentage": 2.35,
+            "games_with_feature": 2
+          },
+          {
+            "value": "BATOVI Games",
+            "count": 2,
+            "percentage": 2.35,
+            "games_with_feature": 2
+          },
+          {
+            "value": "OTAKU Plan",
+            "count": 2,
+            "percentage": 2.35,
+            "games_with_feature": 2
+          },
+          {
+            "value": "Bazuro Games",
+            "count": 2,
+            "percentage": 2.35,
+            "games_with_feature": 2
+          }
+        ],
+        "unique_values": 76,
+        "total_instances": 90
+      },
+      "developers": {
+        "display_name": "Developers",
+        "top_values": [
+          {
+            "value": "Bloober Team SA",
+            "count": 4,
+            "percentage": 4.71,
+            "games_with_feature": 4
+          },
+          {
+            "value": "Ludosity",
+            "count": 3,
+            "percentage": 3.53,
+            "games_with_feature": 3
+          },
+          {
+            "value": "D-Dub Software",
+            "count": 2,
+            "percentage": 2.35,
+            "games_with_feature": 2
+          },
+          {
+            "value": "Crimsonite Games",
+            "count": 2,
+            "percentage": 2.35,
+            "games_with_feature": 2
+          },
+          {
+            "value": "PixelFade",
+            "count": 2,
+            "percentage": 2.35,
+            "games_with_feature": 2
+          },
+          {
+            "value": "MythicOwl",
+            "count": 2,
+            "percentage": 2.35,
+            "games_with_feature": 2
+          },
+          {
+            "value": "Gamious",
+            "count": 2,
+            "percentage": 2.35,
+            "games_with_feature": 2
+          },
+          {
+            "value": "BATOVI Games",
+            "count": 2,
+            "percentage": 2.35,
+            "games_with_feature": 2
+          },
+          {
+            "value": "Arkane Studios",
+            "count": 2,
+            "percentage": 2.35,
+            "games_with_feature": 2
+          },
+          {
+            "value": "Bazuro Games",
+            "count": 2,
+            "percentage": 2.35,
+            "games_with_feature": 2
+          }
+        ],
+        "unique_values": 75,
+        "total_instances": 89
+      },
+      "categories": {
+        "display_name": "Categories",
+        "top_values": [
+          {
+            "value": "Indie",
+            "count": 69,
+            "percentage": 81.18,
+            "games_with_feature": 69
+          },
+          {
+            "value": "Adventure",
+            "count": 40,
+            "percentage": 47.06,
+            "games_with_feature": 40
+          },
+          {
+            "value": "Action",
+            "count": 37,
+            "percentage": 43.53,
+            "games_with_feature": 37
+          },
+          {
+            "value": "Casual",
+            "count": 30,
+            "percentage": 35.29,
+            "games_with_feature": 30
+          },
+          {
+            "value": "Simulation",
+            "count": 24,
+            "percentage": 28.24,
+            "games_with_feature": 24
+          },
+          {
+            "value": "Strategy",
+            "count": 16,
+            "percentage": 18.82,
+            "games_with_feature": 16
+          },
+          {
+            "value": "RPG",
+            "count": 13,
+            "percentage": 15.29,
+            "games_with_feature": 13
+          },
+          {
+            "value": "Free To Play",
+            "count": 12,
+            "percentage": 14.12,
+            "games_with_feature": 12
+          },
+          {
+            "value": "Early Access",
+            "count": 7,
+            "percentage": 8.24,
+            "games_with_feature": 7
+          },
+          {
+            "value": "Sports",
+            "count": 4,
+            "percentage": 4.71,
+            "games_with_feature": 4
+          }
+        ],
+        "unique_values": 12,
+        "total_instances": 257
+      },
+      "tags": {
+        "display_name": "Tags",
+        "top_values": [
+          {
+            "value": "Indie",
+            "count": 51,
+            "percentage": 60.0,
+            "games_with_feature": 51
+          },
+          {
+            "value": "Singleplayer",
+            "count": 46,
+            "percentage": 54.12,
+            "games_with_feature": 46
+          },
+          {
+            "value": "Action",
+            "count": 39,
+            "percentage": 45.88,
+            "games_with_feature": 39
+          },
+          {
+            "value": "Adventure",
+            "count": 37,
+            "percentage": 43.53,
+            "games_with_feature": 37
+          },
+          {
+            "value": "2D",
+            "count": 33,
+            "percentage": 38.82,
+            "games_with_feature": 33
+          },
+          {
+            "value": "Casual",
+            "count": 29,
+            "percentage": 34.12,
+            "games_with_feature": 29
+          },
+          {
+            "value": "Atmospheric",
+            "count": 25,
+            "percentage": 29.41,
+            "games_with_feature": 25
+          },
+          {
+            "value": "Simulation",
+            "count": 23,
+            "percentage": 27.06,
+            "games_with_feature": 23
+          },
+          {
+            "value": "Exploration",
+            "count": 22,
+            "percentage": 25.88,
+            "games_with_feature": 22
+          },
+          {
+            "value": "3D",
+            "count": 19,
+            "percentage": 22.35,
+            "games_with_feature": 19
+          }
+        ],
+        "unique_values": 257,
+        "total_instances": 1303
+      },
+      "supported_languages": {
+        "display_name": "Languages",
+        "top_values": [
+          {
+            "value": "English",
+            "count": 85,
+            "percentage": 100.0,
+            "games_with_feature": 85
+          },
+          {
+            "value": "French",
+            "count": 34,
+            "percentage": 40.0,
+            "games_with_feature": 34
+          },
+          {
+            "value": "German",
+            "count": 34,
+            "percentage": 40.0,
+            "games_with_feature": 34
+          },
+          {
+            "value": "Japanese",
+            "count": 31,
+            "percentage": 36.47,
+            "games_with_feature": 31
+          },
+          {
+            "value": "Spanish - Spain",
+            "count": 30,
+            "percentage": 35.29,
+            "games_with_feature": 30
+          },
+          {
+            "value": "Simplified Chinese",
+            "count": 30,
+            "percentage": 35.29,
+            "games_with_feature": 30
+          },
+          {
+            "value": "Italian",
+            "count": 25,
+            "percentage": 29.41,
+            "games_with_feature": 25
+          },
+          {
+            "value": "Russian",
+            "count": 24,
+            "percentage": 28.24,
+            "games_with_feature": 24
+          },
+          {
+            "value": "Portuguese - Brazil",
+            "count": 24,
+            "percentage": 28.24,
+            "games_with_feature": 24
+          },
+          {
+            "value": "Korean",
+            "count": 20,
+            "percentage": 23.53,
+            "games_with_feature": 20
+          }
+        ],
+        "unique_values": 103,
+        "total_instances": 722
+      },
+      "windows": {
+        "display_name": "Windows Support",
+        "distribution": [
+          {
+            "value": "True",
+            "count": 84,
+            "percentage": 98.82
+          },
+          {
+            "value": "False",
+            "count": 1,
+            "percentage": 1.18
+          }
+        ]
+      },
+      "mac": {
+        "display_name": "Mac Support",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 66,
+            "percentage": 77.65
+          },
+          {
+            "value": "True",
+            "count": 19,
+            "percentage": 22.35
+          }
+        ]
+      },
+      "linux": {
+        "display_name": "Linux Support",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 68,
+            "percentage": 80.0
+          },
+          {
+            "value": "True",
+            "count": 17,
+            "percentage": 20.0
+          }
+        ]
+      },
+      "is_free": {
+        "display_name": "Free Games",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 72,
+            "percentage": 84.71
+          },
+          {
+            "value": "True",
+            "count": 13,
+            "percentage": 15.29
+          }
+        ]
+      },
+      "has_dlc": {
+        "display_name": "Has DLC",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 70,
+            "percentage": 82.35
+          },
+          {
+            "value": "True",
+            "count": 15,
+            "percentage": 17.65
+          }
+        ]
+      },
+      "metacritic_score": {
+        "display_name": "Metacritic Score",
+        "statistics": {
+          "mean": 73.0,
+          "median": 73.0,
+          "std": 3.08,
+          "min": 70.0,
+          "max": 77.0,
+          "count": 5
+        }
+      },
+      "recommendations_total": {
+        "display_name": "Total Recommendations",
+        "statistics": {
+          "mean": 272.09,
+          "median": 58.0,
+          "std": 497.0,
+          "min": 0.0,
+          "max": 2207.0,
+          "count": 85
+        }
+      },
+      "achievements_total": {
+        "display_name": "Total Achievements",
+        "statistics": {
+          "mean": 22.19,
+          "median": 10.0,
+          "std": 37.54,
+          "min": 0.0,
+          "max": 246.0,
+          "count": 85
+        }
+      }
+    }
+  },
+  {
+    "community_id": 6,
+    "size": 520,
+    "percentage_of_dataset": 6.91,
+    "features": {
+      "genres": {
+        "display_name": "Genres",
+        "top_values": [
+          {
+            "value": "Indie",
+            "count": 392,
+            "percentage": 75.38,
+            "games_with_feature": 392
+          },
+          {
+            "value": "Casual",
+            "count": 241,
+            "percentage": 46.35,
+            "games_with_feature": 241
+          },
+          {
+            "value": "Adventure",
+            "count": 208,
+            "percentage": 40.0,
+            "games_with_feature": 208
+          },
+          {
+            "value": "Action",
+            "count": 193,
+            "percentage": 37.12,
+            "games_with_feature": 193
+          },
+          {
+            "value": "Simulation",
+            "count": 150,
+            "percentage": 28.85,
+            "games_with_feature": 150
+          },
+          {
+            "value": "Strategy",
+            "count": 113,
+            "percentage": 21.73,
+            "games_with_feature": 113
+          },
+          {
+            "value": "RPG",
+            "count": 102,
+            "percentage": 19.62,
+            "games_with_feature": 102
+          },
+          {
+            "value": "Free To Play",
+            "count": 93,
+            "percentage": 17.88,
+            "games_with_feature": 93
+          },
+          {
+            "value": "Early Access",
+            "count": 56,
+            "percentage": 10.77,
+            "games_with_feature": 56
+          },
+          {
+            "value": "Massively Multiplayer",
+            "count": 31,
+            "percentage": 5.96,
+            "games_with_feature": 31
+          }
+        ],
+        "unique_values": 12,
+        "total_instances": 1601
+      },
+      "publishers": {
+        "display_name": "Publishers",
+        "top_values": [
+          {
+            "value": "GameHouse",
+            "count": 13,
+            "percentage": 2.5,
+            "games_with_feature": 13
+          },
+          {
+            "value": "HH-Games",
+            "count": 10,
+            "percentage": 1.92,
+            "games_with_feature": 10
+          },
+          {
+            "value": "MangaGamer",
+            "count": 10,
+            "percentage": 1.92,
+            "games_with_feature": 10
+          },
+          {
+            "value": "Conglomerate 5",
+            "count": 10,
+            "percentage": 1.92,
+            "games_with_feature": 10
+          },
+          {
+            "value": "Quiet River",
+            "count": 9,
+            "percentage": 1.73,
+            "games_with_feature": 9
+          },
+          {
+            "value": "Chilla's Art",
+            "count": 8,
+            "percentage": 1.54,
+            "games_with_feature": 8
+          },
+          {
+            "value": "XDEVS LTD",
+            "count": 8,
+            "percentage": 1.54,
+            "games_with_feature": 8
+          },
+          {
+            "value": "Notovia",
+            "count": 7,
+            "percentage": 1.35,
+            "games_with_feature": 7
+          },
+          {
+            "value": "Arc System Works",
+            "count": 7,
+            "percentage": 1.35,
+            "games_with_feature": 7
+          },
+          {
+            "value": "Valve",
+            "count": 6,
+            "percentage": 1.15,
+            "games_with_feature": 6
+          }
+        ],
+        "unique_values": 398,
+        "total_instances": 536
+      },
+      "developers": {
+        "display_name": "Developers",
+        "top_values": [
+          {
+            "value": "GameHouse",
+            "count": 13,
+            "percentage": 2.5,
+            "games_with_feature": 13
+          },
+          {
+            "value": "07th Expansion",
+            "count": 9,
+            "percentage": 1.73,
+            "games_with_feature": 9
+          },
+          {
+            "value": "Quiet River",
+            "count": 9,
+            "percentage": 1.73,
+            "games_with_feature": 9
+          },
+          {
+            "value": "Chilla's Art",
+            "count": 8,
+            "percentage": 1.54,
+            "games_with_feature": 8
+          },
+          {
+            "value": "XDEVS LTD",
+            "count": 8,
+            "percentage": 1.54,
+            "games_with_feature": 8
+          },
+          {
+            "value": "Notovia",
+            "count": 7,
+            "percentage": 1.35,
+            "games_with_feature": 7
+          },
+          {
+            "value": "Arc System Works",
+            "count": 7,
+            "percentage": 1.35,
+            "games_with_feature": 7
+          },
+          {
+            "value": "Valve",
+            "count": 6,
+            "percentage": 1.15,
+            "games_with_feature": 6
+          },
+          {
+            "value": "Blue Giraffe",
+            "count": 4,
+            "percentage": 0.77,
+            "games_with_feature": 4
+          },
+          {
+            "value": "Digital Cybercherries",
+            "count": 4,
+            "percentage": 0.77,
+            "games_with_feature": 4
+          }
+        ],
+        "unique_values": 420,
+        "total_instances": 547
+      },
+      "categories": {
+        "display_name": "Categories",
+        "top_values": [
+          {
+            "value": "Indie",
+            "count": 392,
+            "percentage": 75.38,
+            "games_with_feature": 392
+          },
+          {
+            "value": "Casual",
+            "count": 241,
+            "percentage": 46.35,
+            "games_with_feature": 241
+          },
+          {
+            "value": "Adventure",
+            "count": 208,
+            "percentage": 40.0,
+            "games_with_feature": 208
+          },
+          {
+            "value": "Action",
+            "count": 193,
+            "percentage": 37.12,
+            "games_with_feature": 193
+          },
+          {
+            "value": "Simulation",
+            "count": 150,
+            "percentage": 28.85,
+            "games_with_feature": 150
+          },
+          {
+            "value": "Strategy",
+            "count": 113,
+            "percentage": 21.73,
+            "games_with_feature": 113
+          },
+          {
+            "value": "RPG",
+            "count": 102,
+            "percentage": 19.62,
+            "games_with_feature": 102
+          },
+          {
+            "value": "Free To Play",
+            "count": 93,
+            "percentage": 17.88,
+            "games_with_feature": 93
+          },
+          {
+            "value": "Early Access",
+            "count": 56,
+            "percentage": 10.77,
+            "games_with_feature": 56
+          },
+          {
+            "value": "Massively Multiplayer",
+            "count": 31,
+            "percentage": 5.96,
+            "games_with_feature": 31
+          }
+        ],
+        "unique_values": 12,
+        "total_instances": 1601
+      },
+      "tags": {
+        "display_name": "Tags",
+        "top_values": [
+          {
+            "value": "Indie",
+            "count": 320,
+            "percentage": 61.54,
+            "games_with_feature": 320
+          },
+          {
+            "value": "Singleplayer",
+            "count": 277,
+            "percentage": 53.27,
+            "games_with_feature": 277
+          },
+          {
+            "value": "Casual",
+            "count": 255,
+            "percentage": 49.04,
+            "games_with_feature": 255
+          },
+          {
+            "value": "Adventure",
+            "count": 213,
+            "percentage": 40.96,
+            "games_with_feature": 213
+          },
+          {
+            "value": "Action",
+            "count": 207,
+            "percentage": 39.81,
+            "games_with_feature": 207
+          },
+          {
+            "value": "2D",
+            "count": 160,
+            "percentage": 30.77,
+            "games_with_feature": 160
+          },
+          {
+            "value": "Simulation",
+            "count": 157,
+            "percentage": 30.19,
+            "games_with_feature": 157
+          },
+          {
+            "value": "Strategy",
+            "count": 125,
+            "percentage": 24.04,
+            "games_with_feature": 125
+          },
+          {
+            "value": "RPG",
+            "count": 111,
+            "percentage": 21.35,
+            "games_with_feature": 111
+          },
+          {
+            "value": "Atmospheric",
+            "count": 102,
+            "percentage": 19.62,
+            "games_with_feature": 102
+          }
+        ],
+        "unique_values": 377,
+        "total_instances": 7691
+      },
+      "supported_languages": {
+        "display_name": "Languages",
+        "top_values": [
+          {
+            "value": "English",
+            "count": 499,
+            "percentage": 95.96,
+            "games_with_feature": 499
+          },
+          {
+            "value": "Simplified Chinese",
+            "count": 211,
+            "percentage": 40.58,
+            "games_with_feature": 211
+          },
+          {
+            "value": "German",
+            "count": 198,
+            "percentage": 38.08,
+            "games_with_feature": 198
+          },
+          {
+            "value": "French",
+            "count": 197,
+            "percentage": 37.88,
+            "games_with_feature": 197
+          },
+          {
+            "value": "Russian",
+            "count": 197,
+            "percentage": 37.88,
+            "games_with_feature": 197
+          },
+          {
+            "value": "Japanese",
+            "count": 188,
+            "percentage": 36.15,
+            "games_with_feature": 188
+          },
+          {
+            "value": "Spanish - Spain",
+            "count": 185,
+            "percentage": 35.58,
+            "games_with_feature": 185
+          },
+          {
+            "value": "Korean",
+            "count": 149,
+            "percentage": 28.65,
+            "games_with_feature": 149
+          },
+          {
+            "value": "Italian",
+            "count": 146,
+            "percentage": 28.08,
+            "games_with_feature": 146
+          },
+          {
+            "value": "Portuguese - Brazil",
+            "count": 120,
+            "percentage": 23.08,
+            "games_with_feature": 120
+          }
+        ],
+        "unique_values": 103,
+        "total_instances": 4318
+      },
+      "windows": {
+        "display_name": "Windows Support",
+        "distribution": [
+          {
+            "value": "True",
+            "count": 510,
+            "percentage": 98.08
+          },
+          {
+            "value": "False",
+            "count": 10,
+            "percentage": 1.92
+          }
+        ]
+      },
+      "mac": {
+        "display_name": "Mac Support",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 366,
+            "percentage": 70.38
+          },
+          {
+            "value": "True",
+            "count": 154,
+            "percentage": 29.62
+          }
+        ]
+      },
+      "linux": {
+        "display_name": "Linux Support",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 403,
+            "percentage": 77.5
+          },
+          {
+            "value": "True",
+            "count": 117,
+            "percentage": 22.5
+          }
+        ]
+      },
+      "is_free": {
+        "display_name": "Free Games",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 405,
+            "percentage": 77.88
+          },
+          {
+            "value": "True",
+            "count": 115,
+            "percentage": 22.12
+          }
+        ]
+      },
+      "has_dlc": {
+        "display_name": "Has DLC",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 453,
+            "percentage": 87.12
+          },
+          {
+            "value": "True",
+            "count": 67,
+            "percentage": 12.88
+          }
+        ]
+      },
+      "metacritic_score": {
+        "display_name": "Metacritic Score",
+        "statistics": {
+          "mean": 77.45,
+          "median": 77.0,
+          "std": 4.55,
+          "min": 71.0,
+          "max": 88.0,
+          "count": 11
+        }
+      },
+      "recommendations_total": {
+        "display_name": "Total Recommendations",
+        "statistics": {
+          "mean": 211.46,
+          "median": 62.5,
+          "std": 407.12,
+          "min": 0.0,
+          "max": 3767.0,
+          "count": 520
+        }
+      },
+      "achievements_total": {
+        "display_name": "Total Achievements",
+        "statistics": {
+          "mean": 51.94,
+          "median": 10.5,
+          "std": 289.17,
+          "min": 0.0,
+          "max": 5000.0,
+          "count": 520
+        }
+      }
+    }
+  },
+  {
+    "community_id": 7,
+    "size": 1079,
+    "percentage_of_dataset": 14.34,
+    "features": {
+      "genres": {
+        "display_name": "Genres",
+        "top_values": [
+          {
+            "value": "Indie",
+            "count": 838,
+            "percentage": 77.66,
+            "games_with_feature": 838
+          },
+          {
+            "value": "Casual",
+            "count": 476,
+            "percentage": 44.11,
+            "games_with_feature": 476
+          },
+          {
+            "value": "Action",
+            "count": 461,
+            "percentage": 42.72,
+            "games_with_feature": 461
+          },
+          {
+            "value": "Adventure",
+            "count": 405,
+            "percentage": 37.53,
+            "games_with_feature": 405
+          },
+          {
+            "value": "Simulation",
+            "count": 334,
+            "percentage": 30.95,
+            "games_with_feature": 334
+          },
+          {
+            "value": "Strategy",
+            "count": 280,
+            "percentage": 25.95,
+            "games_with_feature": 280
+          },
+          {
+            "value": "RPG",
+            "count": 200,
+            "percentage": 18.54,
+            "games_with_feature": 200
+          },
+          {
+            "value": "Free To Play",
+            "count": 174,
+            "percentage": 16.13,
+            "games_with_feature": 174
+          },
+          {
+            "value": "Early Access",
+            "count": 111,
+            "percentage": 10.29,
+            "games_with_feature": 111
+          },
+          {
+            "value": "Sports",
+            "count": 65,
+            "percentage": 6.02,
+            "games_with_feature": 65
+          }
+        ],
+        "unique_values": 12,
+        "total_instances": 3409
+      },
+      "publishers": {
+        "display_name": "Publishers",
+        "top_values": [
+          {
+            "value": "tinyBuild",
+            "count": 12,
+            "percentage": 1.11,
+            "games_with_feature": 12
+          },
+          {
+            "value": "PlayWay S.A.",
+            "count": 11,
+            "percentage": 1.02,
+            "games_with_feature": 11
+          },
+          {
+            "value": "WayForward",
+            "count": 10,
+            "percentage": 0.93,
+            "games_with_feature": 10
+          },
+          {
+            "value": "LLC",
+            "count": 10,
+            "percentage": 0.93,
+            "games_with_feature": 10
+          },
+          {
+            "value": "Games Incubator",
+            "count": 9,
+            "percentage": 0.83,
+            "games_with_feature": 9
+          },
+          {
+            "value": "100 Cozy Games",
+            "count": 9,
+            "percentage": 0.83,
+            "games_with_feature": 9
+          },
+          {
+            "value": "Next Game",
+            "count": 8,
+            "percentage": 0.74,
+            "games_with_feature": 8
+          },
+          {
+            "value": "Home Net Games",
+            "count": 7,
+            "percentage": 0.65,
+            "games_with_feature": 7
+          },
+          {
+            "value": "Childish Things Ltd",
+            "count": 7,
+            "percentage": 0.65,
+            "games_with_feature": 7
+          },
+          {
+            "value": "KONAMI",
+            "count": 6,
+            "percentage": 0.56,
+            "games_with_feature": 6
+          }
+        ],
+        "unique_values": 843,
+        "total_instances": 1120
+      },
+      "developers": {
+        "display_name": "Developers",
+        "top_values": [
+          {
+            "value": "WayForward",
+            "count": 10,
+            "percentage": 0.93,
+            "games_with_feature": 10
+          },
+          {
+            "value": "LLC",
+            "count": 10,
+            "percentage": 0.93,
+            "games_with_feature": 10
+          },
+          {
+            "value": "100 Cozy Games",
+            "count": 9,
+            "percentage": 0.83,
+            "games_with_feature": 9
+          },
+          {
+            "value": "Cats",
+            "count": 9,
+            "percentage": 0.83,
+            "games_with_feature": 9
+          },
+          {
+            "value": "Games Incubator",
+            "count": 8,
+            "percentage": 0.74,
+            "games_with_feature": 8
+          },
+          {
+            "value": "Home Net Games",
+            "count": 7,
+            "percentage": 0.65,
+            "games_with_feature": 7
+          },
+          {
+            "value": "Childish Things Ltd",
+            "count": 7,
+            "percentage": 0.65,
+            "games_with_feature": 7
+          },
+          {
+            "value": "SOFTSTAR ENTERTAINMENT",
+            "count": 6,
+            "percentage": 0.56,
+            "games_with_feature": 6
+          },
+          {
+            "value": "KONAMI",
+            "count": 5,
+            "percentage": 0.46,
+            "games_with_feature": 5
+          },
+          {
+            "value": "\u718a\u7a9ddodox",
+            "count": 5,
+            "percentage": 0.46,
+            "games_with_feature": 5
+          }
+        ],
+        "unique_values": 889,
+        "total_instances": 1141
+      },
+      "categories": {
+        "display_name": "Categories",
+        "top_values": [
+          {
+            "value": "Indie",
+            "count": 838,
+            "percentage": 77.66,
+            "games_with_feature": 838
+          },
+          {
+            "value": "Casual",
+            "count": 476,
+            "percentage": 44.11,
+            "games_with_feature": 476
+          },
+          {
+            "value": "Action",
+            "count": 461,
+            "percentage": 42.72,
+            "games_with_feature": 461
+          },
+          {
+            "value": "Adventure",
+            "count": 405,
+            "percentage": 37.53,
+            "games_with_feature": 405
+          },
+          {
+            "value": "Simulation",
+            "count": 334,
+            "percentage": 30.95,
+            "games_with_feature": 334
+          },
+          {
+            "value": "Strategy",
+            "count": 280,
+            "percentage": 25.95,
+            "games_with_feature": 280
+          },
+          {
+            "value": "RPG",
+            "count": 200,
+            "percentage": 18.54,
+            "games_with_feature": 200
+          },
+          {
+            "value": "Free To Play",
+            "count": 174,
+            "percentage": 16.13,
+            "games_with_feature": 174
+          },
+          {
+            "value": "Early Access",
+            "count": 111,
+            "percentage": 10.29,
+            "games_with_feature": 111
+          },
+          {
+            "value": "Sports",
+            "count": 65,
+            "percentage": 6.02,
+            "games_with_feature": 65
+          }
+        ],
+        "unique_values": 12,
+        "total_instances": 3409
+      },
+      "tags": {
+        "display_name": "Tags",
+        "top_values": [
+          {
+            "value": "Indie",
+            "count": 689,
+            "percentage": 63.86,
+            "games_with_feature": 689
+          },
+          {
+            "value": "Singleplayer",
+            "count": 637,
+            "percentage": 59.04,
+            "games_with_feature": 637
+          },
+          {
+            "value": "Casual",
+            "count": 488,
+            "percentage": 45.23,
+            "games_with_feature": 488
+          },
+          {
+            "value": "Action",
+            "count": 444,
+            "percentage": 41.15,
+            "games_with_feature": 444
+          },
+          {
+            "value": "Adventure",
+            "count": 414,
+            "percentage": 38.37,
+            "games_with_feature": 414
+          },
+          {
+            "value": "2D",
+            "count": 340,
+            "percentage": 31.51,
+            "games_with_feature": 340
+          },
+          {
+            "value": "Simulation",
+            "count": 330,
+            "percentage": 30.58,
+            "games_with_feature": 330
+          },
+          {
+            "value": "Strategy",
+            "count": 289,
+            "percentage": 26.78,
+            "games_with_feature": 289
+          },
+          {
+            "value": "Multiplayer",
+            "count": 227,
+            "percentage": 21.04,
+            "games_with_feature": 227
+          },
+          {
+            "value": "Atmospheric",
+            "count": 226,
+            "percentage": 20.95,
+            "games_with_feature": 226
+          }
+        ],
+        "unique_values": 412,
+        "total_instances": 16255
+      },
+      "supported_languages": {
+        "display_name": "Languages",
+        "top_values": [
+          {
+            "value": "English",
+            "count": 1042,
+            "percentage": 96.57,
+            "games_with_feature": 1042
+          },
+          {
+            "value": "German",
+            "count": 410,
+            "percentage": 38.0,
+            "games_with_feature": 410
+          },
+          {
+            "value": "French",
+            "count": 409,
+            "percentage": 37.91,
+            "games_with_feature": 409
+          },
+          {
+            "value": "Simplified Chinese",
+            "count": 408,
+            "percentage": 37.81,
+            "games_with_feature": 408
+          },
+          {
+            "value": "Spanish - Spain",
+            "count": 375,
+            "percentage": 34.75,
+            "games_with_feature": 375
+          },
+          {
+            "value": "Russian",
+            "count": 365,
+            "percentage": 33.83,
+            "games_with_feature": 365
+          },
+          {
+            "value": "Japanese",
+            "count": 350,
+            "percentage": 32.44,
+            "games_with_feature": 350
+          },
+          {
+            "value": "Italian",
+            "count": 290,
+            "percentage": 26.88,
+            "games_with_feature": 290
+          },
+          {
+            "value": "Korean",
+            "count": 241,
+            "percentage": 22.34,
+            "games_with_feature": 241
+          },
+          {
+            "value": "Portuguese - Brazil",
+            "count": 239,
+            "percentage": 22.15,
+            "games_with_feature": 239
+          }
+        ],
+        "unique_values": 103,
+        "total_instances": 6699
+      },
+      "windows": {
+        "display_name": "Windows Support",
+        "distribution": [
+          {
+            "value": "True",
+            "count": 1042,
+            "percentage": 96.57
+          },
+          {
+            "value": "False",
+            "count": 37,
+            "percentage": 3.43
+          }
+        ]
+      },
+      "mac": {
+        "display_name": "Mac Support",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 758,
+            "percentage": 70.25
+          },
+          {
+            "value": "True",
+            "count": 321,
+            "percentage": 29.75
+          }
+        ]
+      },
+      "linux": {
+        "display_name": "Linux Support",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 860,
+            "percentage": 79.7
+          },
+          {
+            "value": "True",
+            "count": 219,
+            "percentage": 20.3
+          }
+        ]
+      },
+      "is_free": {
+        "display_name": "Free Games",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 861,
+            "percentage": 79.8
+          },
+          {
+            "value": "True",
+            "count": 218,
+            "percentage": 20.2
+          }
+        ]
+      },
+      "has_dlc": {
+        "display_name": "Has DLC",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 876,
+            "percentage": 81.19
+          },
+          {
+            "value": "True",
+            "count": 203,
+            "percentage": 18.81
+          }
+        ]
+      },
+      "metacritic_score": {
+        "display_name": "Metacritic Score",
+        "statistics": {
+          "mean": 77.81,
+          "median": 78.0,
+          "std": 4.28,
+          "min": 67.0,
+          "max": 86.0,
+          "count": 48
+        }
+      },
+      "recommendations_total": {
+        "display_name": "Total Recommendations",
+        "statistics": {
+          "mean": 245.84,
+          "median": 73.0,
+          "std": 525.95,
+          "min": 0.0,
+          "max": 10811.0,
+          "count": 1079
+        }
+      },
+      "achievements_total": {
+        "display_name": "Total Achievements",
+        "statistics": {
+          "mean": 22.2,
+          "median": 12.0,
+          "std": 39.08,
+          "min": 0.0,
+          "max": 849.0,
+          "count": 1079
+        }
+      }
+    }
+  },
+  {
+    "community_id": 8,
+    "size": 860,
+    "percentage_of_dataset": 11.43,
+    "features": {
+      "genres": {
+        "display_name": "Genres",
+        "top_values": [
+          {
+            "value": "Indie",
+            "count": 697,
+            "percentage": 81.05,
+            "games_with_feature": 697
+          },
+          {
+            "value": "Casual",
+            "count": 395,
+            "percentage": 45.93,
+            "games_with_feature": 395
+          },
+          {
+            "value": "Action",
+            "count": 316,
+            "percentage": 36.74,
+            "games_with_feature": 316
+          },
+          {
+            "value": "Adventure",
+            "count": 307,
+            "percentage": 35.7,
+            "games_with_feature": 307
+          },
+          {
+            "value": "Simulation",
+            "count": 266,
+            "percentage": 30.93,
+            "games_with_feature": 266
+          },
+          {
+            "value": "Strategy",
+            "count": 246,
+            "percentage": 28.6,
+            "games_with_feature": 246
+          },
+          {
+            "value": "RPG",
+            "count": 192,
+            "percentage": 22.33,
+            "games_with_feature": 192
+          },
+          {
+            "value": "Free To Play",
+            "count": 125,
+            "percentage": 14.53,
+            "games_with_feature": 125
+          },
+          {
+            "value": "Early Access",
+            "count": 86,
+            "percentage": 10.0,
+            "games_with_feature": 86
+          },
+          {
+            "value": "Sports",
+            "count": 24,
+            "percentage": 2.79,
+            "games_with_feature": 24
+          }
+        ],
+        "unique_values": 12,
+        "total_instances": 2691
+      },
+      "publishers": {
+        "display_name": "Publishers",
+        "top_values": [
+          {
+            "value": "Inc.",
+            "count": 21,
+            "percentage": 2.44,
+            "games_with_feature": 21
+          },
+          {
+            "value": "Sokpop Collective",
+            "count": 9,
+            "percentage": 1.05,
+            "games_with_feature": 9
+          },
+          {
+            "value": "PopCap Games",
+            "count": 9,
+            "percentage": 1.05,
+            "games_with_feature": 9
+          },
+          {
+            "value": "GrabTheGames",
+            "count": 8,
+            "percentage": 0.93,
+            "games_with_feature": 8
+          },
+          {
+            "value": "Lesson of Passion",
+            "count": 7,
+            "percentage": 0.81,
+            "games_with_feature": 7
+          },
+          {
+            "value": "PlayWay S.A.",
+            "count": 7,
+            "percentage": 0.81,
+            "games_with_feature": 7
+          },
+          {
+            "value": "HH-Games",
+            "count": 6,
+            "percentage": 0.7,
+            "games_with_feature": 6
+          },
+          {
+            "value": "Devcats",
+            "count": 6,
+            "percentage": 0.7,
+            "games_with_feature": 6
+          },
+          {
+            "value": "Big Fish Games",
+            "count": 6,
+            "percentage": 0.7,
+            "games_with_feature": 6
+          },
+          {
+            "value": "upjers",
+            "count": 5,
+            "percentage": 0.58,
+            "games_with_feature": 5
+          }
+        ],
+        "unique_values": 674,
+        "total_instances": 909
+      },
+      "developers": {
+        "display_name": "Developers",
+        "top_values": [
+          {
+            "value": "Inc.",
+            "count": 21,
+            "percentage": 2.44,
+            "games_with_feature": 21
+          },
+          {
+            "value": "Sokpop Collective",
+            "count": 9,
+            "percentage": 1.05,
+            "games_with_feature": 9
+          },
+          {
+            "value": "PopCap Games",
+            "count": 9,
+            "percentage": 1.05,
+            "games_with_feature": 9
+          },
+          {
+            "value": "Lesson of Passion",
+            "count": 7,
+            "percentage": 0.81,
+            "games_with_feature": 7
+          },
+          {
+            "value": "Devcats",
+            "count": 6,
+            "percentage": 0.7,
+            "games_with_feature": 6
+          },
+          {
+            "value": "Big Fish Games",
+            "count": 6,
+            "percentage": 0.7,
+            "games_with_feature": 6
+          },
+          {
+            "value": "upjers",
+            "count": 5,
+            "percentage": 0.58,
+            "games_with_feature": 5
+          },
+          {
+            "value": "Sacada",
+            "count": 5,
+            "percentage": 0.58,
+            "games_with_feature": 5
+          },
+          {
+            "value": "okyakusama",
+            "count": 5,
+            "percentage": 0.58,
+            "games_with_feature": 5
+          },
+          {
+            "value": "DreamBig Games",
+            "count": 4,
+            "percentage": 0.47,
+            "games_with_feature": 4
+          }
+        ],
+        "unique_values": 722,
+        "total_instances": 926
+      },
+      "categories": {
+        "display_name": "Categories",
+        "top_values": [
+          {
+            "value": "Indie",
+            "count": 697,
+            "percentage": 81.05,
+            "games_with_feature": 697
+          },
+          {
+            "value": "Casual",
+            "count": 395,
+            "percentage": 45.93,
+            "games_with_feature": 395
+          },
+          {
+            "value": "Action",
+            "count": 316,
+            "percentage": 36.74,
+            "games_with_feature": 316
+          },
+          {
+            "value": "Adventure",
+            "count": 307,
+            "percentage": 35.7,
+            "games_with_feature": 307
+          },
+          {
+            "value": "Simulation",
+            "count": 266,
+            "percentage": 30.93,
+            "games_with_feature": 266
+          },
+          {
+            "value": "Strategy",
+            "count": 246,
+            "percentage": 28.6,
+            "games_with_feature": 246
+          },
+          {
+            "value": "RPG",
+            "count": 192,
+            "percentage": 22.33,
+            "games_with_feature": 192
+          },
+          {
+            "value": "Free To Play",
+            "count": 125,
+            "percentage": 14.53,
+            "games_with_feature": 125
+          },
+          {
+            "value": "Early Access",
+            "count": 86,
+            "percentage": 10.0,
+            "games_with_feature": 86
+          },
+          {
+            "value": "Sports",
+            "count": 24,
+            "percentage": 2.79,
+            "games_with_feature": 24
+          }
+        ],
+        "unique_values": 12,
+        "total_instances": 2691
+      },
+      "tags": {
+        "display_name": "Tags",
+        "top_values": [
+          {
+            "value": "Indie",
+            "count": 536,
+            "percentage": 62.33,
+            "games_with_feature": 536
+          },
+          {
+            "value": "Singleplayer",
+            "count": 487,
+            "percentage": 56.63,
+            "games_with_feature": 487
+          },
+          {
+            "value": "Casual",
+            "count": 403,
+            "percentage": 46.86,
+            "games_with_feature": 403
+          },
+          {
+            "value": "2D",
+            "count": 322,
+            "percentage": 37.44,
+            "games_with_feature": 322
+          },
+          {
+            "value": "Action",
+            "count": 317,
+            "percentage": 36.86,
+            "games_with_feature": 317
+          },
+          {
+            "value": "Adventure",
+            "count": 317,
+            "percentage": 36.86,
+            "games_with_feature": 317
+          },
+          {
+            "value": "Simulation",
+            "count": 270,
+            "percentage": 31.4,
+            "games_with_feature": 270
+          },
+          {
+            "value": "Strategy",
+            "count": 261,
+            "percentage": 30.35,
+            "games_with_feature": 261
+          },
+          {
+            "value": "RPG",
+            "count": 197,
+            "percentage": 22.91,
+            "games_with_feature": 197
+          },
+          {
+            "value": "Puzzle",
+            "count": 178,
+            "percentage": 20.7,
+            "games_with_feature": 178
+          }
+        ],
+        "unique_values": 393,
+        "total_instances": 13013
+      },
+      "supported_languages": {
+        "display_name": "Languages",
+        "top_values": [
+          {
+            "value": "English",
+            "count": 826,
+            "percentage": 96.05,
+            "games_with_feature": 826
+          },
+          {
+            "value": "Simplified Chinese",
+            "count": 351,
+            "percentage": 40.81,
+            "games_with_feature": 351
+          },
+          {
+            "value": "French",
+            "count": 321,
+            "percentage": 37.33,
+            "games_with_feature": 321
+          },
+          {
+            "value": "German",
+            "count": 311,
+            "percentage": 36.16,
+            "games_with_feature": 311
+          },
+          {
+            "value": "Russian",
+            "count": 303,
+            "percentage": 35.23,
+            "games_with_feature": 303
+          },
+          {
+            "value": "Spanish - Spain",
+            "count": 286,
+            "percentage": 33.26,
+            "games_with_feature": 286
+          },
+          {
+            "value": "Japanese",
+            "count": 271,
+            "percentage": 31.51,
+            "games_with_feature": 271
+          },
+          {
+            "value": "Italian",
+            "count": 220,
+            "percentage": 25.58,
+            "games_with_feature": 220
+          },
+          {
+            "value": "Portuguese - Brazil",
+            "count": 204,
+            "percentage": 23.72,
+            "games_with_feature": 204
+          },
+          {
+            "value": "Korean",
+            "count": 200,
+            "percentage": 23.26,
+            "games_with_feature": 200
+          }
+        ],
+        "unique_values": 103,
+        "total_instances": 5150
+      },
+      "windows": {
+        "display_name": "Windows Support",
+        "distribution": [
+          {
+            "value": "True",
+            "count": 839,
+            "percentage": 97.56
+          },
+          {
+            "value": "False",
+            "count": 21,
+            "percentage": 2.44
+          }
+        ]
+      },
+      "mac": {
+        "display_name": "Mac Support",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 575,
+            "percentage": 66.86
+          },
+          {
+            "value": "True",
+            "count": 285,
+            "percentage": 33.14
+          }
+        ]
+      },
+      "linux": {
+        "display_name": "Linux Support",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 675,
+            "percentage": 78.49
+          },
+          {
+            "value": "True",
+            "count": 185,
+            "percentage": 21.51
+          }
+        ]
+      },
+      "is_free": {
+        "display_name": "Free Games",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 703,
+            "percentage": 81.74
+          },
+          {
+            "value": "True",
+            "count": 157,
+            "percentage": 18.26
+          }
+        ]
+      },
+      "has_dlc": {
+        "display_name": "Has DLC",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 667,
+            "percentage": 77.56
+          },
+          {
+            "value": "True",
+            "count": 193,
+            "percentage": 22.44
+          }
+        ]
+      },
+      "metacritic_score": {
+        "display_name": "Metacritic Score",
+        "statistics": {
+          "mean": 77.9,
+          "median": 78.0,
+          "std": 3.56,
+          "min": 72.0,
+          "max": 85.0,
+          "count": 39
+        }
+      },
+      "recommendations_total": {
+        "display_name": "Total Recommendations",
+        "statistics": {
+          "mean": 243.93,
+          "median": 70.0,
+          "std": 440.57,
+          "min": 0.0,
+          "max": 4021.0,
+          "count": 860
+        }
+      },
+      "achievements_total": {
+        "display_name": "Total Achievements",
+        "statistics": {
+          "mean": 41.35,
+          "median": 13.0,
+          "std": 210.88,
+          "min": 0.0,
+          "max": 3445.0,
+          "count": 860
+        }
+      }
+    }
+  },
+  {
+    "community_id": 9,
+    "size": 512,
+    "percentage_of_dataset": 6.8,
+    "features": {
+      "genres": {
+        "display_name": "Genres",
+        "top_values": [
+          {
+            "value": "Indie",
+            "count": 359,
+            "percentage": 70.12,
+            "games_with_feature": 359
+          },
+          {
+            "value": "Action",
+            "count": 232,
+            "percentage": 45.31,
+            "games_with_feature": 232
+          },
+          {
+            "value": "Adventure",
+            "count": 215,
+            "percentage": 41.99,
+            "games_with_feature": 215
+          },
+          {
+            "value": "Casual",
+            "count": 157,
+            "percentage": 30.66,
+            "games_with_feature": 157
+          },
+          {
+            "value": "Strategy",
+            "count": 127,
+            "percentage": 24.8,
+            "games_with_feature": 127
+          },
+          {
+            "value": "Simulation",
+            "count": 117,
+            "percentage": 22.85,
+            "games_with_feature": 117
+          },
+          {
+            "value": "RPG",
+            "count": 89,
+            "percentage": 17.38,
+            "games_with_feature": 89
+          },
+          {
+            "value": "Free To Play",
+            "count": 48,
+            "percentage": 9.38,
+            "games_with_feature": 48
+          },
+          {
+            "value": "Early Access",
+            "count": 32,
+            "percentage": 6.25,
+            "games_with_feature": 32
+          },
+          {
+            "value": "Racing",
+            "count": 17,
+            "percentage": 3.32,
+            "games_with_feature": 17
+          }
+        ],
+        "unique_values": 12,
+        "total_instances": 1415
+      },
+      "publishers": {
+        "display_name": "Publishers",
+        "top_values": [
+          {
+            "value": "Kairosoft Co.",
+            "count": 23,
+            "percentage": 4.49,
+            "games_with_feature": 23
+          },
+          {
+            "value": "Ltd",
+            "count": 23,
+            "percentage": 4.49,
+            "games_with_feature": 23
+          },
+          {
+            "value": "Ubisoft",
+            "count": 22,
+            "percentage": 4.3,
+            "games_with_feature": 22
+          },
+          {
+            "value": "HeR Interactive",
+            "count": 19,
+            "percentage": 3.71,
+            "games_with_feature": 19
+          },
+          {
+            "value": "PLAYISM",
+            "count": 8,
+            "percentage": 1.56,
+            "games_with_feature": 8
+          },
+          {
+            "value": "Sigma Team Inc.",
+            "count": 7,
+            "percentage": 1.37,
+            "games_with_feature": 7
+          },
+          {
+            "value": "Ltd.",
+            "count": 7,
+            "percentage": 1.37,
+            "games_with_feature": 7
+          },
+          {
+            "value": "CAPCOM Co.",
+            "count": 6,
+            "percentage": 1.17,
+            "games_with_feature": 6
+          },
+          {
+            "value": "2K",
+            "count": 5,
+            "percentage": 0.98,
+            "games_with_feature": 5
+          },
+          {
+            "value": "Arcen Games",
+            "count": 5,
+            "percentage": 0.98,
+            "games_with_feature": 5
+          }
+        ],
+        "unique_values": 345,
+        "total_instances": 563
+      },
+      "developers": {
+        "display_name": "Developers",
+        "top_values": [
+          {
+            "value": "Kairosoft Co.",
+            "count": 23,
+            "percentage": 4.49,
+            "games_with_feature": 23
+          },
+          {
+            "value": "Ltd",
+            "count": 23,
+            "percentage": 4.49,
+            "games_with_feature": 23
+          },
+          {
+            "value": "HeR Interactive",
+            "count": 19,
+            "percentage": 3.71,
+            "games_with_feature": 19
+          },
+          {
+            "value": "Ubisoft Montreal",
+            "count": 9,
+            "percentage": 1.76,
+            "games_with_feature": 9
+          },
+          {
+            "value": "Sigma Team Inc.",
+            "count": 7,
+            "percentage": 1.37,
+            "games_with_feature": 7
+          },
+          {
+            "value": "Ltd.",
+            "count": 7,
+            "percentage": 1.37,
+            "games_with_feature": 7
+          },
+          {
+            "value": "CAPCOM Co.",
+            "count": 6,
+            "percentage": 1.17,
+            "games_with_feature": 6
+          },
+          {
+            "value": "Ubisoft",
+            "count": 5,
+            "percentage": 0.98,
+            "games_with_feature": 5
+          },
+          {
+            "value": "Arcen Games",
+            "count": 5,
+            "percentage": 0.98,
+            "games_with_feature": 5
+          },
+          {
+            "value": "Ripknot Systems",
+            "count": 5,
+            "percentage": 0.98,
+            "games_with_feature": 5
+          }
+        ],
+        "unique_values": 372,
+        "total_instances": 567
+      },
+      "categories": {
+        "display_name": "Categories",
+        "top_values": [
+          {
+            "value": "Indie",
+            "count": 359,
+            "percentage": 70.12,
+            "games_with_feature": 359
+          },
+          {
+            "value": "Action",
+            "count": 232,
+            "percentage": 45.31,
+            "games_with_feature": 232
+          },
+          {
+            "value": "Adventure",
+            "count": 215,
+            "percentage": 41.99,
+            "games_with_feature": 215
+          },
+          {
+            "value": "Casual",
+            "count": 157,
+            "percentage": 30.66,
+            "games_with_feature": 157
+          },
+          {
+            "value": "Strategy",
+            "count": 127,
+            "percentage": 24.8,
+            "games_with_feature": 127
+          },
+          {
+            "value": "Simulation",
+            "count": 117,
+            "percentage": 22.85,
+            "games_with_feature": 117
+          },
+          {
+            "value": "RPG",
+            "count": 89,
+            "percentage": 17.38,
+            "games_with_feature": 89
+          },
+          {
+            "value": "Free To Play",
+            "count": 48,
+            "percentage": 9.38,
+            "games_with_feature": 48
+          },
+          {
+            "value": "Early Access",
+            "count": 32,
+            "percentage": 6.25,
+            "games_with_feature": 32
+          },
+          {
+            "value": "Racing",
+            "count": 17,
+            "percentage": 3.32,
+            "games_with_feature": 17
+          }
+        ],
+        "unique_values": 12,
+        "total_instances": 1415
+      },
+      "tags": {
+        "display_name": "Tags",
+        "top_values": [
+          {
+            "value": "Singleplayer",
+            "count": 341,
+            "percentage": 66.6,
+            "games_with_feature": 341
+          },
+          {
+            "value": "Indie",
+            "count": 292,
+            "percentage": 57.03,
+            "games_with_feature": 292
+          },
+          {
+            "value": "Action",
+            "count": 237,
+            "percentage": 46.29,
+            "games_with_feature": 237
+          },
+          {
+            "value": "Adventure",
+            "count": 231,
+            "percentage": 45.12,
+            "games_with_feature": 231
+          },
+          {
+            "value": "Casual",
+            "count": 187,
+            "percentage": 36.52,
+            "games_with_feature": 187
+          },
+          {
+            "value": "2D",
+            "count": 169,
+            "percentage": 33.01,
+            "games_with_feature": 169
+          },
+          {
+            "value": "Story Rich",
+            "count": 143,
+            "percentage": 27.93,
+            "games_with_feature": 143
+          },
+          {
+            "value": "Atmospheric",
+            "count": 141,
+            "percentage": 27.54,
+            "games_with_feature": 141
+          },
+          {
+            "value": "Strategy",
+            "count": 139,
+            "percentage": 27.15,
+            "games_with_feature": 139
+          },
+          {
+            "value": "Simulation",
+            "count": 128,
+            "percentage": 25.0,
+            "games_with_feature": 128
+          }
+        ],
+        "unique_values": 370,
+        "total_instances": 8096
+      },
+      "supported_languages": {
+        "display_name": "Languages",
+        "top_values": [
+          {
+            "value": "English",
+            "count": 492,
+            "percentage": 96.09,
+            "games_with_feature": 492
+          },
+          {
+            "value": "French",
+            "count": 212,
+            "percentage": 41.41,
+            "games_with_feature": 212
+          },
+          {
+            "value": "German",
+            "count": 205,
+            "percentage": 40.04,
+            "games_with_feature": 205
+          },
+          {
+            "value": "Simplified Chinese",
+            "count": 193,
+            "percentage": 37.7,
+            "games_with_feature": 193
+          },
+          {
+            "value": "Spanish - Spain",
+            "count": 187,
+            "percentage": 36.52,
+            "games_with_feature": 187
+          },
+          {
+            "value": "Japanese",
+            "count": 176,
+            "percentage": 34.38,
+            "games_with_feature": 176
+          },
+          {
+            "value": "Russian",
+            "count": 164,
+            "percentage": 32.03,
+            "games_with_feature": 164
+          },
+          {
+            "value": "Italian",
+            "count": 163,
+            "percentage": 31.84,
+            "games_with_feature": 163
+          },
+          {
+            "value": "Korean",
+            "count": 132,
+            "percentage": 25.78,
+            "games_with_feature": 132
+          },
+          {
+            "value": "Traditional Chinese",
+            "count": 117,
+            "percentage": 22.85,
+            "games_with_feature": 117
+          }
+        ],
+        "unique_values": 36,
+        "total_instances": 2699
+      },
+      "windows": {
+        "display_name": "Windows Support",
+        "distribution": [
+          {
+            "value": "True",
+            "count": 500,
+            "percentage": 97.66
+          },
+          {
+            "value": "False",
+            "count": 12,
+            "percentage": 2.34
+          }
+        ]
+      },
+      "mac": {
+        "display_name": "Mac Support",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 372,
+            "percentage": 72.66
+          },
+          {
+            "value": "True",
+            "count": 140,
+            "percentage": 27.34
+          }
+        ]
+      },
+      "linux": {
+        "display_name": "Linux Support",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 414,
+            "percentage": 80.86
+          },
+          {
+            "value": "True",
+            "count": 98,
+            "percentage": 19.14
+          }
+        ]
+      },
+      "is_free": {
+        "display_name": "Free Games",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 450,
+            "percentage": 87.89
+          },
+          {
+            "value": "True",
+            "count": 62,
+            "percentage": 12.11
+          }
+        ]
+      },
+      "has_dlc": {
+        "display_name": "Has DLC",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 383,
+            "percentage": 74.8
+          },
+          {
+            "value": "True",
+            "count": 129,
+            "percentage": 25.2
+          }
+        ]
+      },
+      "metacritic_score": {
+        "display_name": "Metacritic Score",
+        "statistics": {
+          "mean": 83.98,
+          "median": 85.0,
+          "std": 5.48,
+          "min": 68.0,
+          "max": 98.0,
+          "count": 152
+        }
+      },
+      "recommendations_total": {
+        "display_name": "Total Recommendations",
+        "statistics": {
+          "mean": 308.28,
+          "median": 70.5,
+          "std": 701.18,
+          "min": 0.0,
+          "max": 11450.0,
+          "count": 512
+        }
+      },
+      "achievements_total": {
+        "display_name": "Total Achievements",
+        "statistics": {
+          "mean": 58.39,
+          "median": 11.0,
+          "std": 440.09,
+          "min": 0.0,
+          "max": 5000.0,
+          "count": 512
+        }
+      }
+    }
+  },
+  {
+    "community_id": 10,
+    "size": 129,
+    "percentage_of_dataset": 1.71,
+    "features": {
+      "genres": {
+        "display_name": "Genres",
+        "top_values": [
+          {
+            "value": "Indie",
+            "count": 93,
+            "percentage": 72.09,
+            "games_with_feature": 93
+          },
+          {
+            "value": "Casual",
+            "count": 79,
+            "percentage": 61.24,
+            "games_with_feature": 79
+          },
+          {
+            "value": "Adventure",
+            "count": 65,
+            "percentage": 50.39,
+            "games_with_feature": 65
+          },
+          {
+            "value": "Simulation",
+            "count": 43,
+            "percentage": 33.33,
+            "games_with_feature": 43
+          },
+          {
+            "value": "Strategy",
+            "count": 41,
+            "percentage": 31.78,
+            "games_with_feature": 41
+          },
+          {
+            "value": "RPG",
+            "count": 27,
+            "percentage": 20.93,
+            "games_with_feature": 27
+          },
+          {
+            "value": "Action",
+            "count": 21,
+            "percentage": 16.28,
+            "games_with_feature": 21
+          },
+          {
+            "value": "Free To Play",
+            "count": 13,
+            "percentage": 10.08,
+            "games_with_feature": 13
+          },
+          {
+            "value": "Early Access",
+            "count": 8,
+            "percentage": 6.2,
+            "games_with_feature": 8
+          },
+          {
+            "value": "Racing",
+            "count": 3,
+            "percentage": 2.33,
+            "games_with_feature": 3
+          }
+        ],
+        "unique_values": 12,
+        "total_instances": 398
+      },
+      "publishers": {
+        "display_name": "Publishers",
+        "top_values": [
+          {
+            "value": "Qumaron",
+            "count": 15,
+            "percentage": 11.63,
+            "games_with_feature": 15
+          },
+          {
+            "value": "IR Studio",
+            "count": 9,
+            "percentage": 6.98,
+            "games_with_feature": 9
+          },
+          {
+            "value": "b-alive gmbh",
+            "count": 7,
+            "percentage": 5.43,
+            "games_with_feature": 7
+          },
+          {
+            "value": "Amanita Design",
+            "count": 6,
+            "percentage": 4.65,
+            "games_with_feature": 6
+          },
+          {
+            "value": "OTAKU Plan",
+            "count": 6,
+            "percentage": 4.65,
+            "games_with_feature": 6
+          },
+          {
+            "value": "Matryoshka",
+            "count": 4,
+            "percentage": 3.1,
+            "games_with_feature": 4
+          },
+          {
+            "value": "Novel",
+            "count": 3,
+            "percentage": 2.33,
+            "games_with_feature": 3
+          },
+          {
+            "value": "Cozy Bee Games",
+            "count": 2,
+            "percentage": 1.55,
+            "games_with_feature": 2
+          },
+          {
+            "value": "Kiddy",
+            "count": 2,
+            "percentage": 1.55,
+            "games_with_feature": 2
+          },
+          {
+            "value": "Whitethorn Games",
+            "count": 2,
+            "percentage": 1.55,
+            "games_with_feature": 2
+          }
+        ],
+        "unique_values": 80,
+        "total_instances": 133
+      },
+      "developers": {
+        "display_name": "Developers",
+        "top_values": [
+          {
+            "value": "Qumaron",
+            "count": 14,
+            "percentage": 10.85,
+            "games_with_feature": 14
+          },
+          {
+            "value": "IR Studio",
+            "count": 7,
+            "percentage": 5.43,
+            "games_with_feature": 7
+          },
+          {
+            "value": "b-alive gmbh",
+            "count": 7,
+            "percentage": 5.43,
+            "games_with_feature": 7
+          },
+          {
+            "value": "Amanita Design",
+            "count": 6,
+            "percentage": 4.65,
+            "games_with_feature": 6
+          },
+          {
+            "value": "Novel",
+            "count": 3,
+            "percentage": 2.33,
+            "games_with_feature": 3
+          },
+          {
+            "value": "Matryoshka",
+            "count": 3,
+            "percentage": 2.33,
+            "games_with_feature": 3
+          },
+          {
+            "value": "Zloy Krot Studio",
+            "count": 2,
+            "percentage": 1.55,
+            "games_with_feature": 2
+          },
+          {
+            "value": "Cozy Bee Games",
+            "count": 2,
+            "percentage": 1.55,
+            "games_with_feature": 2
+          },
+          {
+            "value": "Kiddy",
+            "count": 2,
+            "percentage": 1.55,
+            "games_with_feature": 2
+          },
+          {
+            "value": "Lighthouse Games Studio",
+            "count": 2,
+            "percentage": 1.55,
+            "games_with_feature": 2
+          }
+        ],
+        "unique_values": 89,
+        "total_instances": 131
+      },
+      "categories": {
+        "display_name": "Categories",
+        "top_values": [
+          {
+            "value": "Indie",
+            "count": 93,
+            "percentage": 72.09,
+            "games_with_feature": 93
+          },
+          {
+            "value": "Casual",
+            "count": 79,
+            "percentage": 61.24,
+            "games_with_feature": 79
+          },
+          {
+            "value": "Adventure",
+            "count": 65,
+            "percentage": 50.39,
+            "games_with_feature": 65
+          },
+          {
+            "value": "Simulation",
+            "count": 43,
+            "percentage": 33.33,
+            "games_with_feature": 43
+          },
+          {
+            "value": "Strategy",
+            "count": 41,
+            "percentage": 31.78,
+            "games_with_feature": 41
+          },
+          {
+            "value": "RPG",
+            "count": 27,
+            "percentage": 20.93,
+            "games_with_feature": 27
+          },
+          {
+            "value": "Action",
+            "count": 21,
+            "percentage": 16.28,
+            "games_with_feature": 21
+          },
+          {
+            "value": "Free To Play",
+            "count": 13,
+            "percentage": 10.08,
+            "games_with_feature": 13
+          },
+          {
+            "value": "Early Access",
+            "count": 8,
+            "percentage": 6.2,
+            "games_with_feature": 8
+          },
+          {
+            "value": "Racing",
+            "count": 3,
+            "percentage": 2.33,
+            "games_with_feature": 3
+          }
+        ],
+        "unique_values": 12,
+        "total_instances": 398
+      },
+      "tags": {
+        "display_name": "Tags",
+        "top_values": [
+          {
+            "value": "Casual",
+            "count": 83,
+            "percentage": 64.34,
+            "games_with_feature": 83
+          },
+          {
+            "value": "Indie",
+            "count": 82,
+            "percentage": 63.57,
+            "games_with_feature": 82
+          },
+          {
+            "value": "Adventure",
+            "count": 74,
+            "percentage": 57.36,
+            "games_with_feature": 74
+          },
+          {
+            "value": "Singleplayer",
+            "count": 70,
+            "percentage": 54.26,
+            "games_with_feature": 70
+          },
+          {
+            "value": "2D",
+            "count": 50,
+            "percentage": 38.76,
+            "games_with_feature": 50
+          },
+          {
+            "value": "Strategy",
+            "count": 42,
+            "percentage": 32.56,
+            "games_with_feature": 42
+          },
+          {
+            "value": "Simulation",
+            "count": 41,
+            "percentage": 31.78,
+            "games_with_feature": 41
+          },
+          {
+            "value": "Anime",
+            "count": 31,
+            "percentage": 24.03,
+            "games_with_feature": 31
+          },
+          {
+            "value": "Story Rich",
+            "count": 31,
+            "percentage": 24.03,
+            "games_with_feature": 31
+          },
+          {
+            "value": "Cute",
+            "count": 30,
+            "percentage": 23.26,
+            "games_with_feature": 30
+          }
+        ],
+        "unique_values": 270,
+        "total_instances": 1860
+      },
+      "supported_languages": {
+        "display_name": "Languages",
+        "top_values": [
+          {
+            "value": "English",
+            "count": 127,
+            "percentage": 98.45,
+            "games_with_feature": 127
+          },
+          {
+            "value": "Russian",
+            "count": 61,
+            "percentage": 47.29,
+            "games_with_feature": 61
+          },
+          {
+            "value": "German",
+            "count": 59,
+            "percentage": 45.74,
+            "games_with_feature": 59
+          },
+          {
+            "value": "French",
+            "count": 57,
+            "percentage": 44.19,
+            "games_with_feature": 57
+          },
+          {
+            "value": "Spanish - Spain",
+            "count": 56,
+            "percentage": 43.41,
+            "games_with_feature": 56
+          },
+          {
+            "value": "Simplified Chinese",
+            "count": 53,
+            "percentage": 41.09,
+            "games_with_feature": 53
+          },
+          {
+            "value": "Italian",
+            "count": 42,
+            "percentage": 32.56,
+            "games_with_feature": 42
+          },
+          {
+            "value": "Japanese",
+            "count": 40,
+            "percentage": 31.01,
+            "games_with_feature": 40
+          },
+          {
+            "value": "Portuguese - Brazil",
+            "count": 31,
+            "percentage": 24.03,
+            "games_with_feature": 31
+          },
+          {
+            "value": "Korean",
+            "count": 24,
+            "percentage": 18.6,
+            "games_with_feature": 24
+          }
+        ],
+        "unique_values": 35,
+        "total_instances": 778
+      },
+      "windows": {
+        "display_name": "Windows Support",
+        "distribution": [
+          {
+            "value": "True",
+            "count": 126,
+            "percentage": 97.67
+          },
+          {
+            "value": "False",
+            "count": 3,
+            "percentage": 2.33
+          }
+        ]
+      },
+      "mac": {
+        "display_name": "Mac Support",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 97,
+            "percentage": 75.19
+          },
+          {
+            "value": "True",
+            "count": 32,
+            "percentage": 24.81
+          }
+        ]
+      },
+      "linux": {
+        "display_name": "Linux Support",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 108,
+            "percentage": 83.72
+          },
+          {
+            "value": "True",
+            "count": 21,
+            "percentage": 16.28
+          }
+        ]
+      },
+      "is_free": {
+        "display_name": "Free Games",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 112,
+            "percentage": 86.82
+          },
+          {
+            "value": "True",
+            "count": 17,
+            "percentage": 13.18
+          }
+        ]
+      },
+      "has_dlc": {
+        "display_name": "Has DLC",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 89,
+            "percentage": 68.99
+          },
+          {
+            "value": "True",
+            "count": 40,
+            "percentage": 31.01
+          }
+        ]
+      },
+      "metacritic_score": {
+        "display_name": "Metacritic Score",
+        "statistics": {
+          "mean": 82.0,
+          "median": 82.0,
+          "std": 3.44,
+          "min": 75.0,
+          "max": 87.0,
+          "count": 11
+        }
+      },
+      "recommendations_total": {
+        "display_name": "Total Recommendations",
+        "statistics": {
+          "mean": 209.73,
+          "median": 66.0,
+          "std": 355.36,
+          "min": 0.0,
+          "max": 2225.0,
+          "count": 129
+        }
+      },
+      "achievements_total": {
+        "display_name": "Total Achievements",
+        "statistics": {
+          "mean": 21.67,
+          "median": 12.0,
+          "std": 43.82,
+          "min": 0.0,
+          "max": 451.0,
+          "count": 129
+        }
+      }
+    }
+  },
+  {
+    "community_id": 11,
+    "size": 695,
+    "percentage_of_dataset": 9.24,
+    "features": {
+      "genres": {
+        "display_name": "Genres",
+        "top_values": [
+          {
+            "value": "Indie",
+            "count": 528,
+            "percentage": 75.97,
+            "games_with_feature": 528
+          },
+          {
+            "value": "Action",
+            "count": 290,
+            "percentage": 41.73,
+            "games_with_feature": 290
+          },
+          {
+            "value": "Adventure",
+            "count": 274,
+            "percentage": 39.42,
+            "games_with_feature": 274
+          },
+          {
+            "value": "Casual",
+            "count": 266,
+            "percentage": 38.27,
+            "games_with_feature": 266
+          },
+          {
+            "value": "Simulation",
+            "count": 222,
+            "percentage": 31.94,
+            "games_with_feature": 222
+          },
+          {
+            "value": "Strategy",
+            "count": 176,
+            "percentage": 25.32,
+            "games_with_feature": 176
+          },
+          {
+            "value": "RPG",
+            "count": 158,
+            "percentage": 22.73,
+            "games_with_feature": 158
+          },
+          {
+            "value": "Free To Play",
+            "count": 113,
+            "percentage": 16.26,
+            "games_with_feature": 113
+          },
+          {
+            "value": "Early Access",
+            "count": 71,
+            "percentage": 10.22,
+            "games_with_feature": 71
+          },
+          {
+            "value": "Massively Multiplayer",
+            "count": 38,
+            "percentage": 5.47,
+            "games_with_feature": 38
+          }
+        ],
+        "unique_values": 12,
+        "total_instances": 2180
+      },
+      "publishers": {
+        "display_name": "Publishers",
+        "top_values": [
+          {
+            "value": "PlayWay S.A.",
+            "count": 11,
+            "percentage": 1.58,
+            "games_with_feature": 11
+          },
+          {
+            "value": "FreeMind S.A.",
+            "count": 10,
+            "percentage": 1.44,
+            "games_with_feature": 10
+          },
+          {
+            "value": "Spiderweb Software",
+            "count": 9,
+            "percentage": 1.29,
+            "games_with_feature": 9
+          },
+          {
+            "value": "Jetdogs Studios",
+            "count": 7,
+            "percentage": 1.01,
+            "games_with_feature": 7
+          },
+          {
+            "value": "DIGIDICED",
+            "count": 6,
+            "percentage": 0.86,
+            "games_with_feature": 6
+          },
+          {
+            "value": "rokaplay",
+            "count": 6,
+            "percentage": 0.86,
+            "games_with_feature": 6
+          },
+          {
+            "value": "Telltale Games",
+            "count": 6,
+            "percentage": 0.86,
+            "games_with_feature": 6
+          },
+          {
+            "value": "Laush Studio",
+            "count": 6,
+            "percentage": 0.86,
+            "games_with_feature": 6
+          },
+          {
+            "value": "Maximum Entertainment",
+            "count": 5,
+            "percentage": 0.72,
+            "games_with_feature": 5
+          },
+          {
+            "value": "10tons Ltd",
+            "count": 5,
+            "percentage": 0.72,
+            "games_with_feature": 5
+          }
+        ],
+        "unique_values": 560,
+        "total_instances": 707
+      },
+      "developers": {
+        "display_name": "Developers",
+        "top_values": [
+          {
+            "value": "FreeMind S.A.",
+            "count": 10,
+            "percentage": 1.44,
+            "games_with_feature": 10
+          },
+          {
+            "value": "Spiderweb Software",
+            "count": 9,
+            "percentage": 1.29,
+            "games_with_feature": 9
+          },
+          {
+            "value": "Jetdogs Studios",
+            "count": 7,
+            "percentage": 1.01,
+            "games_with_feature": 7
+          },
+          {
+            "value": "Laush Dmitriy Sergeevich",
+            "count": 7,
+            "percentage": 1.01,
+            "games_with_feature": 7
+          },
+          {
+            "value": "DIGIDICED",
+            "count": 6,
+            "percentage": 0.86,
+            "games_with_feature": 6
+          },
+          {
+            "value": "Telltale Games",
+            "count": 6,
+            "percentage": 0.86,
+            "games_with_feature": 6
+          },
+          {
+            "value": "Zoom Out Games",
+            "count": 5,
+            "percentage": 0.72,
+            "games_with_feature": 5
+          },
+          {
+            "value": "rokaplay",
+            "count": 5,
+            "percentage": 0.72,
+            "games_with_feature": 5
+          },
+          {
+            "value": "10tons Ltd",
+            "count": 5,
+            "percentage": 0.72,
+            "games_with_feature": 5
+          },
+          {
+            "value": "BufoProject",
+            "count": 4,
+            "percentage": 0.58,
+            "games_with_feature": 4
+          }
+        ],
+        "unique_values": 596,
+        "total_instances": 730
+      },
+      "categories": {
+        "display_name": "Categories",
+        "top_values": [
+          {
+            "value": "Indie",
+            "count": 528,
+            "percentage": 75.97,
+            "games_with_feature": 528
+          },
+          {
+            "value": "Action",
+            "count": 290,
+            "percentage": 41.73,
+            "games_with_feature": 290
+          },
+          {
+            "value": "Adventure",
+            "count": 274,
+            "percentage": 39.42,
+            "games_with_feature": 274
+          },
+          {
+            "value": "Casual",
+            "count": 266,
+            "percentage": 38.27,
+            "games_with_feature": 266
+          },
+          {
+            "value": "Simulation",
+            "count": 222,
+            "percentage": 31.94,
+            "games_with_feature": 222
+          },
+          {
+            "value": "Strategy",
+            "count": 176,
+            "percentage": 25.32,
+            "games_with_feature": 176
+          },
+          {
+            "value": "RPG",
+            "count": 158,
+            "percentage": 22.73,
+            "games_with_feature": 158
+          },
+          {
+            "value": "Free To Play",
+            "count": 113,
+            "percentage": 16.26,
+            "games_with_feature": 113
+          },
+          {
+            "value": "Early Access",
+            "count": 71,
+            "percentage": 10.22,
+            "games_with_feature": 71
+          },
+          {
+            "value": "Massively Multiplayer",
+            "count": 38,
+            "percentage": 5.47,
+            "games_with_feature": 38
+          }
+        ],
+        "unique_values": 12,
+        "total_instances": 2180
+      },
+      "tags": {
+        "display_name": "Tags",
+        "top_values": [
+          {
+            "value": "Indie",
+            "count": 426,
+            "percentage": 61.29,
+            "games_with_feature": 426
+          },
+          {
+            "value": "Singleplayer",
+            "count": 414,
+            "percentage": 59.57,
+            "games_with_feature": 414
+          },
+          {
+            "value": "Action",
+            "count": 286,
+            "percentage": 41.15,
+            "games_with_feature": 286
+          },
+          {
+            "value": "Casual",
+            "count": 284,
+            "percentage": 40.86,
+            "games_with_feature": 284
+          },
+          {
+            "value": "Adventure",
+            "count": 280,
+            "percentage": 40.29,
+            "games_with_feature": 280
+          },
+          {
+            "value": "Simulation",
+            "count": 231,
+            "percentage": 33.24,
+            "games_with_feature": 231
+          },
+          {
+            "value": "2D",
+            "count": 203,
+            "percentage": 29.21,
+            "games_with_feature": 203
+          },
+          {
+            "value": "Strategy",
+            "count": 193,
+            "percentage": 27.77,
+            "games_with_feature": 193
+          },
+          {
+            "value": "RPG",
+            "count": 161,
+            "percentage": 23.17,
+            "games_with_feature": 161
+          },
+          {
+            "value": "3D",
+            "count": 148,
+            "percentage": 21.29,
+            "games_with_feature": 148
+          }
+        ],
+        "unique_values": 394,
+        "total_instances": 10383
+      },
+      "supported_languages": {
+        "display_name": "Languages",
+        "top_values": [
+          {
+            "value": "English",
+            "count": 672,
+            "percentage": 96.69,
+            "games_with_feature": 672
+          },
+          {
+            "value": "Simplified Chinese",
+            "count": 258,
+            "percentage": 37.12,
+            "games_with_feature": 258
+          },
+          {
+            "value": "German",
+            "count": 249,
+            "percentage": 35.83,
+            "games_with_feature": 249
+          },
+          {
+            "value": "Russian",
+            "count": 242,
+            "percentage": 34.82,
+            "games_with_feature": 242
+          },
+          {
+            "value": "French",
+            "count": 236,
+            "percentage": 33.96,
+            "games_with_feature": 236
+          },
+          {
+            "value": "Spanish - Spain",
+            "count": 220,
+            "percentage": 31.65,
+            "games_with_feature": 220
+          },
+          {
+            "value": "Japanese",
+            "count": 201,
+            "percentage": 28.92,
+            "games_with_feature": 201
+          },
+          {
+            "value": "Italian",
+            "count": 150,
+            "percentage": 21.58,
+            "games_with_feature": 150
+          },
+          {
+            "value": "Portuguese - Brazil",
+            "count": 144,
+            "percentage": 20.72,
+            "games_with_feature": 144
+          },
+          {
+            "value": "Korean",
+            "count": 142,
+            "percentage": 20.43,
+            "games_with_feature": 142
+          }
+        ],
+        "unique_values": 103,
+        "total_instances": 3511
+      },
+      "windows": {
+        "display_name": "Windows Support",
+        "distribution": [
+          {
+            "value": "True",
+            "count": 675,
+            "percentage": 97.12
+          },
+          {
+            "value": "False",
+            "count": 20,
+            "percentage": 2.88
+          }
+        ]
+      },
+      "mac": {
+        "display_name": "Mac Support",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 494,
+            "percentage": 71.08
+          },
+          {
+            "value": "True",
+            "count": 201,
+            "percentage": 28.92
+          }
+        ]
+      },
+      "linux": {
+        "display_name": "Linux Support",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 565,
+            "percentage": 81.29
+          },
+          {
+            "value": "True",
+            "count": 130,
+            "percentage": 18.71
+          }
+        ]
+      },
+      "is_free": {
+        "display_name": "Free Games",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 547,
+            "percentage": 78.71
+          },
+          {
+            "value": "True",
+            "count": 148,
+            "percentage": 21.29
+          }
+        ]
+      },
+      "has_dlc": {
+        "display_name": "Has DLC",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 562,
+            "percentage": 80.86
+          },
+          {
+            "value": "True",
+            "count": 133,
+            "percentage": 19.14
+          }
+        ]
+      },
+      "metacritic_score": {
+        "display_name": "Metacritic Score",
+        "statistics": {
+          "mean": 77.46,
+          "median": 78.0,
+          "std": 2.7,
+          "min": 72.0,
+          "max": 82.0,
+          "count": 24
+        }
+      },
+      "recommendations_total": {
+        "display_name": "Total Recommendations",
+        "statistics": {
+          "mean": 256.87,
+          "median": 67.0,
+          "std": 587.32,
+          "min": 0.0,
+          "max": 6718.0,
+          "count": 695
+        }
+      },
+      "achievements_total": {
+        "display_name": "Total Achievements",
+        "statistics": {
+          "mean": 25.78,
+          "median": 12.0,
+          "std": 117.59,
+          "min": 0.0,
+          "max": 3000.0,
+          "count": 695
+        }
+      }
+    }
+  },
+  {
+    "community_id": 12,
+    "size": 833,
+    "percentage_of_dataset": 11.07,
+    "features": {
+      "genres": {
+        "display_name": "Genres",
+        "top_values": [
+          {
+            "value": "Indie",
+            "count": 640,
+            "percentage": 76.83,
+            "games_with_feature": 640
+          },
+          {
+            "value": "Adventure",
+            "count": 393,
+            "percentage": 47.18,
+            "games_with_feature": 393
+          },
+          {
+            "value": "Casual",
+            "count": 350,
+            "percentage": 42.02,
+            "games_with_feature": 350
+          },
+          {
+            "value": "Action",
+            "count": 309,
+            "percentage": 37.09,
+            "games_with_feature": 309
+          },
+          {
+            "value": "Strategy",
+            "count": 200,
+            "percentage": 24.01,
+            "games_with_feature": 200
+          },
+          {
+            "value": "Simulation",
+            "count": 190,
+            "percentage": 22.81,
+            "games_with_feature": 190
+          },
+          {
+            "value": "RPG",
+            "count": 169,
+            "percentage": 20.29,
+            "games_with_feature": 169
+          },
+          {
+            "value": "Free To Play",
+            "count": 71,
+            "percentage": 8.52,
+            "games_with_feature": 71
+          },
+          {
+            "value": "Early Access",
+            "count": 68,
+            "percentage": 8.16,
+            "games_with_feature": 68
+          },
+          {
+            "value": "Massively Multiplayer",
+            "count": 23,
+            "percentage": 2.76,
+            "games_with_feature": 23
+          }
+        ],
+        "unique_values": 12,
+        "total_instances": 2447
+      },
+      "publishers": {
+        "display_name": "Publishers",
+        "top_values": [
+          {
+            "value": "Alawar Casual",
+            "count": 34,
+            "percentage": 4.08,
+            "games_with_feature": 34
+          },
+          {
+            "value": "Kagura Games",
+            "count": 22,
+            "percentage": 2.64,
+            "games_with_feature": 22
+          },
+          {
+            "value": "ESDigital Games",
+            "count": 9,
+            "percentage": 1.08,
+            "games_with_feature": 9
+          },
+          {
+            "value": "Lucasfilm",
+            "count": 8,
+            "percentage": 0.96,
+            "games_with_feature": 8
+          },
+          {
+            "value": "Disney",
+            "count": 8,
+            "percentage": 0.96,
+            "games_with_feature": 8
+          },
+          {
+            "value": "LucasArts",
+            "count": 6,
+            "percentage": 0.72,
+            "games_with_feature": 6
+          },
+          {
+            "value": "Sigyaad Team",
+            "count": 6,
+            "percentage": 0.72,
+            "games_with_feature": 6
+          },
+          {
+            "value": "Vertigo Games",
+            "count": 6,
+            "percentage": 0.72,
+            "games_with_feature": 6
+          },
+          {
+            "value": "Double Fine Productions",
+            "count": 5,
+            "percentage": 0.6,
+            "games_with_feature": 5
+          },
+          {
+            "value": "Alternative Software Ltd",
+            "count": 5,
+            "percentage": 0.6,
+            "games_with_feature": 5
+          }
+        ],
+        "unique_values": 632,
+        "total_instances": 867
+      },
+      "developers": {
+        "display_name": "Developers",
+        "top_values": [
+          {
+            "value": "Alawar Casual",
+            "count": 14,
+            "percentage": 1.68,
+            "games_with_feature": 14
+          },
+          {
+            "value": "LucasArts",
+            "count": 8,
+            "percentage": 0.96,
+            "games_with_feature": 8
+          },
+          {
+            "value": "Alawar Entertainment",
+            "count": 7,
+            "percentage": 0.84,
+            "games_with_feature": 7
+          },
+          {
+            "value": "Double Fine Productions",
+            "count": 6,
+            "percentage": 0.72,
+            "games_with_feature": 6
+          },
+          {
+            "value": "Sigyaad Team",
+            "count": 6,
+            "percentage": 0.72,
+            "games_with_feature": 6
+          },
+          {
+            "value": "Vertigo Games",
+            "count": 6,
+            "percentage": 0.72,
+            "games_with_feature": 6
+          },
+          {
+            "value": "Alternative Software Ltd",
+            "count": 5,
+            "percentage": 0.6,
+            "games_with_feature": 5
+          },
+          {
+            "value": "0 Deer Soft",
+            "count": 5,
+            "percentage": 0.6,
+            "games_with_feature": 5
+          },
+          {
+            "value": "Lonely Troops",
+            "count": 5,
+            "percentage": 0.6,
+            "games_with_feature": 5
+          },
+          {
+            "value": "Matthew Brown",
+            "count": 5,
+            "percentage": 0.6,
+            "games_with_feature": 5
+          }
+        ],
+        "unique_values": 683,
+        "total_instances": 876
+      },
+      "categories": {
+        "display_name": "Categories",
+        "top_values": [
+          {
+            "value": "Indie",
+            "count": 640,
+            "percentage": 76.83,
+            "games_with_feature": 640
+          },
+          {
+            "value": "Adventure",
+            "count": 393,
+            "percentage": 47.18,
+            "games_with_feature": 393
+          },
+          {
+            "value": "Casual",
+            "count": 350,
+            "percentage": 42.02,
+            "games_with_feature": 350
+          },
+          {
+            "value": "Action",
+            "count": 309,
+            "percentage": 37.09,
+            "games_with_feature": 309
+          },
+          {
+            "value": "Strategy",
+            "count": 200,
+            "percentage": 24.01,
+            "games_with_feature": 200
+          },
+          {
+            "value": "Simulation",
+            "count": 190,
+            "percentage": 22.81,
+            "games_with_feature": 190
+          },
+          {
+            "value": "RPG",
+            "count": 169,
+            "percentage": 20.29,
+            "games_with_feature": 169
+          },
+          {
+            "value": "Free To Play",
+            "count": 71,
+            "percentage": 8.52,
+            "games_with_feature": 71
+          },
+          {
+            "value": "Early Access",
+            "count": 68,
+            "percentage": 8.16,
+            "games_with_feature": 68
+          },
+          {
+            "value": "Massively Multiplayer",
+            "count": 23,
+            "percentage": 2.76,
+            "games_with_feature": 23
+          }
+        ],
+        "unique_values": 12,
+        "total_instances": 2447
+      },
+      "tags": {
+        "display_name": "Tags",
+        "top_values": [
+          {
+            "value": "Indie",
+            "count": 523,
+            "percentage": 62.79,
+            "games_with_feature": 523
+          },
+          {
+            "value": "Singleplayer",
+            "count": 502,
+            "percentage": 60.26,
+            "games_with_feature": 502
+          },
+          {
+            "value": "Adventure",
+            "count": 410,
+            "percentage": 49.22,
+            "games_with_feature": 410
+          },
+          {
+            "value": "Casual",
+            "count": 376,
+            "percentage": 45.14,
+            "games_with_feature": 376
+          },
+          {
+            "value": "Action",
+            "count": 327,
+            "percentage": 39.26,
+            "games_with_feature": 327
+          },
+          {
+            "value": "2D",
+            "count": 242,
+            "percentage": 29.05,
+            "games_with_feature": 242
+          },
+          {
+            "value": "Strategy",
+            "count": 211,
+            "percentage": 25.33,
+            "games_with_feature": 211
+          },
+          {
+            "value": "Simulation",
+            "count": 202,
+            "percentage": 24.25,
+            "games_with_feature": 202
+          },
+          {
+            "value": "RPG",
+            "count": 176,
+            "percentage": 21.13,
+            "games_with_feature": 176
+          },
+          {
+            "value": "Atmospheric",
+            "count": 172,
+            "percentage": 20.65,
+            "games_with_feature": 172
+          }
+        ],
+        "unique_values": 398,
+        "total_instances": 12076
+      },
+      "supported_languages": {
+        "display_name": "Languages",
+        "top_values": [
+          {
+            "value": "English",
+            "count": 809,
+            "percentage": 97.12,
+            "games_with_feature": 809
+          },
+          {
+            "value": "German",
+            "count": 288,
+            "percentage": 34.57,
+            "games_with_feature": 288
+          },
+          {
+            "value": "Russian",
+            "count": 274,
+            "percentage": 32.89,
+            "games_with_feature": 274
+          },
+          {
+            "value": "Simplified Chinese",
+            "count": 272,
+            "percentage": 32.65,
+            "games_with_feature": 272
+          },
+          {
+            "value": "French",
+            "count": 254,
+            "percentage": 30.49,
+            "games_with_feature": 254
+          },
+          {
+            "value": "Spanish - Spain",
+            "count": 244,
+            "percentage": 29.29,
+            "games_with_feature": 244
+          },
+          {
+            "value": "Japanese",
+            "count": 226,
+            "percentage": 27.13,
+            "games_with_feature": 226
+          },
+          {
+            "value": "Italian",
+            "count": 180,
+            "percentage": 21.61,
+            "games_with_feature": 180
+          },
+          {
+            "value": "Portuguese - Brazil",
+            "count": 150,
+            "percentage": 18.01,
+            "games_with_feature": 150
+          },
+          {
+            "value": "Korean",
+            "count": 149,
+            "percentage": 17.89,
+            "games_with_feature": 149
+          }
+        ],
+        "unique_values": 103,
+        "total_instances": 4465
+      },
+      "windows": {
+        "display_name": "Windows Support",
+        "distribution": [
+          {
+            "value": "True",
+            "count": 810,
+            "percentage": 97.24
+          },
+          {
+            "value": "False",
+            "count": 23,
+            "percentage": 2.76
+          }
+        ]
+      },
+      "mac": {
+        "display_name": "Mac Support",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 589,
+            "percentage": 70.71
+          },
+          {
+            "value": "True",
+            "count": 244,
+            "percentage": 29.29
+          }
+        ]
+      },
+      "linux": {
+        "display_name": "Linux Support",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 671,
+            "percentage": 80.55
+          },
+          {
+            "value": "True",
+            "count": 162,
+            "percentage": 19.45
+          }
+        ]
+      },
+      "is_free": {
+        "display_name": "Free Games",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 725,
+            "percentage": 87.03
+          },
+          {
+            "value": "True",
+            "count": 108,
+            "percentage": 12.97
+          }
+        ]
+      },
+      "has_dlc": {
+        "display_name": "Has DLC",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 688,
+            "percentage": 82.59
+          },
+          {
+            "value": "True",
+            "count": 145,
+            "percentage": 17.41
+          }
+        ]
+      },
+      "metacritic_score": {
+        "display_name": "Metacritic Score",
+        "statistics": {
+          "mean": 76.82,
+          "median": 77.0,
+          "std": 2.76,
+          "min": 72.0,
+          "max": 82.0,
+          "count": 33
+        }
+      },
+      "recommendations_total": {
+        "display_name": "Total Recommendations",
+        "statistics": {
+          "mean": 240.58,
+          "median": 56.0,
+          "std": 474.48,
+          "min": 0.0,
+          "max": 5073.0,
+          "count": 833
+        }
+      },
+      "achievements_total": {
+        "display_name": "Total Achievements",
+        "statistics": {
+          "mean": 32.02,
+          "median": 12.0,
+          "std": 245.16,
+          "min": 0.0,
+          "max": 5000.0,
+          "count": 833
+        }
+      }
+    }
+  },
+  {
+    "community_id": 13,
+    "size": 307,
+    "percentage_of_dataset": 4.08,
+    "features": {
+      "genres": {
+        "display_name": "Genres",
+        "top_values": [
+          {
+            "value": "Indie",
+            "count": 253,
+            "percentage": 82.41,
+            "games_with_feature": 253
+          },
+          {
+            "value": "Casual",
+            "count": 156,
+            "percentage": 50.81,
+            "games_with_feature": 156
+          },
+          {
+            "value": "Adventure",
+            "count": 131,
+            "percentage": 42.67,
+            "games_with_feature": 131
+          },
+          {
+            "value": "Action",
+            "count": 113,
+            "percentage": 36.81,
+            "games_with_feature": 113
+          },
+          {
+            "value": "Simulation",
+            "count": 86,
+            "percentage": 28.01,
+            "games_with_feature": 86
+          },
+          {
+            "value": "RPG",
+            "count": 71,
+            "percentage": 23.13,
+            "games_with_feature": 71
+          },
+          {
+            "value": "Strategy",
+            "count": 64,
+            "percentage": 20.85,
+            "games_with_feature": 64
+          },
+          {
+            "value": "Free To Play",
+            "count": 40,
+            "percentage": 13.03,
+            "games_with_feature": 40
+          },
+          {
+            "value": "Early Access",
+            "count": 24,
+            "percentage": 7.82,
+            "games_with_feature": 24
+          },
+          {
+            "value": "Massively Multiplayer",
+            "count": 4,
+            "percentage": 1.3,
+            "games_with_feature": 4
+          }
+        ],
+        "unique_values": 12,
+        "total_instances": 946
+      },
+      "publishers": {
+        "display_name": "Publishers",
+        "top_values": [
+          {
+            "value": "Octo Games",
+            "count": 9,
+            "percentage": 2.93,
+            "games_with_feature": 9
+          },
+          {
+            "value": "Crisp App Studio",
+            "count": 6,
+            "percentage": 1.95,
+            "games_with_feature": 6
+          },
+          {
+            "value": "Euphoric Brothers",
+            "count": 6,
+            "percentage": 1.95,
+            "games_with_feature": 6
+          },
+          {
+            "value": "Anatoliy Loginovskikh",
+            "count": 5,
+            "percentage": 1.63,
+            "games_with_feature": 5
+          },
+          {
+            "value": "Temple Gates Games",
+            "count": 3,
+            "percentage": 0.98,
+            "games_with_feature": 3
+          },
+          {
+            "value": "Coldwild Games",
+            "count": 3,
+            "percentage": 0.98,
+            "games_with_feature": 3
+          },
+          {
+            "value": "Neko Game",
+            "count": 3,
+            "percentage": 0.98,
+            "games_with_feature": 3
+          },
+          {
+            "value": "VuVuu",
+            "count": 3,
+            "percentage": 0.98,
+            "games_with_feature": 3
+          },
+          {
+            "value": "InvertMouse",
+            "count": 3,
+            "percentage": 0.98,
+            "games_with_feature": 3
+          },
+          {
+            "value": "Autotelic Games LLC",
+            "count": 2,
+            "percentage": 0.65,
+            "games_with_feature": 2
+          }
+        ],
+        "unique_values": 248,
+        "total_instances": 309
+      },
+      "developers": {
+        "display_name": "Developers",
+        "top_values": [
+          {
+            "value": "Octo Games",
+            "count": 9,
+            "percentage": 2.93,
+            "games_with_feature": 9
+          },
+          {
+            "value": "Crisp App Studio",
+            "count": 6,
+            "percentage": 1.95,
+            "games_with_feature": 6
+          },
+          {
+            "value": "Euphoric Brothers",
+            "count": 6,
+            "percentage": 1.95,
+            "games_with_feature": 6
+          },
+          {
+            "value": "Anatoliy Loginovskikh",
+            "count": 5,
+            "percentage": 1.63,
+            "games_with_feature": 5
+          },
+          {
+            "value": "Temple Gates Games",
+            "count": 3,
+            "percentage": 0.98,
+            "games_with_feature": 3
+          },
+          {
+            "value": "Coldwild Games",
+            "count": 3,
+            "percentage": 0.98,
+            "games_with_feature": 3
+          },
+          {
+            "value": "Neko Game",
+            "count": 3,
+            "percentage": 0.98,
+            "games_with_feature": 3
+          },
+          {
+            "value": "VuVuu",
+            "count": 3,
+            "percentage": 0.98,
+            "games_with_feature": 3
+          },
+          {
+            "value": "Green Lava Studios",
+            "count": 3,
+            "percentage": 0.98,
+            "games_with_feature": 3
+          },
+          {
+            "value": "InvertMouse",
+            "count": 3,
+            "percentage": 0.98,
+            "games_with_feature": 3
+          }
+        ],
+        "unique_values": 261,
+        "total_instances": 320
+      },
+      "categories": {
+        "display_name": "Categories",
+        "top_values": [
+          {
+            "value": "Indie",
+            "count": 253,
+            "percentage": 82.41,
+            "games_with_feature": 253
+          },
+          {
+            "value": "Casual",
+            "count": 156,
+            "percentage": 50.81,
+            "games_with_feature": 156
+          },
+          {
+            "value": "Adventure",
+            "count": 131,
+            "percentage": 42.67,
+            "games_with_feature": 131
+          },
+          {
+            "value": "Action",
+            "count": 113,
+            "percentage": 36.81,
+            "games_with_feature": 113
+          },
+          {
+            "value": "Simulation",
+            "count": 86,
+            "percentage": 28.01,
+            "games_with_feature": 86
+          },
+          {
+            "value": "RPG",
+            "count": 71,
+            "percentage": 23.13,
+            "games_with_feature": 71
+          },
+          {
+            "value": "Strategy",
+            "count": 64,
+            "percentage": 20.85,
+            "games_with_feature": 64
+          },
+          {
+            "value": "Free To Play",
+            "count": 40,
+            "percentage": 13.03,
+            "games_with_feature": 40
+          },
+          {
+            "value": "Early Access",
+            "count": 24,
+            "percentage": 7.82,
+            "games_with_feature": 24
+          },
+          {
+            "value": "Massively Multiplayer",
+            "count": 4,
+            "percentage": 1.3,
+            "games_with_feature": 4
+          }
+        ],
+        "unique_values": 12,
+        "total_instances": 946
+      },
+      "tags": {
+        "display_name": "Tags",
+        "top_values": [
+          {
+            "value": "Indie",
+            "count": 206,
+            "percentage": 67.1,
+            "games_with_feature": 206
+          },
+          {
+            "value": "Singleplayer",
+            "count": 190,
+            "percentage": 61.89,
+            "games_with_feature": 190
+          },
+          {
+            "value": "Casual",
+            "count": 165,
+            "percentage": 53.75,
+            "games_with_feature": 165
+          },
+          {
+            "value": "Adventure",
+            "count": 136,
+            "percentage": 44.3,
+            "games_with_feature": 136
+          },
+          {
+            "value": "Action",
+            "count": 118,
+            "percentage": 38.44,
+            "games_with_feature": 118
+          },
+          {
+            "value": "2D",
+            "count": 100,
+            "percentage": 32.57,
+            "games_with_feature": 100
+          },
+          {
+            "value": "Simulation",
+            "count": 90,
+            "percentage": 29.32,
+            "games_with_feature": 90
+          },
+          {
+            "value": "Strategy",
+            "count": 69,
+            "percentage": 22.48,
+            "games_with_feature": 69
+          },
+          {
+            "value": "RPG",
+            "count": 69,
+            "percentage": 22.48,
+            "games_with_feature": 69
+          },
+          {
+            "value": "Puzzle",
+            "count": 64,
+            "percentage": 20.85,
+            "games_with_feature": 64
+          }
+        ],
+        "unique_values": 340,
+        "total_instances": 4628
+      },
+      "supported_languages": {
+        "display_name": "Languages",
+        "top_values": [
+          {
+            "value": "English",
+            "count": 292,
+            "percentage": 95.11,
+            "games_with_feature": 292
+          },
+          {
+            "value": "Simplified Chinese",
+            "count": 127,
+            "percentage": 41.37,
+            "games_with_feature": 127
+          },
+          {
+            "value": "German",
+            "count": 107,
+            "percentage": 34.85,
+            "games_with_feature": 107
+          },
+          {
+            "value": "French",
+            "count": 100,
+            "percentage": 32.57,
+            "games_with_feature": 100
+          },
+          {
+            "value": "Russian",
+            "count": 100,
+            "percentage": 32.57,
+            "games_with_feature": 100
+          },
+          {
+            "value": "Spanish - Spain",
+            "count": 97,
+            "percentage": 31.6,
+            "games_with_feature": 97
+          },
+          {
+            "value": "Japanese",
+            "count": 97,
+            "percentage": 31.6,
+            "games_with_feature": 97
+          },
+          {
+            "value": "Traditional Chinese",
+            "count": 75,
+            "percentage": 24.43,
+            "games_with_feature": 75
+          },
+          {
+            "value": "Portuguese - Brazil",
+            "count": 72,
+            "percentage": 23.45,
+            "games_with_feature": 72
+          },
+          {
+            "value": "Korean",
+            "count": 71,
+            "percentage": 23.13,
+            "games_with_feature": 71
+          }
+        ],
+        "unique_values": 103,
+        "total_instances": 2447
+      },
+      "windows": {
+        "display_name": "Windows Support",
+        "distribution": [
+          {
+            "value": "True",
+            "count": 300,
+            "percentage": 97.72
+          },
+          {
+            "value": "False",
+            "count": 7,
+            "percentage": 2.28
+          }
+        ]
+      },
+      "mac": {
+        "display_name": "Mac Support",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 225,
+            "percentage": 73.29
+          },
+          {
+            "value": "True",
+            "count": 82,
+            "percentage": 26.71
+          }
+        ]
+      },
+      "linux": {
+        "display_name": "Linux Support",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 247,
+            "percentage": 80.46
+          },
+          {
+            "value": "True",
+            "count": 60,
+            "percentage": 19.54
+          }
+        ]
+      },
+      "is_free": {
+        "display_name": "Free Games",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 254,
+            "percentage": 82.74
+          },
+          {
+            "value": "True",
+            "count": 53,
+            "percentage": 17.26
+          }
+        ]
+      },
+      "has_dlc": {
+        "display_name": "Has DLC",
+        "distribution": [
+          {
+            "value": "False",
+            "count": 251,
+            "percentage": 81.76
+          },
+          {
+            "value": "True",
+            "count": 56,
+            "percentage": 18.24
+          }
+        ]
+      },
+      "metacritic_score": {
+        "display_name": "Metacritic Score",
+        "statistics": {
+          "mean": 75.4,
+          "median": 74.0,
+          "std": 3.97,
+          "min": 72.0,
+          "max": 82.0,
+          "count": 5
+        }
+      },
+      "recommendations_total": {
+        "display_name": "Total Recommendations",
+        "statistics": {
+          "mean": 289.5,
+          "median": 85.0,
+          "std": 532.09,
+          "min": 0.0,
+          "max": 4882.0,
+          "count": 307
+        }
+      },
+      "achievements_total": {
+        "display_name": "Total Achievements",
+        "statistics": {
+          "mean": 36.44,
+          "median": 11.0,
+          "std": 272.16,
+          "min": 0.0,
+          "max": 4757.0,
+          "count": 307
+        }
+      }
+    }
+  }
+]
