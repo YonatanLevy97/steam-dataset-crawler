@@ -8,8 +8,9 @@ The Louvain algorithm is a fast, modularity-based community detection method tha
 
 ### Mac/Linux
 ```bash
-# Run basic community detection
-./scripts/run_louvain.sh --edges ./out/graph_runs/.../edges_top100.csv.gz --giant-only
+# Run basic community detection with automatic tagging (recommended)
+./scripts/run_louvain.sh --edges ./out/graph_runs/.../edges_top100.csv.gz \
+    --metadata ./out/dead_labels_enriched.csv --giant-only
 
 # Analyze community features in detail  
 python3 scripts/detailed_community_feature_analysis.py \
@@ -19,8 +20,9 @@ python3 scripts/detailed_community_feature_analysis.py \
 
 ### Windows
 ```cmd
-REM Run basic community detection
-scripts\run_louvain.bat --edges .\out\graph_runs\...\edges_top100.csv.gz --giant-only
+REM Run basic community detection with automatic tagging (recommended)
+scripts\run_louvain.bat --edges .\out\graph_runs\...\edges_top100.csv.gz ^
+    --metadata .\out\dead_labels_enriched.csv --giant-only
 
 REM Analyze community features in detail
 python scripts\detailed_community_feature_analysis.py ^
@@ -52,36 +54,48 @@ pip install python-louvain
 
 ### Basic Community Detection
 ```bash
-# Simple run with default parameters
+# Simple run with default parameters (no tags)
 ./scripts/run_louvain.sh --edges ./out/graph_runs/.../edges_top100.csv.gz
 
-# Focus on giant component only
-./scripts/run_louvain.sh --edges ./out/graph_runs/.../edges_top100.csv.gz --giant-only
+# With automatic community tagging (recommended)
+./scripts/run_louvain.sh --edges ./out/graph_runs/.../edges_top100.csv.gz \
+    --metadata ./out/dead_labels_enriched.csv --giant-only
 ```
 
 ### Advanced Parameters
 ```bash
-# Higher resolution for more detailed communities
+# Higher resolution for more detailed communities with tagging
 ./scripts/run_louvain.sh --edges ./out/graph_runs/.../edges_top100.csv.gz \
+                         --metadata ./out/dead_labels_enriched.csv \
                          --resolution 1.5 --giant-only --kcore 3
 
 # Quick test on subset of data
 ./scripts/run_louvain.sh --edges ./out/graph_runs/.../edges_top100.csv.gz \
                          --max-edges 50000 --max-nodes 500
+
+# Using specific tag field (genres instead of default tags)
+./scripts/run_louvain.sh --edges ./out/graph_runs/.../edges_top100.csv.gz \
+                         --metadata ./out/dead_labels_enriched.csv \
+                         --tag-field genres --giant-only
 ```
 
 ### Feature Analysis Pipeline
 ```bash
-# 1. Run community detection
-./scripts/run_louvain.sh --edges ./out/graph_runs/.../edges_top100.csv.gz --giant-only
+# 1. Run community detection with tagging
+./scripts/run_louvain.sh --edges ./out/graph_runs/.../edges_top100.csv.gz \
+    --metadata ./out/dead_labels_enriched.csv --giant-only
 
-# 2. Detailed feature analysis
+# 2. Review community tags (new feature!)
+head -10 ./out/louvain_.../community_assignments.csv
+# Shows: node_id,community_id,community_size,most_common_tag,tag_percentage
+
+# 3. Detailed feature analysis
 python3 scripts/detailed_community_feature_analysis.py \
     --communities ./out/louvain_.../community_assignments.csv \
     --metadata ./out/dead_labels_enriched.csv \
     --out-dir ./out/louvain_feature_analysis/
 
-# 3. Create summary report
+# 4. Create summary report
 python3 scripts/community_feature_summary.py \
     --analysis ./out/louvain_feature_analysis/detailed_feature_analysis.json \
     --out-dir ./out/louvain_summary/
@@ -90,8 +104,8 @@ python3 scripts/community_feature_summary.py \
 ## 📁 Output Files
 
 ### Core Algorithm Output
-- `community_assignments.csv` - Node-to-community mapping
-- `community_stats.json` - Summary statistics
+- `community_assignments.csv` - Node-to-community mapping **with most common tags**
+- `community_stats.json` - Summary statistics **with community tag summary**
 - `community_sizes.png` - Size distribution visualization
 - `modularity_info.json` - Modularity score and parameters
 
@@ -106,6 +120,10 @@ python3 scripts/community_feature_summary.py \
 - `--resolution` (default: 1.0) - Controls community size. Higher = smaller communities
 - `--random-seed` (default: 42) - For reproducible results
 - `--min-community-size` (default: 5) - Filter small communities
+
+### Community Tagging Parameters (New!)
+- `--metadata` - Path to CSV with game metadata (enables automatic tagging)
+- `--tag-field` - Field to use for tags (auto-detects: tags → genres → categories)
 
 ### Graph Filtering
 - `--min-weight` (default: 0.7) - Minimum edge weight (cosine similarity)  

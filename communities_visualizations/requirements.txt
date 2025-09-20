@@ -1,0 +1,26 @@
+# Core data manipulation and analysis
+pandas>=1.5.0
+numpy>=1.21.0
+
+# Visualization libraries
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.15.0
+dash>=2.12.0
+dash-bootstrap-components>=1.4.0
+
+# Scientific computing and machine learning
+scikit-learn>=1.1.0
+scipy>=1.9.0
+
+# Network analysis
+networkx>=2.8.0
+
+# Additional utilities
+colorlover>=0.3.0
+kaleido>=0.2.1  # For plotly static image export
+wordcloud>=1.9.0  # For text visualizations
+python-dateutil>=2.8.0
+
+# Optional: for enhanced styling
+palettable>=3.3.0

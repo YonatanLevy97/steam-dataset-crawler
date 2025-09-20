@@ -1,0 +1,15 @@
+community_id,community_name,release_year_mean,release_year_median,release_year_coverage
+0,Indie Casual,2018.33,2019.0,99.3
+1,Indie Adventure,2019.04,2020.0,60.8
+2,Indie Puzzle,2019.21,2019.0,98.5
+3,Indie Story,2019.96,2020.0,98.9
+4,Indie Simulation,2019.83,2020.0,99.1
+5,Indie Strategy,2019.15,2020.0,98.4
+6,Indie Horror,2019.84,2020.5,99.0
+7,Indie Action,2019.53,2019.0,98.7
+8,Indie RPG,2019.77,2020.0,98.5
+9,Action Arcade,2019.5,2020.0,99.7
+10,Visual Novels,2019.88,2020.0,98.4
+11,AAA Action,2012.57,2013.0,98.9
+12,Sports & Racing,2019.71,2020.0,98.3
+13,Children's Games,2019.06,2021.0,99.3

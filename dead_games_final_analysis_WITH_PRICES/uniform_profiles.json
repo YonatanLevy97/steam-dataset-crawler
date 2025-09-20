@@ -1,0 +1,1954 @@
+[
+  {
+    "community_id": 0,
+    "size": 127,
+    "profile": {
+      "developers": {
+        "most_common": "Game Hollywood Games",
+        "percentage": 4.72
+      },
+      "publishers": {
+        "most_common": "Game Hollywood Games",
+        "percentage": 4.72
+      },
+      "categories": {
+        "most_common": "Indie",
+        "percentage": 72.44
+      },
+      "genres": {
+        "most_common": "Indie",
+        "percentage": 72.44
+      },
+      "tags": {
+        "most_common": "Indie",
+        "percentage": 55.12
+      },
+      "supported_languages": {
+        "most_common": "English",
+        "percentage": 93.7
+      },
+      "is_free": {
+        "most_common": "False",
+        "percentage": 67.72
+      },
+      "coming_soon": {
+        "most_common": "False",
+        "percentage": 96.06
+      },
+      "windows": {
+        "most_common": "True",
+        "percentage": 99.21
+      },
+      "mac": {
+        "most_common": "False",
+        "percentage": 71.65
+      },
+      "linux": {
+        "most_common": "False",
+        "percentage": 84.25
+      },
+      "has_dlc": {
+        "most_common": "False",
+        "percentage": 84.25
+      },
+      "min_months_ok": {
+        "most_common": "True",
+        "percentage": 100.0
+      },
+      "final_price": {
+        "mean": 22.06,
+        "median": 12.49
+      },
+      "initial_price": {
+        "mean": 22.06,
+        "median": 12.49
+      },
+      "label_dead_binary": {
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "avg_players_median_6m": {
+        "mean": 8.96,
+        "median": 3.83
+      },
+      "months_used": {
+        "mean": 5.669,
+        "median": 6.0
+      },
+      "min_months_required": {
+        "mean": 3.0,
+        "median": 3.0
+      },
+      "required_age": {
+        "mean": 2.409,
+        "median": 0.0
+      },
+      "discount_percent": {
+        "mean": 0.0,
+        "median": 0.0
+      },
+      "metacritic_score": {
+        "mean": 74.0,
+        "median": 74.0
+      },
+      "recommendations_total": {
+        "mean": 231.165,
+        "median": 66.0
+      },
+      "achievements_total": {
+        "mean": 22.362,
+        "median": 11.0
+      },
+      "dlc_count": {
+        "mean": 0.323,
+        "median": 0.0
+      },
+      "type": {
+        "most_common": "game",
+        "percentage": 100.0
+      },
+      "label_dead": {
+        "most_common": "Dead",
+        "percentage": 100.0
+      },
+      "controller_support": {
+        "most_common": "Full Xbox Controller Support",
+        "percentage": 22.05
+      },
+      "crawl_status": {
+        "most_common": "success",
+        "percentage": 100.0
+      }
+    }
+  },
+  {
+    "community_id": 1,
+    "size": 921,
+    "profile": {
+      "developers": {
+        "most_common": "Daedalic Entertainment",
+        "percentage": 1.52
+      },
+      "publishers": {
+        "most_common": "Daedalic Entertainment",
+        "percentage": 4.34
+      },
+      "categories": {
+        "most_common": "Indie",
+        "percentage": 36.81
+      },
+      "genres": {
+        "most_common": "Indie",
+        "percentage": 36.81
+      },
+      "tags": {
+        "most_common": "Singleplayer",
+        "percentage": 42.24
+      },
+      "supported_languages": {
+        "most_common": "English",
+        "percentage": 55.05
+      },
+      "is_free": {
+        "most_common": "False",
+        "percentage": 99.24
+      },
+      "coming_soon": {
+        "most_common": "False",
+        "percentage": 99.02
+      },
+      "windows": {
+        "most_common": "True",
+        "percentage": 100.0
+      },
+      "mac": {
+        "most_common": "True",
+        "percentage": 60.91
+      },
+      "linux": {
+        "most_common": "True",
+        "percentage": 56.89
+      },
+      "has_dlc": {
+        "most_common": "False",
+        "percentage": 76.87
+      },
+      "min_months_ok": {
+        "most_common": "True",
+        "percentage": 100.0
+      },
+      "final_price": {
+        "mean": 30.51,
+        "median": 12.45
+      },
+      "initial_price": {
+        "mean": 86.55,
+        "median": 55.95
+      },
+      "label_dead_binary": {
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "avg_players_median_6m": {
+        "mean": 6.89,
+        "median": 2.52
+      },
+      "months_used": {
+        "mean": 5.647,
+        "median": 6.0
+      },
+      "min_months_required": {
+        "mean": 3.0,
+        "median": 3.0
+      },
+      "required_age": {
+        "mean": 1.583,
+        "median": 0.0
+      },
+      "discount_percent": {
+        "mean": 63.616,
+        "median": 66.0
+      },
+      "metacritic_score": {
+        "mean": 72.383,
+        "median": 73.0
+      },
+      "recommendations_total": {
+        "mean": 173.567,
+        "median": 14.0
+      },
+      "achievements_total": {
+        "mean": 34.498,
+        "median": 0.0
+      },
+      "dlc_count": {
+        "mean": 0.565,
+        "median": 0.0
+      },
+      "type": {
+        "most_common": "game",
+        "percentage": 100.0
+      },
+      "label_dead": {
+        "most_common": "Dead",
+        "percentage": 100.0
+      },
+      "controller_support": {
+        "most_common": "Full Xbox Controller Support",
+        "percentage": 16.07
+      },
+      "crawl_status": {
+        "most_common": "success",
+        "percentage": 100.0
+      }
+    }
+  },
+  {
+    "community_id": 2,
+    "size": 209,
+    "profile": {
+      "developers": {
+        "most_common": "Rebellion",
+        "percentage": 2.87
+      },
+      "publishers": {
+        "most_common": "THQ Nordic",
+        "percentage": 5.74
+      },
+      "categories": {
+        "most_common": "Action",
+        "percentage": 54.07
+      },
+      "genres": {
+        "most_common": "Action",
+        "percentage": 54.07
+      },
+      "tags": {
+        "most_common": "Singleplayer",
+        "percentage": 74.16
+      },
+      "supported_languages": {
+        "most_common": "English",
+        "percentage": 99.52
+      },
+      "is_free": {
+        "most_common": "False",
+        "percentage": 98.09
+      },
+      "coming_soon": {
+        "most_common": "False",
+        "percentage": 98.56
+      },
+      "windows": {
+        "most_common": "True",
+        "percentage": 95.69
+      },
+      "mac": {
+        "most_common": "False",
+        "percentage": 72.25
+      },
+      "linux": {
+        "most_common": "False",
+        "percentage": 82.78
+      },
+      "has_dlc": {
+        "most_common": "False",
+        "percentage": 66.51
+      },
+      "min_months_ok": {
+        "most_common": "True",
+        "percentage": 100.0
+      },
+      "final_price": {
+        "mean": 47.43,
+        "median": 36.95
+      },
+      "initial_price": {
+        "mean": 48.88,
+        "median": 36.95
+      },
+      "label_dead_binary": {
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "avg_players_median_6m": {
+        "mean": 7.572,
+        "median": 3.25
+      },
+      "months_used": {
+        "mean": 5.981,
+        "median": 6.0
+      },
+      "min_months_required": {
+        "mean": 3.0,
+        "median": 3.0
+      },
+      "required_age": {
+        "mean": 3.359,
+        "median": 0.0
+      },
+      "discount_percent": {
+        "mean": 0.804,
+        "median": 0.0
+      },
+      "metacritic_score": {
+        "mean": 54.019,
+        "median": 59.0
+      },
+      "recommendations_total": {
+        "mean": 546.493,
+        "median": 185.0
+      },
+      "achievements_total": {
+        "mean": 24.895,
+        "median": 24.0
+      },
+      "dlc_count": {
+        "mean": 0.799,
+        "median": 0.0
+      },
+      "type": {
+        "most_common": "game",
+        "percentage": 100.0
+      },
+      "label_dead": {
+        "most_common": "Dead",
+        "percentage": 100.0
+      },
+      "controller_support": {
+        "most_common": "Full Xbox Controller Support",
+        "percentage": 31.1
+      },
+      "crawl_status": {
+        "most_common": "success",
+        "percentage": 100.0
+      }
+    }
+  },
+  {
+    "community_id": 3,
+    "size": 373,
+    "profile": {
+      "developers": {
+        "most_common": "Spiderweb Software",
+        "percentage": 1.88
+      },
+      "publishers": {
+        "most_common": "PlayWay S.A.",
+        "percentage": 2.14
+      },
+      "categories": {
+        "most_common": "Indie",
+        "percentage": 75.34
+      },
+      "genres": {
+        "most_common": "Indie",
+        "percentage": 75.34
+      },
+      "tags": {
+        "most_common": "Indie",
+        "percentage": 64.61
+      },
+      "supported_languages": {
+        "most_common": "English",
+        "percentage": 96.78
+      },
+      "is_free": {
+        "most_common": "False",
+        "percentage": 77.21
+      },
+      "coming_soon": {
+        "most_common": "False",
+        "percentage": 96.25
+      },
+      "windows": {
+        "most_common": "True",
+        "percentage": 96.51
+      },
+      "mac": {
+        "most_common": "False",
+        "percentage": 69.71
+      },
+      "linux": {
+        "most_common": "False",
+        "percentage": 80.16
+      },
+      "has_dlc": {
+        "most_common": "False",
+        "percentage": 83.91
+      },
+      "min_months_ok": {
+        "most_common": "True",
+        "percentage": 100.0
+      },
+      "final_price": {
+        "mean": 22.03,
+        "median": 18.5
+      },
+      "initial_price": {
+        "mean": 28.54,
+        "median": 18.5
+      },
+      "label_dead_binary": {
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "avg_players_median_6m": {
+        "mean": 6.067,
+        "median": 2.8
+      },
+      "months_used": {
+        "mean": 5.686,
+        "median": 6.0
+      },
+      "min_months_required": {
+        "mean": 3.0,
+        "median": 3.0
+      },
+      "required_age": {
+        "mean": 1.592,
+        "median": 0.0
+      },
+      "discount_percent": {
+        "mean": 0.839,
+        "median": 0.0
+      },
+      "metacritic_score": {
+        "mean": 77.143,
+        "median": 75.0
+      },
+      "recommendations_total": {
+        "mean": 249.633,
+        "median": 63.0
+      },
+      "achievements_total": {
+        "mean": 21.617,
+        "median": 12.0
+      },
+      "dlc_count": {
+        "mean": 0.273,
+        "median": 0.0
+      },
+      "type": {
+        "most_common": "game",
+        "percentage": 100.0
+      },
+      "label_dead": {
+        "most_common": "Dead",
+        "percentage": 100.0
+      },
+      "controller_support": {
+        "most_common": "Full Xbox Controller Support",
+        "percentage": 20.38
+      },
+      "crawl_status": {
+        "most_common": "success",
+        "percentage": 100.0
+      }
+    }
+  },
+  {
+    "community_id": 4,
+    "size": 455,
+    "profile": {
+      "developers": {
+        "most_common": "Octo Games",
+        "percentage": 1.98
+      },
+      "publishers": {
+        "most_common": "Octo Games",
+        "percentage": 1.98
+      },
+      "categories": {
+        "most_common": "Indie",
+        "percentage": 78.68
+      },
+      "genres": {
+        "most_common": "Indie",
+        "percentage": 78.68
+      },
+      "tags": {
+        "most_common": "Indie",
+        "percentage": 61.76
+      },
+      "supported_languages": {
+        "most_common": "English",
+        "percentage": 95.82
+      },
+      "is_free": {
+        "most_common": "False",
+        "percentage": 84.18
+      },
+      "coming_soon": {
+        "most_common": "False",
+        "percentage": 96.26
+      },
+      "windows": {
+        "most_common": "True",
+        "percentage": 98.46
+      },
+      "mac": {
+        "most_common": "False",
+        "percentage": 71.87
+      },
+      "linux": {
+        "most_common": "False",
+        "percentage": 76.7
+      },
+      "has_dlc": {
+        "most_common": "False",
+        "percentage": 79.12
+      },
+      "min_months_ok": {
+        "most_common": "True",
+        "percentage": 100.0
+      },
+      "final_price": {
+        "mean": 30.66,
+        "median": 21.95
+      },
+      "initial_price": {
+        "mean": 33.31,
+        "median": 21.95
+      },
+      "label_dead_binary": {
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "avg_players_median_6m": {
+        "mean": 6.413,
+        "median": 2.495
+      },
+      "months_used": {
+        "mean": 5.657,
+        "median": 6.0
+      },
+      "min_months_required": {
+        "mean": 3.0,
+        "median": 3.0
+      },
+      "required_age": {
+        "mean": 2.492,
+        "median": 0.0
+      },
+      "discount_percent": {
+        "mean": 0.343,
+        "median": 0.0
+      },
+      "metacritic_score": {
+        "mean": 74.25,
+        "median": 74.5
+      },
+      "recommendations_total": {
+        "mean": 264.363,
+        "median": 65.0
+      },
+      "achievements_total": {
+        "mean": 65.609,
+        "median": 14.0
+      },
+      "dlc_count": {
+        "mean": 0.409,
+        "median": 0.0
+      },
+      "type": {
+        "most_common": "game",
+        "percentage": 100.0
+      },
+      "label_dead": {
+        "most_common": "Dead",
+        "percentage": 100.0
+      },
+      "controller_support": {
+        "most_common": "Full Xbox Controller Support",
+        "percentage": 23.52
+      },
+      "crawl_status": {
+        "most_common": "success",
+        "percentage": 100.0
+      }
+    }
+  },
+  {
+    "community_id": 5,
+    "size": 136,
+    "profile": {
+      "developers": {
+        "most_common": "Out of the Park Developments",
+        "percentage": 2.21
+      },
+      "publishers": {
+        "most_common": "PlayWay S.A.",
+        "percentage": 4.41
+      },
+      "categories": {
+        "most_common": "Indie",
+        "percentage": 83.09
+      },
+      "genres": {
+        "most_common": "Indie",
+        "percentage": 83.09
+      },
+      "tags": {
+        "most_common": "Indie",
+        "percentage": 63.97
+      },
+      "supported_languages": {
+        "most_common": "English",
+        "percentage": 95.59
+      },
+      "is_free": {
+        "most_common": "False",
+        "percentage": 79.41
+      },
+      "coming_soon": {
+        "most_common": "False",
+        "percentage": 99.26
+      },
+      "windows": {
+        "most_common": "True",
+        "percentage": 96.32
+      },
+      "mac": {
+        "most_common": "False",
+        "percentage": 70.59
+      },
+      "linux": {
+        "most_common": "False",
+        "percentage": 84.56
+      },
+      "has_dlc": {
+        "most_common": "False",
+        "percentage": 82.35
+      },
+      "min_months_ok": {
+        "most_common": "True",
+        "percentage": 100.0
+      },
+      "final_price": {
+        "mean": 27.88,
+        "median": 21.95
+      },
+      "initial_price": {
+        "mean": 34.47,
+        "median": 22.47
+      },
+      "label_dead_binary": {
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "avg_players_median_6m": {
+        "mean": 6.824,
+        "median": 2.473
+      },
+      "months_used": {
+        "mean": 5.588,
+        "median": 6.0
+      },
+      "min_months_required": {
+        "mean": 3.0,
+        "median": 3.0
+      },
+      "required_age": {
+        "mean": 1.721,
+        "median": 0.0
+      },
+      "discount_percent": {
+        "mean": 0.632,
+        "median": 0.0
+      },
+      "metacritic_score": {
+        "mean": 72.333,
+        "median": 72.0
+      },
+      "recommendations_total": {
+        "mean": 182.691,
+        "median": 68.5
+      },
+      "achievements_total": {
+        "mean": 30.662,
+        "median": 12.0
+      },
+      "dlc_count": {
+        "mean": 0.287,
+        "median": 0.0
+      },
+      "type": {
+        "most_common": "game",
+        "percentage": 100.0
+      },
+      "label_dead": {
+        "most_common": "Dead",
+        "percentage": 100.0
+      },
+      "controller_support": {
+        "most_common": "Full Xbox Controller Support",
+        "percentage": 16.91
+      },
+      "crawl_status": {
+        "most_common": "success",
+        "percentage": 100.0
+      }
+    }
+  },
+  {
+    "community_id": 6,
+    "size": 454,
+    "profile": {
+      "developers": {
+        "most_common": "WayForward",
+        "percentage": 1.76
+      },
+      "publishers": {
+        "most_common": "WayForward",
+        "percentage": 1.76
+      },
+      "categories": {
+        "most_common": "Indie",
+        "percentage": 73.79
+      },
+      "genres": {
+        "most_common": "Indie",
+        "percentage": 73.79
+      },
+      "tags": {
+        "most_common": "Indie",
+        "percentage": 61.23
+      },
+      "supported_languages": {
+        "most_common": "English",
+        "percentage": 96.48
+      },
+      "is_free": {
+        "most_common": "False",
+        "percentage": 83.48
+      },
+      "coming_soon": {
+        "most_common": "False",
+        "percentage": 96.26
+      },
+      "windows": {
+        "most_common": "True",
+        "percentage": 97.14
+      },
+      "mac": {
+        "most_common": "False",
+        "percentage": 68.94
+      },
+      "linux": {
+        "most_common": "False",
+        "percentage": 79.3
+      },
+      "has_dlc": {
+        "most_common": "False",
+        "percentage": 75.11
+      },
+      "min_months_ok": {
+        "most_common": "True",
+        "percentage": 100.0
+      },
+      "final_price": {
+        "mean": 30.35,
+        "median": 19.99
+      },
+      "initial_price": {
+        "mean": 31.15,
+        "median": 21.95
+      },
+      "label_dead_binary": {
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "avg_players_median_6m": {
+        "mean": 6.412,
+        "median": 2.827
+      },
+      "months_used": {
+        "mean": 5.707,
+        "median": 6.0
+      },
+      "min_months_required": {
+        "mean": 3.0,
+        "median": 3.0
+      },
+      "required_age": {
+        "mean": 1.943,
+        "median": 0.0
+      },
+      "discount_percent": {
+        "mean": 0.533,
+        "median": 0.0
+      },
+      "metacritic_score": {
+        "mean": 77.214,
+        "median": 76.5
+      },
+      "recommendations_total": {
+        "mean": 321.648,
+        "median": 76.5
+      },
+      "achievements_total": {
+        "mean": 23.833,
+        "median": 13.0
+      },
+      "dlc_count": {
+        "mean": 0.542,
+        "median": 0.0
+      },
+      "type": {
+        "most_common": "game",
+        "percentage": 99.56
+      },
+      "label_dead": {
+        "most_common": "Dead",
+        "percentage": 100.0
+      },
+      "controller_support": {
+        "most_common": "Full Xbox Controller Support",
+        "percentage": 21.59
+      },
+      "crawl_status": {
+        "most_common": "success",
+        "percentage": 100.0
+      }
+    }
+  },
+  {
+    "community_id": 7,
+    "size": 249,
+    "profile": {
+      "developers": {
+        "most_common": "Hosted Games",
+        "percentage": 6.02
+      },
+      "publishers": {
+        "most_common": "Kagura Games",
+        "percentage": 8.43
+      },
+      "categories": {
+        "most_common": "Indie",
+        "percentage": 82.73
+      },
+      "genres": {
+        "most_common": "Indie",
+        "percentage": 82.73
+      },
+      "tags": {
+        "most_common": "Indie",
+        "percentage": 69.48
+      },
+      "supported_languages": {
+        "most_common": "English",
+        "percentage": 94.78
+      },
+      "is_free": {
+        "most_common": "False",
+        "percentage": 82.73
+      },
+      "coming_soon": {
+        "most_common": "False",
+        "percentage": 93.57
+      },
+      "windows": {
+        "most_common": "True",
+        "percentage": 97.19
+      },
+      "mac": {
+        "most_common": "False",
+        "percentage": 67.47
+      },
+      "linux": {
+        "most_common": "False",
+        "percentage": 72.29
+      },
+      "has_dlc": {
+        "most_common": "False",
+        "percentage": 83.13
+      },
+      "min_months_ok": {
+        "most_common": "True",
+        "percentage": 100.0
+      },
+      "final_price": {
+        "mean": 28.23,
+        "median": 19.99
+      },
+      "initial_price": {
+        "mean": 32.29,
+        "median": 19.99
+      },
+      "label_dead_binary": {
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "avg_players_median_6m": {
+        "mean": 5.199,
+        "median": 2.19
+      },
+      "months_used": {
+        "mean": 5.679,
+        "median": 6.0
+      },
+      "min_months_required": {
+        "mean": 3.0,
+        "median": 3.0
+      },
+      "required_age": {
+        "mean": 2.024,
+        "median": 0.0
+      },
+      "discount_percent": {
+        "mean": 0.277,
+        "median": 0.0
+      },
+      "metacritic_score": {
+        "mean": 75.5,
+        "median": 74.5
+      },
+      "recommendations_total": {
+        "mean": 270.695,
+        "median": 86.0
+      },
+      "achievements_total": {
+        "mean": 20.378,
+        "median": 13.0
+      },
+      "dlc_count": {
+        "mean": 0.277,
+        "median": 0.0
+      },
+      "type": {
+        "most_common": "game",
+        "percentage": 100.0
+      },
+      "label_dead": {
+        "most_common": "Dead",
+        "percentage": 100.0
+      },
+      "controller_support": {
+        "most_common": "Partial Xbox Controller Support",
+        "percentage": 15.26
+      },
+      "crawl_status": {
+        "most_common": "success",
+        "percentage": 100.0
+      }
+    }
+  },
+  {
+    "community_id": 8,
+    "size": 502,
+    "profile": {
+      "developers": {
+        "most_common": "GameHouse",
+        "percentage": 2.39
+      },
+      "publishers": {
+        "most_common": "GameHouse",
+        "percentage": 2.39
+      },
+      "categories": {
+        "most_common": "Indie",
+        "percentage": 77.69
+      },
+      "genres": {
+        "most_common": "Indie",
+        "percentage": 77.69
+      },
+      "tags": {
+        "most_common": "Singleplayer",
+        "percentage": 58.96
+      },
+      "supported_languages": {
+        "most_common": "English",
+        "percentage": 95.02
+      },
+      "is_free": {
+        "most_common": "False",
+        "percentage": 82.27
+      },
+      "coming_soon": {
+        "most_common": "False",
+        "percentage": 96.02
+      },
+      "windows": {
+        "most_common": "True",
+        "percentage": 98.01
+      },
+      "mac": {
+        "most_common": "False",
+        "percentage": 68.53
+      },
+      "linux": {
+        "most_common": "False",
+        "percentage": 80.48
+      },
+      "has_dlc": {
+        "most_common": "False",
+        "percentage": 77.29
+      },
+      "min_months_ok": {
+        "most_common": "True",
+        "percentage": 100.0
+      },
+      "final_price": {
+        "mean": 27.56,
+        "median": 18.5
+      },
+      "initial_price": {
+        "mean": 31.94,
+        "median": 18.5
+      },
+      "label_dead_binary": {
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "avg_players_median_6m": {
+        "mean": 6.35,
+        "median": 2.645
+      },
+      "months_used": {
+        "mean": 5.681,
+        "median": 6.0
+      },
+      "min_months_required": {
+        "mean": 3.0,
+        "median": 3.0
+      },
+      "required_age": {
+        "mean": 1.865,
+        "median": 0.0
+      },
+      "discount_percent": {
+        "mean": 0.629,
+        "median": 0.0
+      },
+      "metacritic_score": {
+        "mean": 75.643,
+        "median": 75.0
+      },
+      "recommendations_total": {
+        "mean": 276.273,
+        "median": 88.5
+      },
+      "achievements_total": {
+        "mean": 33.1,
+        "median": 15.0
+      },
+      "dlc_count": {
+        "mean": 0.482,
+        "median": 0.0
+      },
+      "type": {
+        "most_common": "game",
+        "percentage": 100.0
+      },
+      "label_dead": {
+        "most_common": "Dead",
+        "percentage": 100.0
+      },
+      "controller_support": {
+        "most_common": "Full Xbox Controller Support",
+        "percentage": 20.12
+      },
+      "crawl_status": {
+        "most_common": "success",
+        "percentage": 100.0
+      }
+    }
+  },
+  {
+    "community_id": 9,
+    "size": 548,
+    "profile": {
+      "developers": {
+        "most_common": "Alawar Casual",
+        "percentage": 2.55
+      },
+      "publishers": {
+        "most_common": "Alawar Casual",
+        "percentage": 5.47
+      },
+      "categories": {
+        "most_common": "Indie",
+        "percentage": 76.46
+      },
+      "genres": {
+        "most_common": "Indie",
+        "percentage": 76.46
+      },
+      "tags": {
+        "most_common": "Indie",
+        "percentage": 65.88
+      },
+      "supported_languages": {
+        "most_common": "English",
+        "percentage": 96.72
+      },
+      "is_free": {
+        "most_common": "False",
+        "percentage": 84.12
+      },
+      "coming_soon": {
+        "most_common": "False",
+        "percentage": 97.45
+      },
+      "windows": {
+        "most_common": "True",
+        "percentage": 97.81
+      },
+      "mac": {
+        "most_common": "False",
+        "percentage": 70.99
+      },
+      "linux": {
+        "most_common": "False",
+        "percentage": 80.47
+      },
+      "has_dlc": {
+        "most_common": "False",
+        "percentage": 80.84
+      },
+      "min_months_ok": {
+        "most_common": "True",
+        "percentage": 100.0
+      },
+      "final_price": {
+        "mean": 26.96,
+        "median": 18.5
+      },
+      "initial_price": {
+        "mean": 31.54,
+        "median": 18.5
+      },
+      "label_dead_binary": {
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "avg_players_median_6m": {
+        "mean": 6.727,
+        "median": 2.68
+      },
+      "months_used": {
+        "mean": 5.73,
+        "median": 6.0
+      },
+      "min_months_required": {
+        "mean": 3.0,
+        "median": 3.0
+      },
+      "required_age": {
+        "mean": 1.774,
+        "median": 0.0
+      },
+      "discount_percent": {
+        "mean": 0.445,
+        "median": 0.0
+      },
+      "metacritic_score": {
+        "mean": 75.75,
+        "median": 76.0
+      },
+      "recommendations_total": {
+        "mean": 226.828,
+        "median": 56.5
+      },
+      "achievements_total": {
+        "mean": 19.962,
+        "median": 12.0
+      },
+      "dlc_count": {
+        "mean": 0.343,
+        "median": 0.0
+      },
+      "type": {
+        "most_common": "game",
+        "percentage": 100.0
+      },
+      "label_dead": {
+        "most_common": "Dead",
+        "percentage": 100.0
+      },
+      "controller_support": {
+        "most_common": "Full Xbox Controller Support",
+        "percentage": 16.97
+      },
+      "crawl_status": {
+        "most_common": "success",
+        "percentage": 100.0
+      }
+    }
+  },
+  {
+    "community_id": 10,
+    "size": 371,
+    "profile": {
+      "developers": {
+        "most_common": "LTD.",
+        "percentage": 2.7
+      },
+      "publishers": {
+        "most_common": "LTD.",
+        "percentage": 2.7
+      },
+      "categories": {
+        "most_common": "Indie",
+        "percentage": 73.58
+      },
+      "genres": {
+        "most_common": "Indie",
+        "percentage": 73.58
+      },
+      "tags": {
+        "most_common": "Indie",
+        "percentage": 60.38
+      },
+      "supported_languages": {
+        "most_common": "English",
+        "percentage": 95.96
+      },
+      "is_free": {
+        "most_common": "False",
+        "percentage": 78.17
+      },
+      "coming_soon": {
+        "most_common": "False",
+        "percentage": 96.23
+      },
+      "windows": {
+        "most_common": "True",
+        "percentage": 97.84
+      },
+      "mac": {
+        "most_common": "False",
+        "percentage": 64.42
+      },
+      "linux": {
+        "most_common": "False",
+        "percentage": 78.98
+      },
+      "has_dlc": {
+        "most_common": "False",
+        "percentage": 82.48
+      },
+      "min_months_ok": {
+        "most_common": "True",
+        "percentage": 100.0
+      },
+      "final_price": {
+        "mean": 21.18,
+        "median": 15.99
+      },
+      "initial_price": {
+        "mean": 21.83,
+        "median": 17.99
+      },
+      "label_dead_binary": {
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "avg_players_median_6m": {
+        "mean": 7.149,
+        "median": 3.135
+      },
+      "months_used": {
+        "mean": 5.66,
+        "median": 6.0
+      },
+      "min_months_required": {
+        "mean": 3.0,
+        "median": 3.0
+      },
+      "required_age": {
+        "mean": 2.232,
+        "median": 0.0
+      },
+      "discount_percent": {
+        "mean": 0.434,
+        "median": 0.0
+      },
+      "metacritic_score": {
+        "mean": 73.5,
+        "median": 73.0
+      },
+      "recommendations_total": {
+        "mean": 255.437,
+        "median": 69.0
+      },
+      "achievements_total": {
+        "mean": 27.35,
+        "median": 13.0
+      },
+      "dlc_count": {
+        "mean": 0.396,
+        "median": 0.0
+      },
+      "type": {
+        "most_common": "game",
+        "percentage": 100.0
+      },
+      "label_dead": {
+        "most_common": "Dead",
+        "percentage": 100.0
+      },
+      "controller_support": {
+        "most_common": "Full Xbox Controller Support",
+        "percentage": 14.82
+      },
+      "crawl_status": {
+        "most_common": "success",
+        "percentage": 100.0
+      }
+    }
+  },
+  {
+    "community_id": 11,
+    "size": 131,
+    "profile": {
+      "developers": {
+        "most_common": "Notovia",
+        "percentage": 3.82
+      },
+      "publishers": {
+        "most_common": "Notovia",
+        "percentage": 3.82
+      },
+      "categories": {
+        "most_common": "Indie",
+        "percentage": 84.73
+      },
+      "genres": {
+        "most_common": "Indie",
+        "percentage": 84.73
+      },
+      "tags": {
+        "most_common": "Indie",
+        "percentage": 62.6
+      },
+      "supported_languages": {
+        "most_common": "English",
+        "percentage": 96.18
+      },
+      "is_free": {
+        "most_common": "False",
+        "percentage": 77.86
+      },
+      "coming_soon": {
+        "most_common": "False",
+        "percentage": 97.71
+      },
+      "windows": {
+        "most_common": "True",
+        "percentage": 98.47
+      },
+      "mac": {
+        "most_common": "False",
+        "percentage": 73.28
+      },
+      "linux": {
+        "most_common": "False",
+        "percentage": 77.86
+      },
+      "has_dlc": {
+        "most_common": "False",
+        "percentage": 81.68
+      },
+      "min_months_ok": {
+        "most_common": "True",
+        "percentage": 100.0
+      },
+      "final_price": {
+        "mean": 20.47,
+        "median": 14.5
+      },
+      "initial_price": {
+        "mean": 22.99,
+        "median": 14.5
+      },
+      "label_dead_binary": {
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "avg_players_median_6m": {
+        "mean": 6.669,
+        "median": 2.88
+      },
+      "months_used": {
+        "mean": 5.641,
+        "median": 6.0
+      },
+      "min_months_required": {
+        "mean": 3.0,
+        "median": 3.0
+      },
+      "required_age": {
+        "mean": 2.336,
+        "median": 0.0
+      },
+      "discount_percent": {
+        "mean": 0.71,
+        "median": 0.0
+      },
+      "metacritic_score": {
+        "mean": 76.5,
+        "median": 76.5
+      },
+      "recommendations_total": {
+        "mean": 214.908,
+        "median": 72.0
+      },
+      "achievements_total": {
+        "mean": 29.916,
+        "median": 11.0
+      },
+      "dlc_count": {
+        "mean": 0.382,
+        "median": 0.0
+      },
+      "type": {
+        "most_common": "game",
+        "percentage": 100.0
+      },
+      "label_dead": {
+        "most_common": "Dead",
+        "percentage": 100.0
+      },
+      "controller_support": {
+        "most_common": "Full Xbox Controller Support",
+        "percentage": 15.27
+      },
+      "crawl_status": {
+        "most_common": "success",
+        "percentage": 100.0
+      }
+    }
+  },
+  {
+    "community_id": 12,
+    "size": 311,
+    "profile": {
+      "developers": {
+        "most_common": "Sokpop Collective",
+        "percentage": 2.25
+      },
+      "publishers": {
+        "most_common": "Sokpop Collective",
+        "percentage": 2.25
+      },
+      "categories": {
+        "most_common": "Indie",
+        "percentage": 85.21
+      },
+      "genres": {
+        "most_common": "Indie",
+        "percentage": 85.21
+      },
+      "tags": {
+        "most_common": "Indie",
+        "percentage": 64.63
+      },
+      "supported_languages": {
+        "most_common": "English",
+        "percentage": 93.57
+      },
+      "is_free": {
+        "most_common": "False",
+        "percentage": 77.17
+      },
+      "coming_soon": {
+        "most_common": "False",
+        "percentage": 98.71
+      },
+      "windows": {
+        "most_common": "True",
+        "percentage": 97.43
+      },
+      "mac": {
+        "most_common": "False",
+        "percentage": 70.1
+      },
+      "linux": {
+        "most_common": "False",
+        "percentage": 81.35
+      },
+      "has_dlc": {
+        "most_common": "False",
+        "percentage": 83.28
+      },
+      "min_months_ok": {
+        "most_common": "True",
+        "percentage": 100.0
+      },
+      "final_price": {
+        "mean": 23.39,
+        "median": 14.99
+      },
+      "initial_price": {
+        "mean": 24.82,
+        "median": 15.99
+      },
+      "label_dead_binary": {
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "avg_players_median_6m": {
+        "mean": 6.322,
+        "median": 2.22
+      },
+      "months_used": {
+        "mean": 5.675,
+        "median": 6.0
+      },
+      "min_months_required": {
+        "mean": 3.0,
+        "median": 3.0
+      },
+      "required_age": {
+        "mean": 2.257,
+        "median": 0.0
+      },
+      "discount_percent": {
+        "mean": 0.283,
+        "median": 0.0
+      },
+      "metacritic_score": {
+        "mean": 79.727,
+        "median": 79.0
+      },
+      "recommendations_total": {
+        "mean": 226.63,
+        "median": 78.0
+      },
+      "achievements_total": {
+        "mean": 69.714,
+        "median": 12.0
+      },
+      "dlc_count": {
+        "mean": 0.402,
+        "median": 0.0
+      },
+      "type": {
+        "most_common": "game",
+        "percentage": 100.0
+      },
+      "label_dead": {
+        "most_common": "Dead",
+        "percentage": 100.0
+      },
+      "controller_support": {
+        "most_common": "Full Xbox Controller Support",
+        "percentage": 16.72
+      },
+      "crawl_status": {
+        "most_common": "success",
+        "percentage": 100.0
+      }
+    }
+  },
+  {
+    "community_id": 13,
+    "size": 966,
+    "profile": {
+      "developers": {
+        "most_common": "HeR Interactive",
+        "percentage": 1.14
+      },
+      "publishers": {
+        "most_common": "Ubisoft",
+        "percentage": 1.45
+      },
+      "categories": {
+        "most_common": "Indie",
+        "percentage": 73.19
+      },
+      "genres": {
+        "most_common": "Indie",
+        "percentage": 73.19
+      },
+      "tags": {
+        "most_common": "Singleplayer",
+        "percentage": 60.56
+      },
+      "supported_languages": {
+        "most_common": "English",
+        "percentage": 96.69
+      },
+      "is_free": {
+        "most_common": "False",
+        "percentage": 83.23
+      },
+      "coming_soon": {
+        "most_common": "False",
+        "percentage": 97.1
+      },
+      "windows": {
+        "most_common": "True",
+        "percentage": 97.62
+      },
+      "mac": {
+        "most_common": "False",
+        "percentage": 69.25
+      },
+      "linux": {
+        "most_common": "False",
+        "percentage": 79.92
+      },
+      "has_dlc": {
+        "most_common": "False",
+        "percentage": 77.85
+      },
+      "min_months_ok": {
+        "most_common": "True",
+        "percentage": 100.0
+      },
+      "final_price": {
+        "mean": 30.43,
+        "median": 21.95
+      },
+      "initial_price": {
+        "mean": 31.12,
+        "median": 21.95
+      },
+      "label_dead_binary": {
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "avg_players_median_6m": {
+        "mean": 7.558,
+        "median": 3.212
+      },
+      "months_used": {
+        "mean": 5.728,
+        "median": 6.0
+      },
+      "min_months_required": {
+        "mean": 3.0,
+        "median": 3.0
+      },
+      "required_age": {
+        "mean": 2.404,
+        "median": 0.0
+      },
+      "discount_percent": {
+        "mean": 0.511,
+        "median": 0.0
+      },
+      "metacritic_score": {
+        "mean": 83.589,
+        "median": 84.0
+      },
+      "recommendations_total": {
+        "mean": 277.232,
+        "median": 72.0
+      },
+      "achievements_total": {
+        "mean": 21.439,
+        "median": 12.0
+      },
+      "dlc_count": {
+        "mean": 0.457,
+        "median": 0.0
+      },
+      "type": {
+        "most_common": "game",
+        "percentage": 100.0
+      },
+      "label_dead": {
+        "most_common": "Dead",
+        "percentage": 100.0
+      },
+      "controller_support": {
+        "most_common": "Full Xbox Controller Support",
+        "percentage": 19.67
+      },
+      "crawl_status": {
+        "most_common": "success",
+        "percentage": 100.0
+      }
+    }
+  },
+  {
+    "community_id": 14,
+    "size": 278,
+    "profile": {
+      "developers": {
+        "most_common": "LTD.",
+        "percentage": 17.27
+      },
+      "publishers": {
+        "most_common": "LTD.",
+        "percentage": 16.19
+      },
+      "categories": {
+        "most_common": "RPG",
+        "percentage": 26.62
+      },
+      "genres": {
+        "most_common": "RPG",
+        "percentage": 26.62
+      },
+      "tags": {
+        "most_common": "Singleplayer",
+        "percentage": 68.35
+      },
+      "supported_languages": {
+        "most_common": "English",
+        "percentage": 91.01
+      },
+      "is_free": {
+        "most_common": "False",
+        "percentage": 99.64
+      },
+      "coming_soon": {
+        "most_common": "False",
+        "percentage": 99.28
+      },
+      "windows": {
+        "most_common": "True",
+        "percentage": 99.64
+      },
+      "mac": {
+        "most_common": "False",
+        "percentage": 91.01
+      },
+      "linux": {
+        "most_common": "False",
+        "percentage": 96.04
+      },
+      "has_dlc": {
+        "most_common": "True",
+        "percentage": 57.55
+      },
+      "min_months_ok": {
+        "most_common": "True",
+        "percentage": 100.0
+      },
+      "final_price": {
+        "mean": 178.75,
+        "median": 169.95
+      },
+      "initial_price": {
+        "mean": 174.84,
+        "median": 159.95
+      },
+      "label_dead_binary": {
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "avg_players_median_6m": {
+        "mean": 13.103,
+        "median": 7.94
+      },
+      "months_used": {
+        "mean": 5.924,
+        "median": 6.0
+      },
+      "min_months_required": {
+        "mean": 3.0,
+        "median": 3.0
+      },
+      "required_age": {
+        "mean": 1.813,
+        "median": 0.0
+      },
+      "discount_percent": {
+        "mean": 1.644,
+        "median": 0.0
+      },
+      "metacritic_score": {
+        "mean": 77.0,
+        "median": 78.0
+      },
+      "recommendations_total": {
+        "mean": 322.345,
+        "median": 108.5
+      },
+      "achievements_total": {
+        "mean": 29.245,
+        "median": 33.5
+      },
+      "dlc_count": {
+        "mean": 21.885,
+        "median": 1.0
+      },
+      "type": {
+        "most_common": "game",
+        "percentage": 87.77
+      },
+      "label_dead": {
+        "most_common": "Dead",
+        "percentage": 100.0
+      },
+      "controller_support": {
+        "most_common": "Full Xbox Controller Support",
+        "percentage": 24.46
+      },
+      "crawl_status": {
+        "most_common": "success",
+        "percentage": 100.0
+      }
+    }
+  },
+  {
+    "community_id": 15,
+    "size": 82,
+    "profile": {
+      "developers": {
+        "most_common": "Humongous Entertainment",
+        "percentage": 18.29
+      },
+      "publishers": {
+        "most_common": "Humongous Entertainment",
+        "percentage": 18.29
+      },
+      "categories": {
+        "most_common": "Indie",
+        "percentage": 78.05
+      },
+      "genres": {
+        "most_common": "Indie",
+        "percentage": 78.05
+      },
+      "tags": {
+        "most_common": "Indie",
+        "percentage": 69.51
+      },
+      "supported_languages": {
+        "most_common": "English",
+        "percentage": 97.56
+      },
+      "is_free": {
+        "most_common": "False",
+        "percentage": 84.15
+      },
+      "coming_soon": {
+        "most_common": "False",
+        "percentage": 95.12
+      },
+      "windows": {
+        "most_common": "True",
+        "percentage": 98.78
+      },
+      "mac": {
+        "most_common": "False",
+        "percentage": 50.0
+      },
+      "linux": {
+        "most_common": "False",
+        "percentage": 64.63
+      },
+      "has_dlc": {
+        "most_common": "False",
+        "percentage": 79.27
+      },
+      "min_months_ok": {
+        "most_common": "True",
+        "percentage": 100.0
+      },
+      "final_price": {
+        "mean": 28.87,
+        "median": 25.95
+      },
+      "initial_price": {
+        "mean": 32.81,
+        "median": 25.95
+      },
+      "label_dead_binary": {
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "avg_players_median_6m": {
+        "mean": 6.365,
+        "median": 2.638
+      },
+      "months_used": {
+        "mean": 5.659,
+        "median": 6.0
+      },
+      "min_months_required": {
+        "mean": 3.0,
+        "median": 3.0
+      },
+      "required_age": {
+        "mean": 1.317,
+        "median": 0.0
+      },
+      "discount_percent": {
+        "mean": 0.073,
+        "median": 0.0
+      },
+      "metacritic_score": {
+        "mean": 75.2,
+        "median": 74.0
+      },
+      "recommendations_total": {
+        "mean": 293.537,
+        "median": 62.0
+      },
+      "achievements_total": {
+        "mean": 17.963,
+        "median": 10.0
+      },
+      "dlc_count": {
+        "mean": 0.573,
+        "median": 0.0
+      },
+      "type": {
+        "most_common": "game",
+        "percentage": 100.0
+      },
+      "label_dead": {
+        "most_common": "Dead",
+        "percentage": 100.0
+      },
+      "controller_support": {
+        "most_common": "Full Xbox Controller Support",
+        "percentage": 23.17
+      },
+      "crawl_status": {
+        "most_common": "success",
+        "percentage": 100.0
+      }
+    }
+  }
+]

@@ -35,24 +35,27 @@ fi
 echo -e "${GREEN}Found edges file: $EDGES_FILE${NC}"
 echo ""
 
-# Example 1: Basic community detection with defaults
-echo -e "${BLUE}Example 1: Basic Community Detection${NC}"
-echo "Running Louvain with default parameters..."
+# Example 1: Basic community detection with automatic tagging
+echo -e "${BLUE}Example 1: Basic Community Detection with Tagging${NC}"
+echo "Running Louvain with automatic community tagging..."
 ../scripts/run_louvain.sh \
     --edges "$EDGES_FILE" \
     --out-dir "$OUTPUT_BASE/basic" \
+    --metadata "../../out/dead_labels_enriched.csv" \
     --giant-only
 
 echo ""
 echo -e "${GREEN}✓ Basic analysis completed. Results in: $OUTPUT_BASE/basic${NC}"
 echo ""
 
-# Example 2: High-resolution analysis for detailed communities
-echo -e "${BLUE}Example 2: High-Resolution Analysis${NC}"
-echo "Running with higher resolution for more detailed communities..."
+# Example 2: High-resolution analysis with custom tag field
+echo -e "${BLUE}Example 2: High-Resolution Analysis with Genre Tags${NC}"
+echo "Running with higher resolution and genre-based tagging..."
 ../scripts/run_louvain.sh \
     --edges "$EDGES_FILE" \
     --out-dir "$OUTPUT_BASE/high_resolution" \
+    --metadata "../../out/dead_labels_enriched.csv" \
+    --tag-field "genres" \
     --resolution 1.5 \
     --min-community-size 3 \
     --giant-only
@@ -61,12 +64,13 @@ echo ""
 echo -e "${GREEN}✓ High-resolution analysis completed. Results in: $OUTPUT_BASE/high_resolution${NC}"
 echo ""
 
-# Example 3: Focused analysis with filtering
-echo -e "${BLUE}Example 3: Focused Analysis with Strong Filtering${NC}"
-echo "Running with strong filtering for high-quality communities..."
+# Example 3: Focused analysis with filtering and tagging
+echo -e "${BLUE}Example 3: Focused Analysis with Strong Filtering and Tagging${NC}"
+echo "Running with strong filtering and tagging for high-quality communities..."
 ../scripts/run_louvain.sh \
     --edges "$EDGES_FILE" \
     --out-dir "$OUTPUT_BASE/focused" \
+    --metadata "../../out/dead_labels_enriched.csv" \
     --min-weight 0.8 \
     --kcore 3 \
     --giant-only \
@@ -90,12 +94,14 @@ echo ""
 echo -e "${GREEN}✓ Quick test completed. Results in: $OUTPUT_BASE/quick_test${NC}"
 echo ""
 
-# Example 5: Low-resolution analysis for broad categories  
-echo -e "${BLUE}Example 5: Low-Resolution Analysis${NC}"
-echo "Running with lower resolution for broader community categories..."
+# Example 5: Low-resolution analysis for broad categories with tagging
+echo -e "${BLUE}Example 5: Low-Resolution Analysis with Publisher Tags${NC}"
+echo "Running with lower resolution and publisher-based tagging..."
 ../scripts/run_louvain.sh \
     --edges "$EDGES_FILE" \
     --out-dir "$OUTPUT_BASE/broad_categories" \
+    --metadata "../../out/dead_labels_enriched.csv" \
+    --tag-field "publishers" \
     --resolution 0.6 \
     --min-community-size 10 \
     --giant-only

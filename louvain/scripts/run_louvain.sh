@@ -23,6 +23,10 @@ PYTHON_BIN="python3"
 RESOLUTION=1.0
 RANDOM_SEED=42
 
+# Metadata enhancement options
+METADATA=""
+TAG_FIELD=""
+
 # Advanced options
 GIANT_ONLY=""
 KCORE=""
@@ -44,6 +48,10 @@ Community Detection:
   --resolution X            Resolution parameter - higher = smaller communities (default: 1.0)
   --random-seed N           Random seed for reproducibility (default: 42)
 
+Metadata Enhancement:
+  --metadata PATH           CSV file with game metadata for community tagging
+  --tag-field FIELD         Field to use for tags (auto-detect: tags, genres, categories)
+
 Graph Filtering:
   --min-weight X            Minimum edge weight/cosine similarity (default: 0.7)
   --giant-only              Only analyze largest connected component
@@ -58,8 +66,13 @@ Examples:
   # Basic analysis on graph output
   $(basename "$0") --edges ./out/graph_runs/.../edges_top100.csv.gz
 
+  # With metadata for community tagging (recommended)
+  $(basename "$0") --edges ./out/graph_runs/.../edges_top100.csv.gz \\
+                   --metadata ./out/dead_labels_enriched.csv --giant-only
+
   # More focused analysis with smaller communities
   $(basename "$0") --edges ./out/graph_runs/.../edges_top100.csv.gz \\
+                   --metadata ./out/dead_labels_enriched.csv \\
                    --giant-only --kcore 3 --max-nodes 1000 \\
                    --resolution 1.5
 
@@ -69,7 +82,13 @@ Examples:
 
   # High resolution for detailed community structure
   $(basename "$0") --edges ./out/graph_runs/.../edges_top100.csv.gz \\
+                   --metadata ./out/dead_labels_enriched.csv \\
                    --resolution 2.0 --min-community-size 3
+
+  # Using specific tag field
+  $(basename "$0") --edges ./out/graph_runs/.../edges_top100.csv.gz \\
+                   --metadata ./out/dead_labels_enriched.csv \\
+                   --tag-field genres --giant-only
 
 Louvain vs Girvan-Newman:
   - Louvain is much faster (O(n log n) vs O(n³))
@@ -109,6 +128,14 @@ while (($#)); do
     --random-seed)
       shift  
       RANDOM_SEED="${1:-}"
+      ;;
+    --metadata)
+      shift
+      METADATA="${1:-}"
+      ;;
+    --tag-field)
+      shift
+      TAG_FIELD="${1:-}"
       ;;
     --giant-only)
       GIANT_ONLY="--giant-only"
@@ -172,6 +199,15 @@ CMD+=(--min-weight "$MIN_WEIGHT")
 CMD+=(--resolution "$RESOLUTION")
 CMD+=(--random-seed "$RANDOM_SEED")
 
+# Add metadata parameters
+if [[ -n "$METADATA" ]]; then
+  CMD+=(--metadata "$METADATA")
+fi
+
+if [[ -n "$TAG_FIELD" ]]; then
+  CMD+=(--tag-field "$TAG_FIELD")
+fi
+
 # Add optional parameters
 if [[ -n "$GIANT_ONLY" ]]; then
   CMD+=($GIANT_ONLY)
@@ -202,6 +238,10 @@ echo "  Min community size:   $MIN_COMMUNITY_SIZE"
 echo "  Min edge weight:      $MIN_WEIGHT"
 echo "  Resolution:           $RESOLUTION"
 echo "  Random seed:          $RANDOM_SEED"
+echo ""
+echo "Metadata:"
+echo "  Metadata file:        $(if [[ -n "$METADATA" ]]; then echo "$METADATA"; else echo "None (no community tags)"; fi)"
+echo "  Tag field:            $(if [[ -n "$TAG_FIELD" ]]; then echo "$TAG_FIELD"; else echo "Auto-detect"; fi)"
 echo ""
 echo "Filters:"
 echo "  Giant component only: $(if [[ -n "$GIANT_ONLY" ]]; then echo "Yes"; else echo "No"; fi)"

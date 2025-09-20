@@ -1,0 +1,100 @@
+{
+  "n_rows": 3220,
+  "n_cols": 486,
+  "id_col": "appid",
+  "label_col": null,
+  "numeric_cols": [
+    "required_age",
+    "metacritic_score",
+    "recommendations_total",
+    "achievements_total",
+    "dlc_count",
+    "discount_percent",
+    "initial_price",
+    "final_price"
+  ],
+  "onehot_cols": [
+    "type",
+    "is_free",
+    "coming_soon",
+    "windows",
+    "mac",
+    "linux",
+    "has_dlc"
+  ],
+  "multi_cols": [
+    "genres",
+    "tags",
+    "categories",
+    "developers",
+    "publishers",
+    "supported_languages"
+  ],
+  "hash_cols": [],
+  "exclude_cols": [
+    "avg_players_median_6m",
+    "community_id",
+    "community_size",
+    "controller_support",
+    "crawl_status",
+    "crawl_timestamp",
+    "first_month_in_window",
+    "label_dead",
+    "label_dead_binary",
+    "last_month",
+    "min_months_ok",
+    "min_months_required",
+    "months_used",
+    "pc_min_requirements"
+  ],
+  "multi_delim": ",;|",
+  "multi_topk": 100,
+  "hash_dims": 32,
+  "numeric_stats": {
+    "required_age": {
+      "median": 0.0,
+      "mean": 2.124223602484472,
+      "std": 5.80721094255826
+    },
+    "metacritic_score": {
+      "median": 75.0,
+      "mean": 74.75403726708075,
+      "std": 3.77681705335482
+    },
+    "recommendations_total": {
+      "median": 73.0,
+      "mean": 276.13416149068325,
+      "std": 515.2332680543942
+    },
+    "achievements_total": {
+      "median": 14.0,
+      "mean": 32.767080745341616,
+      "std": 199.33516307792775
+    },
+    "dlc_count": {
+      "median": 0.0,
+      "mean": 0.9263975155279504,
+      "std": 3.6548936059142454
+    },
+    "discount_percent": {
+      "median": 0.0,
+      "mean": 7.263975155279503,
+      "std": 20.43877101480556
+    },
+    "initial_price": {
+      "median": 36.95,
+      "mean": 59.932093167701865,
+      "std": 170.1662383319353
+    },
+    "final_price": {
+      "median": 25.95,
+      "mean": 39.241242236024846,
+      "std": 61.085862915114646
+    }
+  },
+  "feature_names_count": 486,
+  "parsed_price_cols": [
+    "initial_price",
+    "final_price"
+  ]
+}

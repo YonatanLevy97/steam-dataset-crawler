@@ -1,0 +1,97 @@
+{
+  "n_rows": 14,
+  "n_cols": 191,
+  "id_col": "appid",
+  "label_col": null,
+  "numeric_cols": [
+    "required_age",
+    "metacritic_score",
+    "recommendations_total",
+    "achievements_total",
+    "dlc_count",
+    "discount_percent",
+    "initial_price",
+    "final_price"
+  ],
+  "onehot_cols": [
+    "type",
+    "is_free",
+    "coming_soon",
+    "windows",
+    "mac",
+    "linux",
+    "has_dlc"
+  ],
+  "multi_cols": [
+    "genres",
+    "tags",
+    "categories",
+    "developers",
+    "publishers",
+    "supported_languages"
+  ],
+  "hash_cols": [],
+  "exclude_cols": [
+    "avg_players_median_6m",
+    "community_id",
+    "community_size",
+    "controller_support",
+    "crawl_status",
+    "crawl_timestamp",
+    "first_month_in_window",
+    "label_dead",
+    "label_dead_binary",
+    "last_month",
+    "min_months_ok",
+    "min_months_required",
+    "months_used",
+    "pc_min_requirements"
+  ],
+  "multi_delim": ",;|",
+  "multi_topk": 100,
+  "hash_dims": 32,
+  "numeric_stats": {
+    "required_age": {
+      "median": 1.98,
+      "mean": 2.067857142857143,
+      "std": 0.4249735886151141
+    },
+    "metacritic_score": {
+      "median": 75.78,
+      "mean": 74.54428571428572,
+      "std": 6.187603637557127
+    },
+    "recommendations_total": {
+      "median": 253.96,
+      "mean": 276.29,
+      "std": 75.98100824736213
+    },
+    "achievements_total": {
+      "median": 27.09,
+      "mean": 33.50214285714286,
+      "std": 19.835541758085018
+    },
+    "dlc_count": {
+      "median": 0.445,
+      "mean": 1.7557142857142856,
+      "std": 4.668641151778709
+    },
+    "discount_percent": {
+      "median": 0.5700000000000001,
+      "mean": 5.074999999999998,
+      "std": 16.253955892116146
+    },
+    "initial_price": {
+      "median": 0.0,
+      "mean": 0.0,
+      "std": 1.0
+    },
+    "final_price": {
+      "median": 0.0,
+      "mean": 0.0,
+      "std": 1.0
+    }
+  },
+  "feature_names_count": 191,
+  "parsed_price_cols": []
+}

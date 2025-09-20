@@ -24,6 +24,10 @@ REM Louvain-specific parameters
 set RESOLUTION=1.0
 set RANDOM_SEED=42
 
+REM Metadata enhancement options
+set METADATA=
+set TAG_FIELD=
+
 REM Advanced options
 set GIANT_ONLY=
 set KCORE=
@@ -67,6 +71,18 @@ if "%1"=="--resolution" (
 if "%1"=="--random-seed" (
   shift
   set RANDOM_SEED=%2
+  shift
+  goto parse_args
+)
+if "%1"=="--metadata" (
+  shift
+  set METADATA=%2
+  shift
+  goto parse_args
+)
+if "%1"=="--tag-field" (
+  shift
+  set TAG_FIELD=%2
   shift
   goto parse_args
 )
@@ -116,6 +132,10 @@ echo Community Detection:
 echo   --min-community-size N    Minimum community size to keep (default: 5)
 echo   --resolution X            Resolution parameter - higher = smaller communities (default: 1.0)
 echo   --random-seed N           Random seed for reproducibility (default: 42)
+echo.
+echo Metadata Enhancement:
+echo   --metadata PATH           CSV file with game metadata for community tagging
+echo   --tag-field FIELD         Field to use for tags (auto-detect: tags, genres, categories)
 echo.
 echo Graph Filtering:
 echo   --min-weight X            Minimum edge weight/cosine similarity (default: 0.7)
@@ -189,6 +209,18 @@ echo   Min edge weight:      %MIN_WEIGHT%
 echo   Resolution:           %RESOLUTION%
 echo   Random seed:          %RANDOM_SEED%
 echo.
+echo Metadata:
+if "%METADATA%"=="" (
+  echo   Metadata file:        None (no community tags)
+) else (
+  echo   Metadata file:        %METADATA%
+)
+if "%TAG_FIELD%"=="" (
+  echo   Tag field:            Auto-detect
+) else (
+  echo   Tag field:            %TAG_FIELD%
+)
+echo.
 echo Filters:
 if "%GIANT_ONLY%"=="" (
   echo   Giant component only: No
@@ -219,6 +251,8 @@ if not exist "%OUT_DIR%" mkdir "%OUT_DIR%"
 REM Build command
 set CMD="%PYTHON_BIN%" "%LOUVAIN_SCRIPT%" --edges "%EDGES_PATH%" --out-dir "%OUT_DIR%" --min-community-size %MIN_COMMUNITY_SIZE% --min-weight %MIN_WEIGHT% --resolution %RESOLUTION% --random-seed %RANDOM_SEED%
 
+if not "%METADATA%"=="" set CMD=%CMD% --metadata "%METADATA%"
+if not "%TAG_FIELD%"=="" set CMD=%CMD% --tag-field "%TAG_FIELD%"
 if not "%GIANT_ONLY%"=="" set CMD=%CMD% %GIANT_ONLY%
 if not "%KCORE%"=="" set CMD=%CMD% %KCORE%
 if not "%MAX_NODES%"=="" set CMD=%CMD% %MAX_NODES%

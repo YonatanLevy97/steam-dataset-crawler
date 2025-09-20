@@ -19,6 +19,10 @@ Louvain-specific parameters:
     --resolution      Resolution parameter controlling community size (default: 1.0)
     --random-seed     Random seed for reproducibility (default: 42)
 
+Optional metadata enhancement:
+    --metadata        CSV with game metadata for community tagging (optional)
+    --tag-field       Field to use for community tags (default: auto-detect from tags,genres,categories)
+
 Optional filters:
     --min-weight      Keep edges with cosine >= X (default: 0.7)
     --giant-only      Only analyze the largest connected component
@@ -27,13 +31,13 @@ Optional filters:
     --max-edges N     Maximum edges to load (useful for testing)
 
 Output:
-    - community_assignments.csv: Node-to-community mapping
+    - community_assignments.csv: Node-to-community mapping with most common tags
     - community_stats.json: Statistics about detected communities
     - community_sizes.png: Community size distribution
     - modularity_info.json: Modularity score and parameters
 
 Usage:
-    python louvain_analysis.py --edges ./out/graph_runs/.../edges_top100.csv.gz --out-dir ./out/louvain/
+    python louvain_analysis.py --edges ./out/graph_runs/.../edges_top100.csv.gz --out-dir ./out/louvain/ --metadata ./out/dead_labels_enriched.csv
 """
 
 import argparse
@@ -43,7 +47,7 @@ import sys
 import gzip
 from pathlib import Path
 from collections import defaultdict, Counter
-from typing import Dict, List, Optional, Tuple, Set
+from typing import Dict, List, Optional, Tuple, Set, Union
 
 import pandas as pd
 import numpy as np
@@ -51,6 +55,107 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import matplotlib
 matplotlib.use('Agg')  # headless mode
+
+
+def load_metadata(metadata_path: Optional[Path]) -> Optional[pd.DataFrame]:
+    """Load game metadata for community tagging."""
+    if metadata_path is None or not metadata_path.exists():
+        print(f"[INFO] No metadata file provided or found, skipping community tagging")
+        return None
+    
+    try:
+        print(f"[INFO] Loading metadata from {metadata_path}")
+        metadata = pd.read_csv(metadata_path)
+        metadata['appid'] = metadata['appid'].astype(str)
+        print(f"[INFO] Loaded metadata for {len(metadata):,} games")
+        return metadata
+    except Exception as e:
+        print(f"[WARN] Failed to load metadata: {e}")
+        return None
+
+
+def detect_best_tag_field(metadata: pd.DataFrame) -> str:
+    """Automatically detect the best field to use for community tags."""
+    # Priority order for tag fields
+    candidate_fields = ['tags', 'genres', 'categories', 'developers', 'publishers']
+    
+    for field in candidate_fields:
+        if field in metadata.columns:
+            # Check data quality
+            non_null_count = metadata[field].notna().sum()
+            coverage = non_null_count / len(metadata)
+            
+            if coverage > 0.5:  # At least 50% coverage
+                print(f"[INFO] Using '{field}' for community tags (coverage: {coverage:.1%})")
+                return field
+    
+    print(f"[WARN] No suitable tag field found, using 'genres' as fallback")
+    return 'genres'
+
+
+def extract_tag_values(tag_string: str) -> List[str]:
+    """Extract individual tags from a comma-separated tag string."""
+    if pd.isna(tag_string) or tag_string == '':
+        return []
+    
+    # Split by comma and clean up
+    tags = [tag.strip() for tag in str(tag_string).split(',')]
+    return [tag for tag in tags if tag]  # Remove empty strings
+
+
+def find_most_common_community_tags(communities: List[Set[str]], 
+                                   metadata: Optional[pd.DataFrame], 
+                                   tag_field: str) -> Dict[int, Dict[str, Union[str, float]]]:
+    """Find the most common tag for each community."""
+    community_tags = {}
+    
+    if metadata is None:
+        print(f"[INFO] No metadata available for community tagging")
+        return community_tags
+    
+    print(f"[INFO] Computing most common tags for {len(communities)} communities using field '{tag_field}'")
+    
+    for comm_id, community in enumerate(communities):
+        # Get metadata for games in this community
+        community_metadata = metadata[metadata['appid'].isin(community)]
+        
+        if len(community_metadata) == 0:
+            community_tags[comm_id] = {'most_common_tag': 'Unknown', 'tag_percentage': 0.0}
+            continue
+        
+        # Extract all tags for this community
+        all_tags = []
+        for _, row in community_metadata.iterrows():
+            tags = extract_tag_values(row.get(tag_field, ''))
+            all_tags.extend(tags)
+        
+        if not all_tags:
+            community_tags[comm_id] = {'most_common_tag': 'Unknown', 'tag_percentage': 0.0}
+            continue
+        
+        # Count tag frequencies
+        tag_counts = Counter(all_tags)
+        most_common_tag, count = tag_counts.most_common(1)[0]
+        
+        # Calculate percentage (games that have this tag / total games in community)
+        games_with_tag = 0
+        for _, row in community_metadata.iterrows():
+            tags = extract_tag_values(row.get(tag_field, ''))
+            if most_common_tag in tags:
+                games_with_tag += 1
+        
+        tag_percentage = (games_with_tag / len(community_metadata)) * 100
+        
+        community_tags[comm_id] = {
+            'most_common_tag': most_common_tag,
+            'tag_percentage': round(tag_percentage, 1),
+            'games_with_tag': games_with_tag,
+            'total_games': len(community_metadata)
+        }
+        
+        print(f"[INFO] Community {comm_id}: '{most_common_tag}' ({tag_percentage:.1f}%, {games_with_tag}/{len(community_metadata)} games)")
+    
+    return community_tags
 
 
 def load_edges_from_csv(edges_path: Path, min_weight: Optional[float] = None, max_edges: Optional[int] = None) -> List[Tuple[str, str, float]]:
@@ -170,8 +275,9 @@ def louvain_communities(G: nx.Graph, resolution: float = 1.0, random_seed: int =
     return communities, modularity
 
 
-def save_community_assignments(communities: List[Set[str]], output_path: Path, min_size: int = 5) -> None:
-    """Save community assignments to CSV file."""
+def save_community_assignments(communities: List[Set[str]], output_path: Path, min_size: int = 5, 
+                              community_tags: Optional[Dict[int, Dict[str, Union[str, float]]]] = None) -> None:
+    """Save community assignments to CSV file with most common tags."""
     print(f"[INFO] Saving community assignments to {output_path}")
     
     # Filter communities by minimum size
@@ -182,27 +288,36 @@ def save_community_assignments(communities: List[Set[str]], output_path: Path, m
     
     assignments = []
     for comm_id, community in enumerate(filtered_communities):
+        # Get tag info for this community
+        tag_info = community_tags.get(comm_id, {}) if community_tags else {}
+        most_common_tag = tag_info.get('most_common_tag', 'Unknown')
+        tag_percentage = tag_info.get('tag_percentage', 0.0)
+        
         for node in community:
             assignments.append({
                 'node_id': node,
                 'community_id': comm_id,
-                'community_size': len(community)
+                'community_size': len(community),
+                'most_common_tag': most_common_tag,
+                'tag_percentage': tag_percentage
             })
     
     # Sort by community_id, then by node_id
     assignments.sort(key=lambda x: (x['community_id'], x['node_id']))
     
     with open(output_path, 'w', newline='') as f:
-        fieldnames = ['node_id', 'community_id', 'community_size']
+        fieldnames = ['node_id', 'community_id', 'community_size', 'most_common_tag', 'tag_percentage']
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(assignments)
     
-    print(f"[INFO] Saved {len(assignments)} community assignments")
+    print(f"[INFO] Saved {len(assignments)} community assignments with tags")
 
 
 def save_community_stats(communities: List[Set[str]], modularity: float, output_path: Path, 
-                        resolution: float, random_seed: int, min_size: int) -> None:
+                        resolution: float, random_seed: int, min_size: int,
+                        community_tags: Optional[Dict[int, Dict[str, Union[str, float]]]] = None,
+                        tag_field: Optional[str] = None) -> None:
     """Save community statistics to JSON file."""
     print(f"[INFO] Saving community stats to {output_path}")
     
@@ -228,10 +343,30 @@ def save_community_stats(communities: List[Set[str]], modularity: float, output_
         }
     }
     
+    # Add tag information if available
+    if community_tags:
+        stats['tagging'] = {
+            'tag_field_used': tag_field,
+            'communities_with_tags': len([tags for tags in community_tags.values() if tags.get('most_common_tag') != 'Unknown']),
+            'community_tags_summary': [
+                {
+                    'community_id': comm_id,
+                    'size': len(filtered_communities[comm_id]) if comm_id < len(filtered_communities) else 0,
+                    'most_common_tag': tags.get('most_common_tag', 'Unknown'),
+                    'tag_percentage': tags.get('tag_percentage', 0.0)
+                }
+                for comm_id, tags in sorted(community_tags.items())
+                if comm_id < len(filtered_communities)  # Only include communities that passed size filter
+            ]
+        }
+    
     with open(output_path, 'w') as f:
         json.dump(stats, f, indent=2)
     
     print(f"[INFO] Community stats: {len(filtered_communities)} communities, modularity {modularity:.4f}")
+    if community_tags:
+        tagged_communities = len([tags for tags in community_tags.values() if tags.get('most_common_tag') != 'Unknown'])
+        print(f"[INFO] Community tags: {tagged_communities}/{len(filtered_communities)} communities have identifiable tags")
 
 
 def plot_community_size_distribution(communities: List[Set[str]], output_path: Path, min_size: int = 5) -> None:
@@ -318,6 +453,12 @@ Examples:
     parser.add_argument('--random-seed', type=int, default=42,
                        help='Random seed for reproducibility (default: 42)')
     
+    # Metadata enhancement parameters
+    parser.add_argument('--metadata', type=Path, default=None,
+                       help='CSV file with game metadata for community tagging (optional)')
+    parser.add_argument('--tag-field', type=str, default=None,
+                       help='Field to use for community tags (auto-detect if not specified)')
+    
     # Graph filtering options
     parser.add_argument('--min-weight', type=float, default=0.7,
                        help='Minimum edge weight (cosine similarity) (default: 0.7)')
@@ -355,16 +496,33 @@ Examples:
     
     print(f"[INFO] Final graph for analysis: {G.number_of_nodes():,} nodes, {G.number_of_edges():,} edges")
     
+    # Load metadata for community tagging
+    metadata = load_metadata(args.metadata)
+    tag_field = None
+    community_tags = None
+    
+    if metadata is not None:
+        # Determine tag field to use
+        if args.tag_field:
+            tag_field = args.tag_field
+            print(f"[INFO] Using user-specified tag field: '{tag_field}'")
+        else:
+            tag_field = detect_best_tag_field(metadata)
+    
     # Run Louvain community detection
     communities, modularity = louvain_communities(G, resolution=args.resolution, random_seed=args.random_seed)
     
+    # Compute community tags if metadata is available
+    if metadata is not None and tag_field:
+        community_tags = find_most_common_community_tags(communities, metadata, tag_field)
+    
     # Save results
     community_assignments_path = args.out_dir / "community_assignments.csv"
-    save_community_assignments(communities, community_assignments_path, args.min_community_size)
+    save_community_assignments(communities, community_assignments_path, args.min_community_size, community_tags)
     
     community_stats_path = args.out_dir / "community_stats.json"
     save_community_stats(communities, modularity, community_stats_path, 
-                        args.resolution, args.random_seed, args.min_community_size)
+                        args.resolution, args.random_seed, args.min_community_size, community_tags, tag_field)
     
     community_sizes_plot_path = args.out_dir / "community_sizes.png"
     plot_community_size_distribution(communities, community_sizes_plot_path, args.min_community_size)
@@ -375,15 +533,36 @@ Examples:
     print("\n" + "="*60)
     print("LOUVAIN COMMUNITY DETECTION COMPLETED")
     print("="*60)
-    print(f"Communities detected: {len([c for c in communities if len(c) >= args.min_community_size])}")
+    filtered_community_count = len([c for c in communities if len(c) >= args.min_community_size])
+    print(f"Communities detected: {filtered_community_count}")
     print(f"Modularity: {modularity:.4f}")
     print(f"Resolution used: {args.resolution}")
-    print(f"Output directory: {args.out_dir}")
+    
+    # Show tagging information
+    if community_tags:
+        tagged_communities = len([tags for tags in community_tags.values() if tags.get('most_common_tag') != 'Unknown'])
+        print(f"Communities with tags: {tagged_communities}/{filtered_community_count} (using {tag_field})")
+        print("\nTop community tags:")
+        for comm_id, tags in sorted(community_tags.items())[:5]:  # Show first 5
+            if comm_id < filtered_community_count:  # Only show communities that passed size filter
+                tag = tags.get('most_common_tag', 'Unknown')
+                percentage = tags.get('tag_percentage', 0.0)
+                size = len([c for c in communities if len(c) >= args.min_community_size][comm_id])
+                print(f"  Community {comm_id}: '{tag}' ({percentage:.1f}%, {size} games)")
+    
+    print(f"\nOutput directory: {args.out_dir}")
     print("\nGenerated files:")
-    print(f"  - {community_assignments_path.name}")
-    print(f"  - {community_stats_path.name}")
+    print(f"  - {community_assignments_path.name} (with most common tags)")
+    print(f"  - {community_stats_path.name} (with tag summary)")
     print(f"  - {community_sizes_plot_path.name}")
     print(f"  - {modularity_info_path.name}")
+    
+    if metadata is not None:
+        print(f"\nNext steps with tags:")
+        print(f"  1. Review community tags in {community_assignments_path.name}")
+        print(f"  2. Explore communities by most_common_tag column")
+        print(f"  3. Run detailed analysis on communities with interesting tags")
+    
     print("="*60)
 
 

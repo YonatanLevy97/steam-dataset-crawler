@@ -1,0 +1,71 @@
+community_id,community_name,language,percentage
+0,Indie Casual,English,97.21
+0,Indie Casual,French,40.39
+0,Indie Casual,German,40.22
+0,Indie Casual,Simplified Chinese,38.78
+0,Indie Casual,Spanish - Spain,36.07
+1,Indie Adventure,English,97.38
+1,Indie Adventure,German,62.56
+1,Indie Adventure,French,59.32
+1,Indie Adventure,Spanish - Spain,54.08
+1,Indie Adventure,Simplified Chinese,52.23
+2,Indie Puzzle,English,96.55
+2,Indie Puzzle,German,39.94
+2,Indie Puzzle,Russian,36.19
+2,Indie Puzzle,French,33.63
+2,Indie Puzzle,Simplified Chinese,32.73
+3,Indie Story,English,95.86
+3,Indie Story,Simplified Chinese,41.08
+3,Indie Story,German,40.76
+3,Indie Story,French,40.61
+3,Indie Story,Russian,38.54
+4,Indie Simulation,English,95.99
+4,Indie Simulation,Simplified Chinese,39.09
+4,Indie Simulation,German,35.43
+4,Indie Simulation,French,34.03
+4,Indie Simulation,Spanish - Spain,33.51
+5,Indie Strategy,English,96.56
+5,Indie Strategy,Simplified Chinese,40.76
+5,Indie Strategy,German,35.69
+5,Indie Strategy,Russian,34.78
+5,Indie Strategy,French,34.24
+6,Indie Horror,English,94.76
+6,Indie Horror,Simplified Chinese,42.14
+6,Indie Horror,German,37.95
+6,Indie Horror,French,37.32
+6,Indie Horror,Russian,37.11
+7,Indie Action,English,97.35
+7,Indie Action,Simplified Chinese,35.54
+7,Indie Action,German,35.32
+7,Indie Action,Russian,34.88
+7,Indie Action,French,32.67
+8,Indie RPG,English,94.39
+8,Indie RPG,Simplified Chinese,39.8
+8,Indie RPG,Russian,36.99
+8,Indie RPG,German,35.46
+8,Indie RPG,French,33.93
+9,Action Arcade,English,90.35
+9,Action Arcade,Japanese,67.25
+9,Action Arcade,French,53.8
+9,Action Arcade,German,51.46
+9,Action Arcade,Spanish - Spain,47.37
+10,Visual Novels,English,95.39
+10,Visual Novels,Simplified Chinese,43.42
+10,Visual Novels,Japanese,28.29
+10,Visual Novels,German,23.68
+10,Visual Novels,Russian,21.38
+11,AAA Action,English,99.63
+11,AAA Action,German,67.79
+11,AAA Action,French,64.04
+11,AAA Action,Spanish - Spain,58.05
+11,AAA Action,Italian,49.44
+12,Sports & Racing,English,94.92
+12,Sports & Racing,Simplified Chinese,39.55
+12,Sports & Racing,French,35.59
+12,Sports & Racing,German,33.9
+12,Sports & Racing,Russian,32.77
+13,Children's Games,English,95.93
+13,Children's Games,Simplified Chinese,38.76
+13,Children's Games,German,33.97
+13,Children's Games,French,33.01
+13,Children's Games,Spanish - Spain,30.14

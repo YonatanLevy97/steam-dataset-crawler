@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "analysis_timestamp": "2025-09-20T19:25:03.942076",
+    "threshold": 0.8,
+    "n_games": 3220,
+    "n_communities": 14
+  },
+  "statistics": {
+    "total_games": 3220,
+    "total_communities": 14,
+    "threshold": 0.8,
+    "games_above_threshold": 1,
+    "percentage_above_threshold": 0.031055900621118012,
+    "similarity_stats": {
+      "mean": 0.4480482339859009,
+      "median": 0.4578929841518402,
+      "std": 0.12291593104600906,
+      "min": -0.00816446915268898,
+      "max": 0.8162910342216492,
+      "percentiles": {
+        "25th": 0.3843557834625244,
+        "50th": 0.4578929841518402,
+        "75th": 0.5272008180618286,
+        "90th": 0.5882763266563416,
+        "95th": 0.6236774325370789,
+        "99th": 0.7012056112289429
+      }
+    },
+    "high_similarity_community_distribution": {
+      "7": 1
+    },
+    "overall_community_distribution": {
+      "7": 2596,
+      "6": 459,
+      "9": 65,
+      "8": 8,
+      "13": 41,
+      "11": 43,
+      "1": 3,
+      "10": 4,
+      "0": 1
+    },
+    "top_games": [
+      {
+        "appid": "536920",
+        "best_community_idx": 7,
+        "best_community_id": "7",
+        "similarity": 0.8162910342216492
+      },
+      {
+        "appid": "366610",
+        "best_community_idx": 7,
+        "best_community_id": "7",
+        "similarity": 0.7845768332481384
+      },
+      {
+        "appid": "872580",
+        "best_community_idx": 7,
+        "best_community_id": "7",
+        "similarity": 0.7752265334129333
+      },
+      {
+        "appid": "523440",
+        "best_community_idx": 7,
+        "best_community_id": "7",
+        "similarity": 0.7670064568519592
+      },
+      {
+        "appid": "370550",
+        "best_community_idx": 7,
+        "best_community_id": "7",
+        "similarity": 0.7657949328422546
+      },
+      {
+        "appid": "435090",
+        "best_community_idx": 7,
+        "best_community_id": "7",
+        "similarity": 0.7655537128448486
+      },
+      {
+        "appid": "19320",
+        "best_community_idx": 7,
+        "best_community_id": "7",
+        "similarity": 0.7591968178749084
+      },
+      {
+        "appid": "979290",
+        "best_community_idx": 7,
+        "best_community_id": "7",
+        "similarity": 0.7569780945777893
+      },
+      {
+        "appid": "418960",
+        "best_community_idx": 7,
+        "best_community_id": "7",
+        "similarity": 0.7514051198959351
+      },
+      {
+        "appid": "822550",
+        "best_community_idx": 7,
+        "best_community_id": "7",
+        "similarity": 0.748843252658844
+      },
+      {
+        "appid": "1052900",
+        "best_community_idx": 7,
+        "best_community_id": "7",
+        "similarity": 0.7420855164527893
+      },
+      {
+        "appid": "413760",
+        "best_community_idx": 7,
+        "best_community_id": "7",
+        "similarity": 0.7406264543533325
+      },
+      {
+        "appid": "516610",
+        "best_community_idx": 7,
+        "best_community_id": "7",
+        "similarity": 0.7388076782226562
+      },
+      {
+        "appid": "491100",
+        "best_community_idx": 7,
+        "best_community_id": "7",
+        "similarity": 0.7380240559577942
+      },
+      {
+        "appid": "552380",
+        "best_community_idx": 7,
+        "best_community_id": "7",
+        "similarity": 0.7325072884559631
+      },
+      {
+        "appid": "1075370",
+        "best_community_idx": 7,
+        "best_community_id": "7",
+        "similarity": 0.7287444472312927
+      },
+      {
+        "appid": "1093280",
+        "best_community_idx": 7,
+        "best_community_id": "7",
+        "similarity": 0.7280731201171875
+      },
+      {
+        "appid": "951640",
+        "best_community_idx": 7,
+        "best_community_id": "7",
+        "similarity": 0.7263063192367554
+      },
+      {
+        "appid": "654000",
+        "best_community_idx": 7,
+        "best_community_id": "7",
+        "similarity": 0.7248679995536804
+      },
+      {
+        "appid": "867590",
+        "best_community_idx": 7,
+        "best_community_id": "7",
+        "similarity": 0.723552405834198
+      }
+    ],
+    "threshold_analysis": {
+      "0.50": {
+        "count": 1108,
+        "percentage": 34.40993788819876
+      },
+      "0.60": {
+        "count": 268,
+        "percentage": 8.322981366459627
+      },
+      "0.65": {
+        "count": 94,
+        "percentage": 2.919254658385093
+      },
+      "0.70": {
+        "count": 33,
+        "percentage": 1.0248447204968945
+      },
+      "0.75": {
+        "count": 9,
+        "percentage": 0.27950310559006214
+      },
+      "0.80": {
+        "count": 1,
+        "percentage": 0.031055900621118012
+      },
+      "0.85": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "0.90": {
+        "count": 0,
+        "percentage": 0.0
+      }
+    }
+  }
+}

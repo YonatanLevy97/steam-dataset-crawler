@@ -1,0 +1,63 @@
+{
+  "generation_summary": {
+    "total_plots_generated": 19,
+    "categories_completed": 2,
+    "total_duration_seconds": 21.77101492881775,
+    "duration_formatted": "0.4 minutes",
+    "timestamp": "2025-09-20 20:24:44",
+    "communities_analyzed": 14,
+    "output_directory": "communities_visualizations/outputs",
+    "data_directory": "default"
+  },
+  "category_breakdown": {
+    "community_overview": "Community sizes, composition, platform support, pricing",
+    "genre_analysis": "Genre distributions, diversity, clustering, evolution",
+    "publisher_analysis": "Publisher concentration, networks, cross-community presence",
+    "temporal_rating": "Release timelines, quality evolution, age ratings, reviews",
+    "technical_features": "Language support, controllers, DLC, platform compatibility",
+    "similarity_analysis": "Distance matrices, clustering, dimensionality reduction"
+  },
+  "generated_files": {
+    "static_plots": [
+      "communities_visualizations/outputs/static_plots/community_overview/community_size_distribution.png",
+      "communities_visualizations/outputs/static_plots/community_overview/community_size_distribution_plotly.png",
+      "communities_visualizations/outputs/static_plots/community_overview/genre_composition_by_community.png",
+      "communities_visualizations/outputs/static_plots/community_overview/community_overview_dashboard.png",
+      "communities_visualizations/outputs/static_plots/community_overview/price_distribution_analysis.png",
+      "communities_visualizations/outputs/static_plots/community_overview/platform_support_matrix.png",
+      "communities_visualizations/outputs/static_plots/genres_categories/genre_diversity_analysis.png",
+      "communities_visualizations/outputs/static_plots/genres_categories/top_5_genres_comparison.png",
+      "communities_visualizations/outputs/static_plots/genres_categories/category_clustering_analysis.png",
+      "communities_visualizations/outputs/static_plots/genres_categories/genre_evolution_timeline.png",
+      "communities_visualizations/outputs/static_plots/genres_categories/genre_distribution_heatmap.png"
+    ],
+    "interactive_plots": [
+      "communities_visualizations/outputs/static_plots/community_overview/platform_support_heatmap.html",
+      "communities_visualizations/outputs/static_plots/community_overview/price_analysis_interactive.html",
+      "communities_visualizations/outputs/static_plots/community_overview/community_size_distribution.html",
+      "communities_visualizations/outputs/static_plots/community_overview/genre_composition_sunburst.html",
+      "communities_visualizations/outputs/static_plots/genres_categories/genre_distribution_interactive.html",
+      "communities_visualizations/outputs/static_plots/genres_categories/genre_diversity_interactive.html",
+      "communities_visualizations/outputs/static_plots/genres_categories/genre_evolution_interactive.html",
+      "communities_visualizations/outputs/static_plots/genres_categories/top_5_genres_interactive.html",
+      "communities_visualizations/outputs/static_plots/genres_categories/category_clustering_interactive.html"
+    ],
+    "data_exports": [
+      "communities_visualizations/outputs/data_exports/publisher_community_data.csv",
+      "communities_visualizations/outputs/data_exports/community_similarity_matrix.csv",
+      "communities_visualizations/outputs/data_exports/temporal_release_patterns.csv",
+      "communities_visualizations/outputs/data_exports/genre_distribution_matrix.csv",
+      "communities_visualizations/outputs/data_exports/feature_matrix_normalized.csv",
+      "communities_visualizations/outputs/data_exports/community_profiles_enhanced.csv",
+      "communities_visualizations/outputs/data_exports/language_support_data.csv"
+    ]
+  },
+  "error_summary": {
+    "total_errors": 0,
+    "errors": []
+  },
+  "performance_metrics": {
+    "plots_per_minute": 52.363199590250176,
+    "categories_per_minute": 5.511915746342123
+  }
+}

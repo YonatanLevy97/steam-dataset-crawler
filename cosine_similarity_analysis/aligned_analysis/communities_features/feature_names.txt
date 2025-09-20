@@ -1,0 +1,191 @@
+required_age
+metacritic_score
+recommendations_total
+achievements_total
+dlc_count
+discount_percent
+initial_price
+final_price
+type=game
+type=OTHER
+is_free=False
+is_free=OTHER
+coming_soon=False
+coming_soon=OTHER
+windows=False
+windows=OTHER
+mac=False
+mac=OTHER
+linux=False
+linux=OTHER
+has_dlc=False
+has_dlc=OTHER
+genres:Indie
+genres:Adventure
+genres:Action
+genres:Casual
+genres:Simulation
+genres:Strategy
+genres:RPG
+genres:OTHER
+tags:Singleplayer
+tags:Indie
+tags:Adventure
+tags:Casual
+tags:Action
+tags:Multiplayer
+tags:Simulation
+tags:Anime
+tags:RPG
+tags:Strategy
+tags:2D
+tags:OTHER
+categories:Indie
+categories:Adventure
+categories:Action
+categories:Casual
+categories:Simulation
+categories:Strategy
+categories:RPG
+categories:OTHER
+developers:Ltd.
+developers:Inc.
+developers:LTD.
+developers:HeR Interactive
+developers:Qumaron
+developers:Games Incubator
+developers:Ubisoft Montreal
+developers:Daedalic Entertainment
+developers:Frontwing
+developers:Frogwares
+developers:Jackbox Games
+developers:Alawar Casual
+developers:Double Fine Productions
+developers:07th Expansion
+developers:Sigyaad Team
+developers:owlyboi
+developers:LLC
+developers:GameHouse
+developers:FIVE-BN GAMES
+developers:Chilla's Art
+developers:L. Stotch
+developers:Octo Games
+developers:Euphoric Brothers
+developers:Zachtronics
+developers:Lesson of Passion
+developers:Laush Dmitriy Sergeevich
+developers:WayForward
+developers:100 Cozy Games
+developers:Cats
+developers:LucasArts
+developers:XDEVS LTD
+developers:RewindApp
+developers:INTI CREATES CO.
+developers:Studio Goya
+developers:FreeMind S.A.
+developers:Jetdogs Studios
+developers:Spiderweb Software
+developers:Zoom Out Games
+developers:10tons Ltd
+developers:Sacada
+developers:Sokpop Collective
+developers:Oleg Sereda
+developers:Pilgrim Adventures
+developers:Fury Games Production
+developers:KOEI TECMO GAMES CO.
+developers:Milestone S.r.l.
+developers:Square Enix
+developers:Hosted Games
+developers:Winged Cloud
+developers:Choice of Games
+developers:Wolverine Studios
+developers:Acerola
+developers:Rebellion
+developers:Gaming Minds Studios
+developers:Scott Cawthon
+developers:Out of the Park Developments
+developers:Positech Games
+developers:DirectDoggo
+developers:Minos Games
+developers:Mismatch Studio
+developers:Humongous Entertainment
+developers:qureate
+developers:Game Hollywood Games
+developers:Notovia
+developers:Klei Entertainment
+developers:OTHER
+publishers:PlayWay S.A.
+publishers:Ubisoft
+publishers:Ltd.
+publishers:LTD.
+publishers:HeR Interactive
+publishers:Qumaron
+publishers:Daedalic Entertainment
+publishers:Artifex Mundi
+publishers:Grey Alien Games
+publishers:Frontwing USA
+publishers:Frogwares
+publishers:Alawar Casual
+publishers:MangaGamer
+publishers:Conglomerate 5
+publishers:Double Fine Productions
+publishers:HH-Games
+publishers:LLC
+publishers:GameHouse
+publishers:FIVE-BN GAMES
+publishers:Chilla's Art
+publishers:L. Stotch
+publishers:Octo Games
+publishers:Euphoric Brothers
+publishers:Zachtronics
+publishers:Lesson of Passion
+publishers:NVLMaker
+publishers:Next Game
+publishers:Inc.
+publishers:WayForward
+publishers:100 Cozy Games
+publishers:tinyBuild
+publishers:Square Enix
+publishers:XDEVS LTD
+publishers:RewindApp
+publishers:INTI CREATES CO.
+publishers:FreeMind S.A.
+publishers:Jetdogs Studios
+publishers:Spiderweb Software
+publishers:10tons Ltd
+publishers:Sacada
+publishers:GrabTheGames
+publishers:Sokpop Collective
+publishers:Gamirror Games
+publishers:Oleg Sereda
+publishers:KOEI TECMO GAMES CO.
+publishers:Slitherine Ltd.
+publishers:Milestone S.r.l.
+publishers:Kagura Games
+publishers:Hosted Games
+publishers:Winged Cloud
+publishers:Choice of Games
+publishers:Wolverine Studios
+publishers:THQ Nordic
+publishers:Fulqrum Publishing
+publishers:2K
+publishers:Rebellion
+publishers:Positech Games
+publishers:Out of the Park Developments
+publishers:INDIECN
+publishers:DirectDoggo
+publishers:Humongous Entertainment
+publishers:Nightdive Studios
+publishers:qureate
+publishers:Game Hollywood Games
+publishers:Notovia
+publishers:OTHER
+supported_languages:English
+supported_languages:German
+supported_languages:French
+supported_languages:Simplified Chinese
+supported_languages:Russian
+supported_languages:Spanish - Spain
+supported_languages:Japanese
+supported_languages:Italian
+supported_languages:OTHER

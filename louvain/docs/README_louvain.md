@@ -100,6 +100,13 @@ The implementation supports the same preprocessing options as Girvan-Newman:
 --out-dir PATH       # Output directory for results
 ```
 
+### Community Tagging Parameters
+
+```bash
+--metadata PATH      # CSV file with game metadata for automatic tagging
+--tag-field FIELD    # Field to use for tagging (auto-detects best option)
+```
+
 ### Core Algorithm Parameters
 
 ```bash
@@ -126,15 +133,25 @@ The implementation supports the same preprocessing options as Girvan-Newman:
 ### Complete Usage Examples
 
 ```bash
-# Basic usage
+# Basic usage without tagging
 python3 louvain_analysis.py --edges edges.csv.gz --out-dir ./results/
 
-# High-resolution analysis for detailed communities
+# With automatic community tagging (recommended)
 python3 louvain_analysis.py --edges edges.csv.gz --out-dir ./results/ \
+    --metadata ./out/dead_labels_enriched.csv
+
+# High-resolution analysis with tagging for detailed communities
+python3 louvain_analysis.py --edges edges.csv.gz --out-dir ./results/ \
+    --metadata ./out/dead_labels_enriched.csv \
     --resolution 2.0 --min-community-size 3
 
-# Focused analysis on core network
+# Using specific tag field (genres instead of auto-detected tags)
 python3 louvain_analysis.py --edges edges.csv.gz --out-dir ./results/ \
+    --metadata ./out/dead_labels_enriched.csv --tag-field genres
+
+# Focused analysis on core network with tagging
+python3 louvain_analysis.py --edges edges.csv.gz --out-dir ./results/ \
+    --metadata ./out/dead_labels_enriched.csv \
     --giant-only --kcore 5 --min-weight 0.8
 
 # Large-scale testing
@@ -225,14 +242,14 @@ Removes nodes with fewer than K neighbors:
 
 ### community_assignments.csv
 
-Node-to-community mapping in consistent format:
+Node-to-community mapping with automatic tagging:
 
 ```csv
-node_id,community_id,community_size
-123456,0,45
-789012,0,45
-345678,1,32
-901234,1,32
+node_id,community_id,community_size,most_common_tag,tag_percentage
+123456,0,45,Action,87.3
+789012,0,45,Action,87.3
+345678,1,32,Strategy,91.2
+901234,1,32,Strategy,91.2
 ...
 ```
 
@@ -240,8 +257,12 @@ node_id,community_id,community_size
 - `node_id`: Steam App ID (string)
 - `community_id`: Sequential community identifier (0, 1, 2, ...)
 - `community_size`: Number of nodes in this community
+- `most_common_tag`: Most frequent tag/genre/category in this community
+- `tag_percentage`: Percentage of games in community that have this tag
 
 **Sorting:** By community_id ascending, then node_id ascending
+
+**Note:** Tag columns are only included when `--metadata` parameter is provided
 
 ### community_stats.json
 

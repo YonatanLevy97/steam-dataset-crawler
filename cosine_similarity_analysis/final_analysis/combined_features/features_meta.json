@@ -1,0 +1,107 @@
+{
+  "n_rows": 3234,
+  "n_cols": 487,
+  "id_col": "appid",
+  "label_col": "is_synthetic_community",
+  "numeric_cols": [
+    "required_age",
+    "metacritic_score",
+    "recommendations_total",
+    "achievements_total",
+    "dlc_count",
+    "discount_percent",
+    "initial_price",
+    "final_price",
+    "community_size"
+  ],
+  "onehot_cols": [
+    "type",
+    "is_free",
+    "coming_soon",
+    "windows",
+    "mac",
+    "linux",
+    "has_dlc"
+  ],
+  "multi_cols": [
+    "genres",
+    "tags",
+    "categories",
+    "developers",
+    "publishers",
+    "supported_languages"
+  ],
+  "hash_cols": [],
+  "exclude_cols": [
+    "avg_players_median_6m",
+    "community_id",
+    "controller_support",
+    "crawl_status",
+    "crawl_timestamp",
+    "first_month_in_window",
+    "label_dead",
+    "label_dead_binary",
+    "last_month",
+    "min_months_ok",
+    "min_months_required",
+    "months_used",
+    "name",
+    "pc_min_requirements",
+    "release_date"
+  ],
+  "multi_delim": ",;|",
+  "multi_topk": 100,
+  "hash_dims": 32,
+  "numeric_stats": {
+    "required_age": {
+      "median": 0.0,
+      "mean": 2.1239795918367346,
+      "std": 5.794696231590125
+    },
+    "metacritic_score": {
+      "median": 75.0,
+      "mean": 74.75312925170068,
+      "std": 3.790584180137374
+    },
+    "recommendations_total": {
+      "median": 73.0,
+      "mean": 276.1348361162647,
+      "std": 514.1411400839544
+    },
+    "achievements_total": {
+      "median": 14.0,
+      "mean": 32.77026283240569,
+      "std": 198.9075211136035
+    },
+    "dlc_count": {
+      "median": 0.0,
+      "mean": 0.9299876314162028,
+      "std": 3.66029229748131
+    },
+    "discount_percent": {
+      "median": 0.0,
+      "mean": 7.254499072356215,
+      "std": 20.423008721328163
+    },
+    "initial_price": {
+      "median": 36.95,
+      "mean": 59.67264687693259,
+      "std": 169.84309668160387
+    },
+    "final_price": {
+      "median": 25.95,
+      "mean": 39.07136672850958,
+      "std": 61.007920074358694
+    },
+    "community_size": {
+      "median": 467.0,
+      "mean": 467.3234384662956,
+      "std": 19.464266320052733
+    }
+  },
+  "feature_names_count": 487,
+  "parsed_price_cols": [
+    "final_price",
+    "initial_price"
+  ]
+}
