@@ -1,15 +1,15 @@
-community_id,size,percentage_of_dataset,top_genre,top_genre_percentage,top_publisher,top_publisher_percentage,top_developer,top_developer_percentage,windows_support,mac_support,linux_support
-0,1126,14.96,Indie,36.59,Daedalic Entertainment,4.0,Daedalic Entertainment,1.51,100.0,62.26,58.26
-1,563,7.48,Action,31.08,LTD.,10.66,LTD.,11.72,99.11,17.05,9.59
-2,366,4.86,Action,52.46,THQ Nordic,3.55,Game Hollywood Games,1.91,97.27,26.5,16.39
-3,315,4.19,Indie,73.02,Hosted Games,6.03,Hosted Games,6.03,99.37,38.1,29.84
-4,135,1.79,Indie,66.67,FIVE-BN GAMES,13.33,FIVE-BN GAMES,13.33,100.0,36.3,19.26
-5,85,1.13,Indie,81.18,Bloober Team SA,4.71,Bloober Team SA,4.71,98.82,22.35,20.0
-6,520,6.91,Indie,75.38,GameHouse,2.5,GameHouse,2.5,98.08,29.62,22.5
-7,1079,14.34,Indie,77.66,tinyBuild,1.11,WayForward,0.93,96.57,29.75,20.3
-8,860,11.43,Indie,81.05,Inc.,2.44,Inc.,2.44,97.56,33.14,21.51
-9,512,6.8,Indie,70.12,Kairosoft Co.,4.49,Kairosoft Co.,4.49,97.66,27.34,19.14
-10,129,1.71,Indie,72.09,Qumaron,11.63,Qumaron,10.85,97.67,24.81,16.28
-11,695,9.24,Indie,75.97,PlayWay S.A.,1.58,FreeMind S.A.,1.44,97.12,28.92,18.71
-12,833,11.07,Indie,76.83,Alawar Casual,4.08,Alawar Casual,1.68,97.24,29.29,19.45
-13,307,4.08,Indie,82.41,Octo Games,2.93,Octo Games,2.93,97.72,26.71,19.54
+community_id,size,percentage_of_dataset,top_genre,top_genre_percentage,top_publisher,top_publisher_percentage,top_developer,top_developer_percentage,windows_support,mac_support,linux_support,average_price,median_price,price_coverage
+0,1126,14.96,Indie,36.59,Daedalic Entertainment,4.0,Daedalic Entertainment,1.51,100.0,62.26,58.26,29.89,21.95,93.1
+1,563,7.48,Action,31.08,LTD.,10.66,LTD.,11.72,99.11,17.05,9.59,30.92,12.45,100.0
+2,366,4.86,Action,52.46,THQ Nordic,3.55,Game Hollywood Games,1.91,97.27,26.5,16.39,27.65,18.5,93.3
+3,315,4.19,Indie,73.02,Hosted Games,6.03,Hosted Games,6.03,99.37,38.1,29.84,27.03,18.5,92.8
+4,135,1.79,Indie,66.67,FIVE-BN GAMES,13.33,FIVE-BN GAMES,13.33,100.0,36.3,19.26,30.13,21.95,95.5
+5,85,1.13,Indie,81.18,Bloober Team SA,4.71,Bloober Team SA,4.71,98.82,22.35,20.0,29.73,18.5,92.0
+6,520,6.91,Indie,75.38,GameHouse,2.5,GameHouse,2.5,98.08,29.62,22.5,20.94,14.5,93.7
+7,1079,14.34,Indie,77.66,tinyBuild,1.11,WayForward,0.93,96.57,29.75,20.3,22.9,18.5,90.3
+8,860,11.43,Indie,81.05,Inc.,2.44,Inc.,2.44,97.56,33.14,21.51,24.42,18.5,93.9
+9,512,6.8,Indie,70.12,Kairosoft Co.,4.49,Kairosoft Co.,4.49,97.66,27.34,19.14,177.73,169.0,100.0
+10,129,1.71,Indie,72.09,Qumaron,11.63,Qumaron,10.85,97.67,24.81,16.28,29.17,19.99,94.1
+11,695,9.24,Indie,75.97,PlayWay S.A.,1.58,FreeMind S.A.,1.44,97.12,28.92,18.71,46.62,36.95,94.8
+12,833,11.07,Indie,76.83,Alawar Casual,4.08,Alawar Casual,1.68,97.24,29.29,19.45,29.86,25.95,89.8
+13,307,4.08,Indie,82.41,Octo Games,2.93,Octo Games,2.93,97.72,26.71,19.54,23.75,18.5,92.8

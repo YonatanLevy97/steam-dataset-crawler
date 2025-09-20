@@ -508,6 +508,19 @@
           "max": 5394.0,
           "count": 1126
         }
+      },
+      "pricing": {
+        "display_name": "Price Information",
+        "statistics": {
+          "average_price": 29.89084392014519,
+          "median_price": 21.95,
+          "min_price": 0.0,
+          "max_price": 133.99,
+          "std_price": 28.238048084029504,
+          "games_with_prices": 1102,
+          "total_games": 1184,
+          "price_coverage_percent": 93.07432432432432
+        }
       }
     }
   },
@@ -1024,6 +1037,19 @@
           "min": 0.0,
           "max": 1176.0,
           "count": 563
+        }
+      },
+      "pricing": {
+        "display_name": "Price Information",
+        "statistics": {
+          "average_price": 30.915689201053556,
+          "median_price": 12.45,
+          "min_price": 0.0,
+          "max_price": 309.0,
+          "std_price": 42.31746622548599,
+          "games_with_prices": 1139,
+          "total_games": 1139,
+          "price_coverage_percent": 100.0
         }
       }
     }
@@ -1542,6 +1568,19 @@
           "max": 849.0,
           "count": 366
         }
+      },
+      "pricing": {
+        "display_name": "Price Information",
+        "statistics": {
+          "average_price": 27.646115569823433,
+          "median_price": 18.5,
+          "min_price": 0.0,
+          "max_price": 169.95,
+          "std_price": 28.281770786885456,
+          "games_with_prices": 623,
+          "total_games": 668,
+          "price_coverage_percent": 93.26347305389223
+        }
       }
     }
   },
@@ -2059,6 +2098,19 @@
           "max": 221.0,
           "count": 315
         }
+      },
+      "pricing": {
+        "display_name": "Price Information",
+        "statistics": {
+          "average_price": 27.028270547945205,
+          "median_price": 18.5,
+          "min_price": 0.0,
+          "max_price": 159.95,
+          "std_price": 27.05123516782674,
+          "games_with_prices": 584,
+          "total_games": 629,
+          "price_coverage_percent": 92.84578696343402
+        }
       }
     }
   },
@@ -2570,6 +2622,19 @@
           "min": 0.0,
           "max": 410.0,
           "count": 135
+        }
+      },
+      "pricing": {
+        "display_name": "Price Information",
+        "statistics": {
+          "average_price": 30.125081967213113,
+          "median_price": 21.95,
+          "min_price": 0.0,
+          "max_price": 159.0,
+          "std_price": 30.172092725206376,
+          "games_with_prices": 549,
+          "total_games": 575,
+          "price_coverage_percent": 95.47826086956522
         }
       }
     }
@@ -3088,6 +3153,19 @@
           "max": 246.0,
           "count": 85
         }
+      },
+      "pricing": {
+        "display_name": "Price Information",
+        "statistics": {
+          "average_price": 29.73422396856581,
+          "median_price": 18.5,
+          "min_price": 0.0,
+          "max_price": 131.95,
+          "std_price": 28.40419751815789,
+          "games_with_prices": 509,
+          "total_games": 553,
+          "price_coverage_percent": 92.04339963833634
+        }
       }
     }
   },
@@ -3604,6 +3682,19 @@
           "min": 0.0,
           "max": 5000.0,
           "count": 520
+        }
+      },
+      "pricing": {
+        "display_name": "Price Information",
+        "statistics": {
+          "average_price": 20.94336302895323,
+          "median_price": 14.5,
+          "min_price": 0.0,
+          "max_price": 110.95,
+          "std_price": 22.409809974304416,
+          "games_with_prices": 449,
+          "total_games": 479,
+          "price_coverage_percent": 93.73695198329854
         }
       }
     }
@@ -4122,6 +4213,19 @@
           "max": 849.0,
           "count": 1079
         }
+      },
+      "pricing": {
+        "display_name": "Price Information",
+        "statistics": {
+          "average_price": 22.90464720194647,
+          "median_price": 18.5,
+          "min_price": 0.0,
+          "max_price": 92.95,
+          "std_price": 22.823724735236887,
+          "games_with_prices": 411,
+          "total_games": 455,
+          "price_coverage_percent": 90.32967032967034
+        }
       }
     }
   },
@@ -4638,6 +4742,19 @@
           "min": 0.0,
           "max": 3445.0,
           "count": 860
+        }
+      },
+      "pricing": {
+        "display_name": "Price Information",
+        "statistics": {
+          "average_price": 24.420923913043477,
+          "median_price": 18.5,
+          "min_price": 0.0,
+          "max_price": 149.95,
+          "std_price": 27.076534432146786,
+          "games_with_prices": 368,
+          "total_games": 392,
+          "price_coverage_percent": 93.87755102040816
         }
       }
     }
@@ -5156,6 +5273,19 @@
           "max": 5000.0,
           "count": 512
         }
+      },
+      "pricing": {
+        "display_name": "Price Information",
+        "statistics": {
+          "average_price": 177.72540935672515,
+          "median_price": 169.0,
+          "min_price": 0.0,
+          "max_price": 749.95,
+          "std_price": 98.17202145597673,
+          "games_with_prices": 342,
+          "total_games": 342,
+          "price_coverage_percent": 100.0
+        }
       }
     }
   },
@@ -5672,6 +5802,19 @@
           "min": 0.0,
           "max": 451.0,
           "count": 129
+        }
+      },
+      "pricing": {
+        "display_name": "Price Information",
+        "statistics": {
+          "average_price": 29.16547038327526,
+          "median_price": 19.99,
+          "min_price": 0.0,
+          "max_price": 110.95,
+          "std_price": 27.752259349307987,
+          "games_with_prices": 287,
+          "total_games": 305,
+          "price_coverage_percent": 94.09836065573771
         }
       }
     }
@@ -6190,6 +6333,19 @@
           "max": 3000.0,
           "count": 695
         }
+      },
+      "pricing": {
+        "display_name": "Price Information",
+        "statistics": {
+          "average_price": 46.617430830039524,
+          "median_price": 36.95,
+          "min_price": 0.0,
+          "max_price": 252.6,
+          "std_price": 33.46828368496982,
+          "games_with_prices": 253,
+          "total_games": 267,
+          "price_coverage_percent": 94.7565543071161
+        }
       }
     }
   },
@@ -6707,6 +6863,19 @@
           "max": 5000.0,
           "count": 833
         }
+      },
+      "pricing": {
+        "display_name": "Price Information",
+        "statistics": {
+          "average_price": 29.86182389937106,
+          "median_price": 25.95,
+          "min_price": 0.0,
+          "max_price": 149.95,
+          "std_price": 29.07606666971051,
+          "games_with_prices": 159,
+          "total_games": 177,
+          "price_coverage_percent": 89.83050847457628
+        }
       }
     }
   },
@@ -7223,6 +7392,19 @@
           "min": 0.0,
           "max": 4757.0,
           "count": 307
+        }
+      },
+      "pricing": {
+        "display_name": "Price Information",
+        "statistics": {
+          "average_price": 23.751825192802055,
+          "median_price": 18.5,
+          "min_price": 0.0,
+          "max_price": 110.95,
+          "std_price": 24.92995181369754,
+          "games_with_prices": 389,
+          "total_games": 419,
+          "price_coverage_percent": 92.84009546539379
         }
       }
     }

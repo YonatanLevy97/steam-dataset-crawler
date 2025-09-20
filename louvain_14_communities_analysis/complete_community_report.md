@@ -7,24 +7,27 @@ Communities with ≥30 games: **14**
 
 Each community represents a cluster of similar games based on cosine similarity of their features.
 
+## 💰 Price Analysis Summary
+Average prices across all communities range from **$20.94** to **$177.73**, with most communities having average prices between $22-$30. Community 9 stands out with significantly higher average prices ($177.73), while Community 6 has the lowest average prices ($20.94). Price data coverage is excellent across all communities, ranging from 89.8% to 100%.
+
 ---
 
 ## Table of Contents
 
-- [Community 0](#community-0) - Indie (1,126 games)
-- [Community 1](#community-1) - Action (563 games)
-- [Community 2](#community-2) - Action (366 games)
-- [Community 3](#community-3) - Indie (315 games)
-- [Community 4](#community-4) - Indie (135 games)
-- [Community 5](#community-5) - Indie (85 games)
-- [Community 6](#community-6) - Indie (520 games)
-- [Community 7](#community-7) - Indie (1,079 games)
-- [Community 8](#community-8) - Indie (860 games)
-- [Community 9](#community-9) - Indie (512 games)
-- [Community 10](#community-10) - Indie (129 games)
-- [Community 11](#community-11) - Indie (695 games)
-- [Community 12](#community-12) - Indie (833 games)
-- [Community 13](#community-13) - Indie (307 games)
+- [Community 0](#community-0) - Indie (1,126 games) - Avg: $29.89
+- [Community 1](#community-1) - Action (563 games) - Avg: $30.92
+- [Community 2](#community-2) - Action (366 games) - Avg: $27.65
+- [Community 3](#community-3) - Indie (315 games) - Avg: $27.03
+- [Community 4](#community-4) - Indie (135 games) - Avg: $30.13
+- [Community 5](#community-5) - Indie (85 games) - Avg: $29.73
+- [Community 6](#community-6) - Indie (520 games) - Avg: $20.94
+- [Community 7](#community-7) - Indie (1,079 games) - Avg: $22.90
+- [Community 8](#community-8) - Indie (860 games) - Avg: $24.42
+- [Community 9](#community-9) - Indie (512 games) - Avg: $177.73
+- [Community 10](#community-10) - Indie (129 games) - Avg: $29.17
+- [Community 11](#community-11) - Indie (695 games) - Avg: $46.62
+- [Community 12](#community-12) - Indie (833 games) - Avg: $29.86
+- [Community 13](#community-13) - Indie (307 games) - Avg: $23.75
 
 ---
 
@@ -71,6 +74,11 @@ Windows: 100.0% | Mac: 62.26% | Linux: 58.26%
 - **Average Metacritic:** 73.3/100
 - **Median Metacritic:** 74.0/100
 - **Games with Metacritic scores:** 121/1,126
+
+### 💰 Price Information
+- **Average Price:** $29.89
+- **Median Price:** $21.95
+- **Price Coverage:** 93.1% of games have price data
 
 ### 🌍 Language Support (Top 5)
 
