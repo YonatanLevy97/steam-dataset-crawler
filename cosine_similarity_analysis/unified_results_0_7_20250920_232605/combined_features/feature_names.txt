@@ -1,0 +1,487 @@
+required_age
+metacritic_score
+recommendations_total
+achievements_total
+dlc_count
+discount_percent
+initial_price
+final_price
+community_size
+type=game
+type=software
+type=
+type=OTHER
+is_free=False
+is_free=True
+is_free=
+is_free=OTHER
+coming_soon=False
+coming_soon=True
+coming_soon=
+coming_soon=OTHER
+windows=True
+windows=False
+windows=
+windows=OTHER
+mac=False
+mac=True
+mac=
+mac=OTHER
+linux=False
+linux=True
+linux=
+linux=OTHER
+has_dlc=False
+has_dlc=True
+has_dlc=
+has_dlc=OTHER
+genres:Indie
+genres:Adventure
+genres:Action
+genres:Casual
+genres:Simulation
+genres:Strategy
+genres:RPG
+genres:Free To Play
+genres:Early Access
+genres:Sports
+genres:Massively Multiplayer
+genres:Racing
+genres:Utilities
+genres:Design & Illustration
+genres:Animation & Modeling
+genres:Video Production
+genres:Audio Production
+genres:Game Development
+genres:Education
+genres:Software Training
+genres:Web Publishing
+genres:Photo Editing
+genres:OTHER
+tags:Singleplayer
+tags:Indie
+tags:Adventure
+tags:Casual
+tags:Action
+tags:2D
+tags:Simulation
+tags:Strategy
+tags:RPG
+tags:Story Rich
+tags:Atmospheric
+tags:Multiplayer
+tags:3D
+tags:Puzzle
+tags:Cute
+tags:Exploration
+tags:Fantasy
+tags:Anime
+tags:First-Person
+tags:Pixel Graphics
+tags:Funny
+tags:Colorful
+tags:Free to Play
+tags:Female Protagonist
+tags:Horror
+tags:Sexual Content
+tags:Early Access
+tags:Open World
+tags:Visual Novel
+tags:Great Soundtrack
+tags:Sandbox
+tags:Choices Matter
+tags:Family Friendly
+tags:Relaxing
+tags:Nudity
+tags:Sci-fi
+tags:Retro
+tags:Management
+tags:Shooter
+tags:Third Person
+tags:Building
+tags:Psychological Horror
+tags:Co-op
+tags:Action-Adventure
+tags:Point & Click
+tags:Mystery
+tags:Multiple Endings
+tags:Comedy
+tags:Realistic
+tags:Survival
+tags:Controller
+tags:Difficult
+tags:Mature
+tags:Dark
+tags:Stylized
+tags:Character Customization
+tags:Platformer
+tags:Arcade
+tags:Top-Down
+tags:Violent
+tags:Roguelike
+tags:Turn-Based Strategy
+tags:Roguelite
+tags:PvP
+tags:FPS
+tags:Combat
+tags:Immersive Sim
+tags:Online Co-Op
+tags:Gore
+tags:Turn-Based Combat
+tags:Crafting
+tags:Cartoony
+tags:Physics
+tags:Action RPG
+tags:Tactical
+tags:Magic
+tags:Hentai
+tags:Resource Management
+tags:NSFW
+tags:Historical
+tags:Dating Sim
+tags:Romance
+tags:Dark Fantasy
+tags:Turn-Based
+tags:Procedural Generation
+tags:VR
+tags:Drama
+tags:Turn-Based Tactics
+tags:Base Building
+tags:JRPG
+tags:Life Sim
+tags:Dungeon Crawler
+tags:Replay Value
+tags:Economy
+tags:War
+tags:Hack and Slash
+tags:Sports
+tags:Isometric
+tags:Space
+tags:RTS
+tags:OTHER
+categories:Indie
+categories:Adventure
+categories:Action
+categories:Casual
+categories:Simulation
+categories:Strategy
+categories:RPG
+categories:Free To Play
+categories:Early Access
+categories:Sports
+categories:Massively Multiplayer
+categories:Racing
+categories:Utilities
+categories:Design & Illustration
+categories:Animation & Modeling
+categories:Video Production
+categories:Audio Production
+categories:Game Development
+categories:Education
+categories:Software Training
+categories:Web Publishing
+categories:Photo Editing
+categories:OTHER
+developers:Inc.
+developers:LLC
+developers:Ltd.
+developers:LTD.
+developers:Ltd
+developers:KOEI TECMO GAMES CO.
+developers:Kairosoft Co.
+developers:SOFTSTAR ENTERTAINMENT
+developers:Square Enix
+developers:Choice of Games
+developers:Nihon Falcom
+developers:inc.
+developers:Valve
+developers:Ubisoft Montreal
+developers:Milestone S.r.l.
+developers:L. Stotch
+developers:SNK CORPORATION
+developers:Alawar Casual
+developers:上海アリス幻樂団
+developers:Frontwing
+developers:Sacada
+developers:Gearbox Software
+developers:Pandemic Studios
+developers:GameHouse
+developers:Winged Cloud
+developers:CAPCOM Co.
+developers:DOMO Studio
+developers:Cyanide Studio
+developers:Avalanche Software
+developers:IR Studio
+developers:Haemimont Games
+developers:XDesktopSoft
+developers:Wastelands Interactive
+developers:Akella
+developers:Games Incubator
+developers:Knuckle Cracker
+developers:T-Time Technology CO.
+developers:Wolverine Studios
+developers:Business Tycoon
+developers:Timeless Rush
+developers:Humongous Entertainment
+developers:FreeMind S.A.
+developers:Sierra
+developers:Lovely Games
+developers:Daedalic Entertainment
+developers:Rebellion
+developers:KONAMI
+developers:Double Fine Productions
+developers:RainySoft
+developers:Frogwares
+developers:Zachtronics
+developers:KT Racing
+developers:Darius Bode
+developers:KOGADO STUDIO
+developers:Volition
+developers:The Bearded Ladies
+developers:Game Mixer
+developers:Robot Entertainment
+developers:Nippon Ichi Software
+developers:Hi-Rez Studios
+developers:CyberConnect2 Co. Ltd.
+developers:Gogii Games
+developers:upjers
+developers:ATLUS
+developers:Dharker Studios
+developers:VR Designs
+developers:Northway Games
+developers:Marvelous Inc.
+developers:Starni Games
+developers:Very Very LITTLE Studio
+developers:Blender Games
+developers:Wild Forest Studio
+developers:MumboJumbo
+developers:Telltale Games
+developers:24Frame
+developers:07th Expansion
+developers:Rainbow Studios
+developers:Maestro Cinetik
+developers:Out of the Park Developments
+developers:Two and a Half Studios
+developers:e-FunSoft Games
+developers:USERJOY Technology Co.
+developers:WayForward
+developers:Dr. Cyril Splutterworth
+developers:Flying Panjandrum / ふらいんぐパンジャンドラム
+developers:INTI CREATES CO.
+developers:United Independent Entertainment
+developers:HeR Interactive
+developers:Angry Demon Studio
+developers:Iceflake Studios
+developers:Fulqrum Publishing
+developers:Swing Swing Submarine
+developers:Shiver Games
+developers:City Interactive S.A.
+developers:Little Green Men Games
+developers:Qumaron
+developers:Blueside
+developers:Bossa Studios
+developers:RewindApp
+developers:Adept Studios GD
+developers:OTHER
+publishers:Inc.
+publishers:Ltd.
+publishers:PlayWay S.A.
+publishers:THQ Nordic
+publishers:Ubisoft
+publishers:LLC
+publishers:LTD.
+publishers:Fulqrum Publishing
+publishers:Nacon
+publishers:Paradox Interactive
+publishers:Devolver Digital
+publishers:Alawar Casual
+publishers:Square Enix
+publishers:Ltd
+publishers:Conglomerate 5
+publishers:KOEI TECMO GAMES CO.
+publishers:SEGA
+publishers:Sekai Project
+publishers:Daedalic Entertainment
+publishers:tinyBuild
+publishers:GrabTheGames
+publishers:Big Fish Games
+publishers:Kairosoft Co.
+publishers:XSEED Games
+publishers:Marvelous USA
+publishers:Slitherine Ltd.
+publishers:BANDAI NAMCO Entertainment
+publishers:Focus Entertainment
+publishers:Activision
+publishers:Nightdive Studios
+publishers:Assemble Entertainment
+publishers:Deep Silver
+publishers:2K
+publishers:Artifex Mundi
+publishers:SOFTSTAR ENTERTAINMENT
+publishers:Disney
+publishers:MangaGamer
+publishers:indie.io
+publishers:Kalypso Media Digital
+publishers:Team17
+publishers:KONAMI
+publishers:Choice of Games
+publishers:Microids
+publishers:Kagura Games
+publishers:Maximum Entertainment
+publishers:Dear Villagers
+publishers:KOMODO
+publishers:Frontwing USA
+publishers:Aerosoft GmbH
+publishers:NIS America
+publishers:HIKARI FIELD
+publishers:Humble Games
+publishers:HH-Games
+publishers:Good Shepherd Entertainment
+publishers:Outright Games Ltd.
+publishers:Mango Party
+publishers:Mango Party News
+publishers:Sometimes You
+publishers:Shiravune
+publishers:SNK CORPORATION
+publishers:Lovely Games
+publishers:Neon Doctrine
+publishers:Viva Media
+publishers:PLAYISM
+publishers:Bethesda Softworks
+publishers:Gamirror Games
+publishers:OTAKU Plan
+publishers:Electronic Arts
+publishers:Grey Alien Games
+publishers:Raw Fury
+publishers:Mediascape Co.
+publishers:Untold Tales
+publishers:Gamersky Games
+publishers:Valve
+publishers:Strategy First
+publishers:GameHouse
+publishers:Winged Cloud
+publishers:Playmeow
+publishers:Playmeow News
+publishers:Very Very LITTLE Studio
+publishers:IR Studio
+publishers:Skybound Games
+publishers:XDesktopSoft
+publishers:Spike Chunsoft Co.
+publishers:Plug In Digital
+publishers:Twin Sails Interactive
+publishers:Phoenix Game
+publishers:2P Games
+publishers:Milestone S.r.l.
+publishers:Games Incubator
+publishers:United Independent Entertainment
+publishers:Top Hat Studios
+publishers:L. Stotch
+publishers:Knuckle Cracker
+publishers:T-Time Technology CO.
+publishers:Wolverine Studios
+publishers:UpgradePoint
+publishers:Business Tycoon
+publishers:Humongous Entertainment
+publishers:FreeMind S.A.
+publishers:OTHER
+supported_languages:English
+supported_languages:Simplified Chinese
+supported_languages:German
+supported_languages:French
+supported_languages:Spanish - Spain
+supported_languages:Japanese
+supported_languages:Russian
+supported_languages:Italian
+supported_languages:Korean
+supported_languages:Portuguese - Brazil
+supported_languages:Traditional Chinese
+supported_languages:Polish
+supported_languages:Turkish
+supported_languages:Portuguese - Portugal
+supported_languages:Dutch
+supported_languages:Spanish - Latin America
+supported_languages:Czech
+supported_languages:Ukrainian
+supported_languages:Hungarian
+supported_languages:Arabic
+supported_languages:Swedish
+supported_languages:Thai
+supported_languages:Danish
+supported_languages:Finnish
+supported_languages:Norwegian
+supported_languages:Romanian
+supported_languages:Vietnamese
+supported_languages:Greek
+supported_languages:Bulgarian
+supported_languages:Indonesian
+supported_languages:Hindi
+supported_languages:Serbian
+supported_languages:Lithuanian
+supported_languages:Slovak
+supported_languages:Catalan
+supported_languages:Persian
+supported_languages:Belarusian
+supported_languages:Croatian
+supported_languages:Hebrew
+supported_languages:Icelandic
+supported_languages:Mongolian
+supported_languages:Estonian
+supported_languages:Filipino
+supported_languages:Malay
+supported_languages:Swahili
+supported_languages:Urdu
+supported_languages:Welsh
+supported_languages:Latvian
+supported_languages:Afrikaans
+supported_languages:Albanian
+supported_languages:Amharic
+supported_languages:Assamese
+supported_languages:Azerbaijani
+supported_languages:Basque
+supported_languages:Bangla
+supported_languages:Bosnian
+supported_languages:Cherokee
+supported_languages:Dari
+supported_languages:Galician
+supported_languages:Georgian
+supported_languages:Gujarati
+supported_languages:Hausa
+supported_languages:Igbo
+supported_languages:Irish
+supported_languages:Yoruba
+supported_languages:Kannada
+supported_languages:Kazakh
+supported_languages:Quechua
+supported_languages:Khmer
+supported_languages:K'iche'
+supported_languages:Kyrgyz
+supported_languages:Konkani
+supported_languages:Luxembourgish
+supported_languages:Macedonian
+supported_languages:Malayalam
+supported_languages:Maltese
+supported_languages:Maori
+supported_languages:Marathi
+supported_languages:Nepali
+supported_languages:Odia
+supported_languages:Armenian
+supported_languages:Punjabi (Gurmukhi)
+supported_languages:Punjabi (Shahmukhi)
+supported_languages:Kinyarwanda
+supported_languages:Scots
+supported_languages:Sindhi
+supported_languages:Sorani
+supported_languages:Sotho
+supported_languages:Sinhala
+supported_languages:Slovenian
+supported_languages:Tajik
+supported_languages:Tamil
+supported_languages:Tatar
+supported_languages:Telugu
+supported_languages:Tigrinya
+supported_languages:Tswana
+supported_languages:Turkmen
+supported_languages:Uyghur
+supported_languages:Uzbek
+supported_languages:Valencian
+supported_languages:OTHER

@@ -1,0 +1,92 @@
+{
+  "community_0": {
+    "type": "multiple_metrics",
+    "raw_mean_similarity": 0.4879943114828974,
+    "standardized_mean_similarity": -0.15047401705600486,
+    "minmax_mean_similarity": 0.5734251106915729,
+    "raw_above_0.7": 137,
+    "standardized_above_0.7": 0,
+    "minmax_above_0.7": 136
+  },
+  "community_1": {
+    "type": "multiple_metrics",
+    "raw_mean_similarity": 0.5655199274542714,
+    "standardized_mean_similarity": 0.2811430254808805,
+    "minmax_mean_similarity": 0.5246203846963208,
+    "raw_above_0.7": 522,
+    "standardized_above_0.7": 3,
+    "minmax_above_0.7": 49
+  },
+  "community_2": {
+    "type": "multiple_metrics",
+    "raw_mean_similarity": 0.4751969130436676,
+    "standardized_mean_similarity": 0.35079118631334893,
+    "minmax_mean_similarity": 0.556113998201761,
+    "raw_above_0.7": 141,
+    "standardized_above_0.7": 2,
+    "minmax_above_0.7": 144
+  },
+  "community_3": {
+    "type": "multiple_metrics",
+    "raw_mean_similarity": 0.5538866780445438,
+    "standardized_mean_similarity": -0.10008062945129127,
+    "minmax_mean_similarity": 0.49537650687154644,
+    "raw_above_0.7": 472,
+    "standardized_above_0.7": 0,
+    "minmax_above_0.7": 37
+  },
+  "community_4": {
+    "type": "multiple_metrics",
+    "raw_mean_similarity": 0.24152676752154717,
+    "standardized_mean_similarity": 0.3084520119410168,
+    "minmax_mean_similarity": 0.15743886809915528,
+    "raw_above_0.7": 118,
+    "standardized_above_0.7": 67,
+    "minmax_above_0.7": 0
+  },
+  "community_5": {
+    "type": "multiple_metrics",
+    "raw_mean_similarity": 0.5634988277023801,
+    "standardized_mean_similarity": 0.33445002382407857,
+    "minmax_mean_similarity": 0.5148432033680422,
+    "raw_above_0.7": 419,
+    "standardized_above_0.7": 0,
+    "minmax_above_0.7": 58
+  },
+  "community_6": {
+    "type": "multiple_metrics",
+    "raw_mean_similarity": 0.5637837050269504,
+    "standardized_mean_similarity": -0.3476614711416501,
+    "minmax_mean_similarity": 0.5401973535747088,
+    "raw_above_0.7": 476,
+    "standardized_above_0.7": 0,
+    "minmax_above_0.7": 254
+  },
+  "community_7": {
+    "type": "multiple_metrics",
+    "raw_mean_similarity": 0.5577601427323012,
+    "standardized_mean_similarity": 0.2178761942109147,
+    "minmax_mean_similarity": 0.5221017624141523,
+    "raw_above_0.7": 319,
+    "standardized_above_0.7": 0,
+    "minmax_above_0.7": 93
+  },
+  "community_8": {
+    "type": "multiple_metrics",
+    "raw_mean_similarity": 0.46121423371354375,
+    "standardized_mean_similarity": 0.0816023730327786,
+    "minmax_mean_similarity": 0.5302400072445517,
+    "raw_above_0.7": 27,
+    "standardized_above_0.7": 0,
+    "minmax_above_0.7": 24
+  },
+  "community_9": {
+    "type": "multiple_metrics",
+    "raw_mean_similarity": 0.47679990748855305,
+    "standardized_mean_similarity": -0.338064449550802,
+    "minmax_mean_similarity": 0.5411969971000717,
+    "raw_above_0.7": 263,
+    "standardized_above_0.7": 0,
+    "minmax_above_0.7": 34
+  }
+}

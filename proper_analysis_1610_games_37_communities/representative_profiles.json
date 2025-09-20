@@ -1,0 +1,705 @@
+{
+  "community_0": {
+    "community_id": "0",
+    "representative_appids": [
+      "435090",
+      "370550",
+      "523440",
+      "435050",
+      "366610"
+    ],
+    "representative_similarities": [
+      0.583878634907974,
+      0.584150739293569,
+      0.5843368461554794,
+      0.5924738524245962,
+      0.5978855027467895
+    ],
+    "centroid_similarity": 0.5885451151056816,
+    "description": "Community 0 represented by 5 games"
+  },
+  "community_1": {
+    "community_id": "1",
+    "representative_appids": [
+      "1031910",
+      "580560",
+      "433300",
+      "728830",
+      "13530"
+    ],
+    "representative_similarities": [
+      0.5781598171078732,
+      0.5831040106871446,
+      0.598530163953375,
+      0.6150281153979262,
+      0.6475595078097299
+    ],
+    "centroid_similarity": 0.6044763229912099,
+    "description": "Community 1 represented by 5 games"
+  },
+  "community_2": {
+    "community_id": "2",
+    "representative_appids": [
+      "418960",
+      "435090",
+      "370550",
+      "523440",
+      "366610"
+    ],
+    "representative_similarities": [
+      0.7778735727149456,
+      0.7921206437990992,
+      0.7922732039944904,
+      0.7935627484820567,
+      0.8121971237707444
+    ],
+    "centroid_similarity": 0.7936054585522673,
+    "description": "Community 2 represented by 5 games"
+  },
+  "community_3": {
+    "community_id": "3",
+    "representative_appids": [
+      "277910",
+      "867590",
+      "1060810",
+      "525210",
+      "977210"
+    ],
+    "representative_similarities": [
+      0.38479278634155023,
+      0.3851606508459618,
+      0.3866905849595545,
+      0.38821897997227905,
+      0.38956865649473527
+    ],
+    "centroid_similarity": 0.3868863317228162,
+    "description": "Community 3 represented by 5 games"
+  },
+  "community_4": {
+    "community_id": "4",
+    "representative_appids": [
+      "728830",
+      "418960",
+      "435090",
+      "523440",
+      "366610"
+    ],
+    "representative_similarities": [
+      0.6294082170488454,
+      0.634135324299729,
+      0.6464306316821267,
+      0.6470485489603448,
+      0.6623936311996413
+    ],
+    "centroid_similarity": 0.6438832706381373,
+    "description": "Community 4 represented by 5 games"
+  },
+  "community_5": {
+    "community_id": "5",
+    "representative_appids": [
+      "728830",
+      "418960",
+      "435090",
+      "523440",
+      "366610"
+    ],
+    "representative_similarities": [
+      0.6963959739625151,
+      0.7016059272964804,
+      0.7145877623714014,
+      0.7158068832489243,
+      0.7326129648137707
+    ],
+    "centroid_similarity": 0.7122019023386184,
+    "description": "Community 5 represented by 5 games"
+  },
+  "community_6": {
+    "community_id": "6",
+    "representative_appids": [
+      "1052900",
+      "418960",
+      "435090",
+      "523440",
+      "366610"
+    ],
+    "representative_similarities": [
+      0.40967899009946507,
+      0.41468199084216506,
+      0.42296201105388737,
+      0.42326817523593,
+      0.43297400419681537
+    ],
+    "centroid_similarity": 0.42071303428565254,
+    "description": "Community 6 represented by 5 games"
+  },
+  "community_7": {
+    "community_id": "7",
+    "representative_appids": [
+      "418960",
+      "435090",
+      "523440",
+      "435050",
+      "366610"
+    ],
+    "representative_similarities": [
+      0.7298136567323329,
+      0.7440710056857637,
+      0.7447517930639658,
+      0.7549189965184032,
+      0.7622214331480559
+    ],
+    "centroid_similarity": 0.7471553770297044,
+    "description": "Community 7 represented by 5 games"
+  },
+  "community_8": {
+    "community_id": "8",
+    "representative_appids": [
+      "523440",
+      "435090",
+      "491100",
+      "1052900",
+      "366610"
+    ],
+    "representative_similarities": [
+      0.5455220987541385,
+      0.5473070300449485,
+      0.5503603991497097,
+      0.5530632498032859,
+      0.5573806689076968
+    ],
+    "centroid_similarity": 0.5507266893319558,
+    "description": "Community 8 represented by 5 games"
+  },
+  "community_9": {
+    "community_id": "9",
+    "representative_appids": [
+      "418960",
+      "435090",
+      "370550",
+      "523440",
+      "366610"
+    ],
+    "representative_similarities": [
+      0.7336763862841689,
+      0.7476832079842128,
+      0.7480670135455609,
+      0.7486410865934615,
+      0.766146407643345
+    ],
+    "centroid_similarity": 0.7488428204101497,
+    "description": "Community 9 represented by 5 games"
+  },
+  "community_10": {
+    "community_id": "10",
+    "representative_appids": [
+      "673540",
+      "1093280",
+      "330950",
+      "573730",
+      "412430"
+    ],
+    "representative_similarities": [
+      0.5994405203803541,
+      0.6063018477821568,
+      0.6204485827419711,
+      0.6289695970591156,
+      0.6355743711728158
+    ],
+    "centroid_similarity": 0.6181469838272827,
+    "description": "Community 10 represented by 5 games"
+  },
+  "community_11": {
+    "community_id": "11",
+    "representative_appids": [
+      "1107720",
+      "272990",
+      "391440",
+      "997270",
+      "586380"
+    ],
+    "representative_similarities": [
+      0.6566631061967066,
+      0.6630939108229634,
+      0.6632715905389002,
+      0.6729069182873272,
+      0.6738267428980234
+    ],
+    "centroid_similarity": 0.6659524537487842,
+    "description": "Community 11 represented by 5 games"
+  },
+  "community_12": {
+    "community_id": "12",
+    "representative_appids": [
+      "435090",
+      "370550",
+      "523440",
+      "435050",
+      "366610"
+    ],
+    "representative_similarities": [
+      0.7358366559400057,
+      0.7363116902064872,
+      0.736528535036252,
+      0.7465616228166327,
+      0.753730311589884
+    ],
+    "centroid_similarity": 0.7417937631178524,
+    "description": "Community 12 represented by 5 games"
+  },
+  "community_13": {
+    "community_id": "13",
+    "representative_appids": [
+      "795020",
+      "418960",
+      "435090",
+      "523440",
+      "366610"
+    ],
+    "representative_similarities": [
+      0.5771738453071501,
+      0.5806462870199991,
+      0.5915771022946537,
+      0.5924054821023432,
+      0.6062655694996445
+    ],
+    "centroid_similarity": 0.5896136572447581,
+    "description": "Community 13 represented by 5 games"
+  },
+  "community_14": {
+    "community_id": "14",
+    "representative_appids": [
+      "435090",
+      "370550",
+      "523440",
+      "435050",
+      "366610"
+    ],
+    "representative_similarities": [
+      0.34380961641615326,
+      0.3438439417609943,
+      0.3439948202569505,
+      0.34896345604215684,
+      0.3518650482221423
+    ],
+    "centroid_similarity": 0.34649537653967943,
+    "description": "Community 14 represented by 5 games"
+  },
+  "community_15": {
+    "community_id": "15",
+    "representative_appids": [
+      "1052900",
+      "418960",
+      "435090",
+      "523440",
+      "366610"
+    ],
+    "representative_similarities": [
+      0.46035481430972985,
+      0.465854410372135,
+      0.47518712641033356,
+      0.47548401809310903,
+      0.48651465955974815
+    ],
+    "centroid_similarity": 0.47267900574901117,
+    "description": "Community 15 represented by 5 games"
+  },
+  "community_16": {
+    "community_id": "16",
+    "representative_appids": [
+      "523440",
+      "435090",
+      "370550",
+      "1052900",
+      "366610"
+    ],
+    "representative_similarities": [
+      0.6216578936156761,
+      0.623652670682338,
+      0.6237712231808294,
+      0.6300675726141635,
+      0.6350276503675304
+    ],
+    "centroid_similarity": 0.6268354020921075,
+    "description": "Community 16 represented by 5 games"
+  },
+  "community_17": {
+    "community_id": "17",
+    "representative_appids": [
+      "1052900",
+      "418960",
+      "435090",
+      "523440",
+      "366610"
+    ],
+    "representative_similarities": [
+      0.6502750357725964,
+      0.6586207163162402,
+      0.6704279934106984,
+      0.6718593510037636,
+      0.6876880023621087
+    ],
+    "centroid_similarity": 0.6677742197730814,
+    "description": "Community 17 represented by 5 games"
+  },
+  "community_18": {
+    "community_id": "18",
+    "representative_appids": [
+      "552380",
+      "435090",
+      "491100",
+      "1052900",
+      "366610"
+    ],
+    "representative_similarities": [
+      0.6334050101726705,
+      0.6342319735528736,
+      0.6380259869415369,
+      0.6412472181459987,
+      0.6470420044611872
+    ],
+    "centroid_similarity": 0.6387904386548533,
+    "description": "Community 18 represented by 5 games"
+  },
+  "community_19": {
+    "community_id": "19",
+    "representative_appids": [
+      "418960",
+      "580560",
+      "435090",
+      "523440",
+      "366610"
+    ],
+    "representative_similarities": [
+      0.6382278859184222,
+      0.6391749773446165,
+      0.6503961818852146,
+      0.6511415271987033,
+      0.666299377634616
+    ],
+    "centroid_similarity": 0.6490479899963145,
+    "description": "Community 19 represented by 5 games"
+  },
+  "community_20": {
+    "community_id": "20",
+    "representative_appids": [
+      "418960",
+      "435090",
+      "523440",
+      "435050",
+      "366610"
+    ],
+    "representative_similarities": [
+      0.6787269273512371,
+      0.6912250586907343,
+      0.6924784333455883,
+      0.7016017663578231,
+      0.7086389376405972
+    ],
+    "centroid_similarity": 0.694534224677196,
+    "description": "Community 20 represented by 5 games"
+  },
+  "community_21": {
+    "community_id": "21",
+    "representative_appids": [
+      "533890",
+      "728830",
+      "271850",
+      "997270",
+      "673540"
+    ],
+    "representative_similarities": [
+      0.6401985030508436,
+      0.6517402904473916,
+      0.6569483051418961,
+      0.6891303782373494,
+      0.6979375695676092
+    ],
+    "centroid_similarity": 0.667191009289018,
+    "description": "Community 21 represented by 5 games"
+  },
+  "community_22": {
+    "community_id": "22",
+    "representative_appids": [
+      "523440",
+      "435090",
+      "370550",
+      "1052900",
+      "366610"
+    ],
+    "representative_similarities": [
+      0.6042426980081516,
+      0.605903373167968,
+      0.6061235515173843,
+      0.6123479515801583,
+      0.6173629464272834
+    ],
+    "centroid_similarity": 0.6091961041401891,
+    "description": "Community 22 represented by 5 games"
+  },
+  "community_23": {
+    "community_id": "23",
+    "representative_appids": [
+      "1175190",
+      "578830",
+      "209230",
+      "680430",
+      "1160790"
+    ],
+    "representative_similarities": [
+      0.6614312059009395,
+      0.6625707504333762,
+      0.6645968671224894,
+      0.6838784699660041,
+      0.7077421353083266
+    ],
+    "centroid_similarity": 0.6760438857462272,
+    "description": "Community 23 represented by 5 games"
+  },
+  "community_24": {
+    "community_id": "24",
+    "representative_appids": [
+      "880580",
+      "209230",
+      "680430",
+      "578830",
+      "1160790"
+    ],
+    "representative_similarities": [
+      0.20465595698881048,
+      0.20698033548253655,
+      0.20946052519221692,
+      0.21720436767545007,
+      0.21902264715827788
+    ],
+    "centroid_similarity": 0.21146476649945836,
+    "description": "Community 24 represented by 5 games"
+  },
+  "community_25": {
+    "community_id": "25",
+    "representative_appids": [
+      "330950",
+      "628960",
+      "673540",
+      "997270",
+      "412430"
+    ],
+    "representative_similarities": [
+      0.5511410539499098,
+      0.5553134833124058,
+      0.5560081774641671,
+      0.5778354350736654,
+      0.5888315620463946
+    ],
+    "centroid_similarity": 0.5658259423693085,
+    "description": "Community 25 represented by 5 games"
+  },
+  "community_26": {
+    "community_id": "26",
+    "representative_appids": [
+      "418960",
+      "435090",
+      "523440",
+      "435050",
+      "366610"
+    ],
+    "representative_similarities": [
+      0.35864768504675154,
+      0.3660659539102151,
+      0.3661259248240403,
+      0.37144582914525015,
+      0.37452200587381124
+    ],
+    "centroid_similarity": 0.36736147976001365,
+    "description": "Community 26 represented by 5 games"
+  },
+  "community_27": {
+    "community_id": "27",
+    "representative_appids": [
+      "418960",
+      "435090",
+      "523440",
+      "366610",
+      "867590"
+    ],
+    "representative_similarities": [
+      0.7288609511260793,
+      0.7428682624875893,
+      0.7437088006058185,
+      0.7612764323091059,
+      0.7667460437312065
+    ],
+    "centroid_similarity": 0.7486920980519599,
+    "description": "Community 27 represented by 5 games"
+  },
+  "community_28": {
+    "community_id": "28",
+    "representative_appids": [
+      "491100",
+      "353740",
+      "951640",
+      "767870",
+      "552380"
+    ],
+    "representative_similarities": [
+      0.5663842240774145,
+      0.5710704091306668,
+      0.5774346236683893,
+      0.5799605519504587,
+      0.5852637792579438
+    ],
+    "centroid_similarity": 0.5760227176169745,
+    "description": "Community 28 represented by 5 games"
+  },
+  "community_29": {
+    "community_id": "29",
+    "representative_appids": [
+      "1457620",
+      "516000",
+      "433300",
+      "353740",
+      "606890"
+    ],
+    "representative_similarities": [
+      0.15065127734731623,
+      0.15228196623351342,
+      0.15556505690889802,
+      0.15837826445188424,
+      0.16241434756407605
+    ],
+    "centroid_similarity": 0.1558581825011376,
+    "description": "Community 29 represented by 5 games"
+  },
+  "community_30": {
+    "community_id": "30",
+    "representative_appids": [
+      "21030",
+      "606890",
+      "296830",
+      "503810",
+      "204860"
+    ],
+    "representative_similarities": [
+      0.5237346352667436,
+      0.5249847129930425,
+      0.5255167030836978,
+      0.5298812236487545,
+      0.567103812182465
+    ],
+    "centroid_similarity": 0.5342442174349407,
+    "description": "Community 30 represented by 5 games"
+  },
+  "community_31": {
+    "community_id": "31",
+    "representative_appids": [
+      "418960",
+      "523440",
+      "435090",
+      "435050",
+      "366610"
+    ],
+    "representative_similarities": [
+      0.6499053829346062,
+      0.664303057251837,
+      0.6659949893534796,
+      0.6759376026513433,
+      0.6787035187988899
+    ],
+    "centroid_similarity": 0.6669689101980312,
+    "description": "Community 31 represented by 5 games"
+  },
+  "community_32": {
+    "community_id": "32",
+    "representative_appids": [
+      "277890",
+      "353190",
+      "108110",
+      "21030",
+      "503810"
+    ],
+    "representative_similarities": [
+      0.7594326557126448,
+      0.7652077792860542,
+      0.7684733040166826,
+      0.7689295009236501,
+      0.8218211961690676
+    ],
+    "centroid_similarity": 0.7767728872216199,
+    "description": "Community 32 represented by 5 games"
+  },
+  "community_33": {
+    "community_id": "33",
+    "representative_appids": [
+      "1052900",
+      "418960",
+      "435090",
+      "523440",
+      "366610"
+    ],
+    "representative_similarities": [
+      0.6295419608529695,
+      0.6377095430439873,
+      0.6489664920558326,
+      0.6505128112770227,
+      0.6657966544978882
+    ],
+    "centroid_similarity": 0.6465054923455401,
+    "description": "Community 33 represented by 5 games"
+  },
+  "community_34": {
+    "community_id": "34",
+    "representative_appids": [
+      "353190",
+      "277890",
+      "108110",
+      "21030",
+      "503810"
+    ],
+    "representative_similarities": [
+      0.7107667153385681,
+      0.719153936340989,
+      0.7346348739382287,
+      0.7628311844177744,
+      0.7822446756970273
+    ],
+    "centroid_similarity": 0.7419262771465175,
+    "description": "Community 34 represented by 5 games"
+  },
+  "community_35": {
+    "community_id": "35",
+    "representative_appids": [
+      "21030",
+      "353190",
+      "108110",
+      "277890",
+      "503810"
+    ],
+    "representative_similarities": [
+      0.7177144177306874,
+      0.7213719765999885,
+      0.7243439228446216,
+      0.7327650914163932,
+      0.7926540286303305
+    ],
+    "centroid_similarity": 0.7377698874444043,
+    "description": "Community 35 represented by 5 games"
+  },
+  "community_36": {
+    "community_id": "36",
+    "representative_appids": [
+      "586380",
+      "277910",
+      "867590",
+      "1093280",
+      "2605980"
+    ],
+    "representative_similarities": [
+      0.67957658388689,
+      0.6904790111062905,
+      0.6934085136330265,
+      0.6971229130268441,
+      0.7330322262187846
+    ],
+    "centroid_similarity": 0.6987238495743672,
+    "description": "Community 36 represented by 5 games"
+  }
+}

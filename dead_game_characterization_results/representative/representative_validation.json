@@ -1,0 +1,232 @@
+{
+  "community_0": {
+    "type": "representative_games",
+    "threshold_analysis": {
+      "threshold_0.5": {
+        "games_above": 793,
+        "percentage": 24.627329192546586
+      },
+      "threshold_0.6": {
+        "games_above": 231,
+        "percentage": 7.173913043478261
+      },
+      "threshold_0.7": {
+        "games_above": 47,
+        "percentage": 1.4596273291925466
+      },
+      "threshold_0.8": {
+        "games_above": 12,
+        "percentage": 0.37267080745341613
+      }
+    },
+    "mean_max_similarity": 0.4216557191543738,
+    "median_max_similarity": 0.4253687612937317
+  },
+  "community_1": {
+    "type": "representative_games",
+    "threshold_analysis": {
+      "threshold_0.5": {
+        "games_above": 1546,
+        "percentage": 48.01242236024844
+      },
+      "threshold_0.6": {
+        "games_above": 746,
+        "percentage": 23.167701863354036
+      },
+      "threshold_0.7": {
+        "games_above": 265,
+        "percentage": 8.229813664596273
+      },
+      "threshold_0.8": {
+        "games_above": 50,
+        "percentage": 1.5527950310559007
+      }
+    },
+    "mean_max_similarity": 0.4900315471960141,
+    "median_max_similarity": 0.49308781487683995
+  },
+  "community_2": {
+    "type": "representative_games",
+    "threshold_analysis": {
+      "threshold_0.5": {
+        "games_above": 687,
+        "percentage": 21.335403726708073
+      },
+      "threshold_0.6": {
+        "games_above": 203,
+        "percentage": 6.304347826086956
+      },
+      "threshold_0.7": {
+        "games_above": 50,
+        "percentage": 1.5527950310559007
+      },
+      "threshold_0.8": {
+        "games_above": 5,
+        "percentage": 0.15527950310559005
+      }
+    },
+    "mean_max_similarity": 0.4181351236103639,
+    "median_max_similarity": 0.4117857893903367
+  },
+  "community_3": {
+    "type": "representative_games",
+    "threshold_analysis": {
+      "threshold_0.5": {
+        "games_above": 1602,
+        "percentage": 49.75155279503106
+      },
+      "threshold_0.6": {
+        "games_above": 778,
+        "percentage": 24.161490683229815
+      },
+      "threshold_0.7": {
+        "games_above": 283,
+        "percentage": 8.788819875776397
+      },
+      "threshold_0.8": {
+        "games_above": 68,
+        "percentage": 2.111801242236025
+      }
+    },
+    "mean_max_similarity": 0.4981399241912358,
+    "median_max_similarity": 0.4991457480916215
+  },
+  "community_4": {
+    "type": "representative_games",
+    "threshold_analysis": {
+      "threshold_0.5": {
+        "games_above": 196,
+        "percentage": 6.086956521739131
+      },
+      "threshold_0.6": {
+        "games_above": 136,
+        "percentage": 4.22360248447205
+      },
+      "threshold_0.7": {
+        "games_above": 118,
+        "percentage": 3.6645962732919255
+      },
+      "threshold_0.8": {
+        "games_above": 117,
+        "percentage": 3.633540372670808
+      }
+    },
+    "mean_max_similarity": 0.24213148807173634,
+    "median_max_similarity": 0.20732267227794107
+  },
+  "community_5": {
+    "type": "representative_games",
+    "threshold_analysis": {
+      "threshold_0.5": {
+        "games_above": 1732,
+        "percentage": 53.7888198757764
+      },
+      "threshold_0.6": {
+        "games_above": 806,
+        "percentage": 25.03105590062112
+      },
+      "threshold_0.7": {
+        "games_above": 266,
+        "percentage": 8.26086956521739
+      },
+      "threshold_0.8": {
+        "games_above": 58,
+        "percentage": 1.8012422360248446
+      }
+    },
+    "mean_max_similarity": 0.5067186879556641,
+    "median_max_similarity": 0.511268702748918
+  },
+  "community_6": {
+    "type": "representative_games",
+    "threshold_analysis": {
+      "threshold_0.5": {
+        "games_above": 1862,
+        "percentage": 57.826086956521735
+      },
+      "threshold_0.6": {
+        "games_above": 810,
+        "percentage": 25.15527950310559
+      },
+      "threshold_0.7": {
+        "games_above": 142,
+        "percentage": 4.409937888198757
+      },
+      "threshold_0.8": {
+        "games_above": 10,
+        "percentage": 0.3105590062111801
+      }
+    },
+    "mean_max_similarity": 0.5118232231551021,
+    "median_max_similarity": 0.5235185462005444
+  },
+  "community_7": {
+    "type": "representative_games",
+    "threshold_analysis": {
+      "threshold_0.5": {
+        "games_above": 1786,
+        "percentage": 55.46583850931677
+      },
+      "threshold_0.6": {
+        "games_above": 926,
+        "percentage": 28.75776397515528
+      },
+      "threshold_0.7": {
+        "games_above": 339,
+        "percentage": 10.527950310559007
+      },
+      "threshold_0.8": {
+        "games_above": 62,
+        "percentage": 1.9254658385093166
+      }
+    },
+    "mean_max_similarity": 0.5165986697351631,
+    "median_max_similarity": 0.5203820826594759
+  },
+  "community_8": {
+    "type": "representative_games",
+    "threshold_analysis": {
+      "threshold_0.5": {
+        "games_above": 970,
+        "percentage": 30.124223602484474
+      },
+      "threshold_0.6": {
+        "games_above": 195,
+        "percentage": 6.055900621118012
+      },
+      "threshold_0.7": {
+        "games_above": 36,
+        "percentage": 1.1180124223602486
+      },
+      "threshold_0.8": {
+        "games_above": 5,
+        "percentage": 0.15527950310559005
+      }
+    },
+    "mean_max_similarity": 0.4453670871672049,
+    "median_max_similarity": 0.45626231285475816
+  },
+  "community_9": {
+    "type": "representative_games",
+    "threshold_analysis": {
+      "threshold_0.5": {
+        "games_above": 650,
+        "percentage": 20.18633540372671
+      },
+      "threshold_0.6": {
+        "games_above": 248,
+        "percentage": 7.7018633540372665
+      },
+      "threshold_0.7": {
+        "games_above": 88,
+        "percentage": 2.732919254658385
+      },
+      "threshold_0.8": {
+        "games_above": 13,
+        "percentage": 0.40372670807453415
+      }
+    },
+    "mean_max_similarity": 0.4081675883960529,
+    "median_max_similarity": 0.40360361044277543
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "0": {
+    "pricing": [
+      "is_free=False"
+    ],
+    "developers": [],
+    "publishers": [],
+    "categories": [
+      "categories:Indie"
+    ],
+    "tags": [],
+    "quality": [],
+    "content": [
+      "has_dlc=False",
+      "dlc_count_low"
+    ],
+    "other": []
+  },
+  "1": {
+    "pricing": [
+      "is_free=False"
+    ],
+    "developers": [],
+    "publishers": [],
+    "categories": [],
+    "tags": [
+      "tags:Singleplayer"
+    ],
+    "quality": [],
+    "content": [
+      "has_dlc=False"
+    ],
+    "other": []
+  },
+  "2": {
+    "pricing": [
+      "is_free=False"
+    ],
+    "developers": [],
+    "publishers": [],
+    "categories": [
+      "categories:Indie"
+    ],
+    "tags": [],
+    "quality": [],
+    "content": [
+      "has_dlc=False",
+      "dlc_count_low"
+    ],
+    "other": []
+  },
+  "3": {
+    "pricing": [
+      "is_free=False"
+    ],
+    "developers": [],
+    "publishers": [],
+    "categories": [
+      "categories:Indie"
+    ],
+    "tags": [],
+    "quality": [],
+    "content": [
+      "has_dlc=False",
+      "dlc_count_low"
+    ],
+    "other": []
+  },
+  "4": {
+    "pricing": [
+      "is_free=False"
+    ],
+    "developers": [],
+    "publishers": [],
+    "categories": [
+      "categories:Indie"
+    ],
+    "tags": [],
+    "quality": [],
+    "content": [
+      "has_dlc=False",
+      "dlc_count_low"
+    ],
+    "other": []
+  },
+  "5": {
+    "pricing": [
+      "is_free=False"
+    ],
+    "developers": [],
+    "publishers": [],
+    "categories": [
+      "categories:Indie"
+    ],
+    "tags": [],
+    "quality": [],
+    "content": [
+      "has_dlc=False",
+      "dlc_count_low"
+    ],
+    "other": []
+  },
+  "6": {
+    "pricing": [
+      "is_free=False"
+    ],
+    "developers": [],
+    "publishers": [],
+    "categories": [
+      "categories:Indie"
+    ],
+    "tags": [],
+    "quality": [],
+    "content": [
+      "has_dlc=False",
+      "dlc_count_low"
+    ],
+    "other": []
+  },
+  "7": {
+    "pricing": [
+      "is_free=False"
+    ],
+    "developers": [],
+    "publishers": [],
+    "categories": [
+      "categories:Indie"
+    ],
+    "tags": [],
+    "quality": [],
+    "content": [
+      "has_dlc=False",
+      "dlc_count_low"
+    ],
+    "other": []
+  },
+  "8": {
+    "pricing": [
+      "is_free=False"
+    ],
+    "developers": [],
+    "publishers": [],
+    "categories": [
+      "categories:Indie"
+    ],
+    "tags": [],
+    "quality": [],
+    "content": [
+      "has_dlc=False"
+    ],
+    "other": []
+  },
+  "9": {
+    "pricing": [
+      "is_free=False"
+    ],
+    "developers": [],
+    "publishers": [],
+    "categories": [],
+    "tags": [],
+    "quality": [],
+    "content": [],
+    "other": []
+  },
+  "10": {
+    "pricing": [
+      "is_free=False"
+    ],
+    "developers": [],
+    "publishers": [],
+    "categories": [
+      "categories:Indie"
+    ],
+    "tags": [
+      "tags:Indie"
+    ],
+    "quality": [],
+    "content": [
+      "has_dlc=False",
+      "dlc_count_low"
+    ],
+    "other": []
+  },
+  "11": {
+    "pricing": [
+      "is_free=False"
+    ],
+    "developers": [],
+    "publishers": [],
+    "categories": [],
+    "tags": [
+      "tags:Singleplayer"
+    ],
+    "quality": [],
+    "content": [
+      "dlc_count_low"
+    ],
+    "other": []
+  },
+  "12": {
+    "pricing": [
+      "is_free=False"
+    ],
+    "developers": [],
+    "publishers": [],
+    "categories": [
+      "categories:Indie"
+    ],
+    "tags": [],
+    "quality": [],
+    "content": [
+      "has_dlc=False",
+      "dlc_count_low"
+    ],
+    "other": []
+  },
+  "13": {
+    "pricing": [
+      "is_free=False"
+    ],
+    "developers": [],
+    "publishers": [],
+    "categories": [
+      "categories:Indie"
+    ],
+    "tags": [],
+    "quality": [],
+    "content": [
+      "has_dlc=False",
+      "dlc_count_low"
+    ],
+    "other": []
+  }
+}

@@ -1,0 +1,604 @@
+{
+  "community_0": {
+    "community_id": "0",
+    "representative_games": [
+      "19320",
+      "523440",
+      "435090",
+      "366610",
+      "536920"
+    ],
+    "mean_similarity": 0.5205669526249478,
+    "median_similarity": 0.5262786357569439,
+    "max_similarity": 1.000000000000001,
+    "threshold_analysis": {
+      "threshold_0.3": {
+        "games_above": 3009,
+        "percentage": 93.44720496894409
+      },
+      "threshold_0.4": {
+        "games_above": 2611,
+        "percentage": 81.08695652173913
+      },
+      "threshold_0.5": {
+        "games_above": 1830,
+        "percentage": 56.83229813664597
+      },
+      "threshold_0.6": {
+        "games_above": 945,
+        "percentage": 29.347826086956523
+      },
+      "threshold_0.7": {
+        "games_above": 316,
+        "percentage": 9.813664596273291
+      },
+      "threshold_0.8": {
+        "games_above": 100,
+        "percentage": 3.1055900621118013
+      },
+      "threshold_0.9": {
+        "games_above": 21,
+        "percentage": 0.6521739130434783
+      }
+    }
+  },
+  "community_1": {
+    "community_id": "1",
+    "representative_games": [
+      "1676910",
+      "368510",
+      "1160790",
+      "556870",
+      "11050"
+    ],
+    "mean_similarity": 0.4490269759457918,
+    "median_similarity": 0.44198539099666734,
+    "max_similarity": 1.0000000000000002,
+    "threshold_analysis": {
+      "threshold_0.3": {
+        "games_above": 2959,
+        "percentage": 91.8944099378882
+      },
+      "threshold_0.4": {
+        "games_above": 2087,
+        "percentage": 64.81366459627328
+      },
+      "threshold_0.5": {
+        "games_above": 991,
+        "percentage": 30.776397515527947
+      },
+      "threshold_0.6": {
+        "games_above": 337,
+        "percentage": 10.46583850931677
+      },
+      "threshold_0.7": {
+        "games_above": 121,
+        "percentage": 3.7577639751552794
+      },
+      "threshold_0.8": {
+        "games_above": 15,
+        "percentage": 0.4658385093167702
+      },
+      "threshold_0.9": {
+        "games_above": 6,
+        "percentage": 0.18633540372670807
+      }
+    }
+  },
+  "community_2": {
+    "community_id": "2",
+    "representative_games": [
+      "872580",
+      "435050",
+      "366610",
+      "536920",
+      "979290"
+    ],
+    "mean_similarity": 0.5180627148665257,
+    "median_similarity": 0.5205304322877553,
+    "max_similarity": 1.0000000000000002,
+    "threshold_analysis": {
+      "threshold_0.3": {
+        "games_above": 2991,
+        "percentage": 92.88819875776397
+      },
+      "threshold_0.4": {
+        "games_above": 2643,
+        "percentage": 82.0807453416149
+      },
+      "threshold_0.5": {
+        "games_above": 1827,
+        "percentage": 56.739130434782616
+      },
+      "threshold_0.6": {
+        "games_above": 863,
+        "percentage": 26.801242236024848
+      },
+      "threshold_0.7": {
+        "games_above": 317,
+        "percentage": 9.84472049689441
+      },
+      "threshold_0.8": {
+        "games_above": 95,
+        "percentage": 2.950310559006211
+      },
+      "threshold_0.9": {
+        "games_above": 17,
+        "percentage": 0.5279503105590062
+      }
+    }
+  },
+  "community_3": {
+    "community_id": "3",
+    "representative_games": [
+      "872580",
+      "435050",
+      "366610",
+      "536920",
+      "979290"
+    ],
+    "mean_similarity": 0.5180627148665257,
+    "median_similarity": 0.5205304322877553,
+    "max_similarity": 1.0000000000000002,
+    "threshold_analysis": {
+      "threshold_0.3": {
+        "games_above": 2991,
+        "percentage": 92.88819875776397
+      },
+      "threshold_0.4": {
+        "games_above": 2643,
+        "percentage": 82.0807453416149
+      },
+      "threshold_0.5": {
+        "games_above": 1827,
+        "percentage": 56.739130434782616
+      },
+      "threshold_0.6": {
+        "games_above": 863,
+        "percentage": 26.801242236024848
+      },
+      "threshold_0.7": {
+        "games_above": 317,
+        "percentage": 9.84472049689441
+      },
+      "threshold_0.8": {
+        "games_above": 95,
+        "percentage": 2.950310559006211
+      },
+      "threshold_0.9": {
+        "games_above": 17,
+        "percentage": 0.5279503105590062
+      }
+    }
+  },
+  "community_4": {
+    "community_id": "4",
+    "representative_games": [
+      "19320",
+      "435090",
+      "523440",
+      "366610",
+      "536920"
+    ],
+    "mean_similarity": 0.5205669526249478,
+    "median_similarity": 0.5262786357569439,
+    "max_similarity": 1.000000000000001,
+    "threshold_analysis": {
+      "threshold_0.3": {
+        "games_above": 3009,
+        "percentage": 93.44720496894409
+      },
+      "threshold_0.4": {
+        "games_above": 2611,
+        "percentage": 81.08695652173913
+      },
+      "threshold_0.5": {
+        "games_above": 1830,
+        "percentage": 56.83229813664597
+      },
+      "threshold_0.6": {
+        "games_above": 945,
+        "percentage": 29.347826086956523
+      },
+      "threshold_0.7": {
+        "games_above": 316,
+        "percentage": 9.813664596273291
+      },
+      "threshold_0.8": {
+        "games_above": 100,
+        "percentage": 3.1055900621118013
+      },
+      "threshold_0.9": {
+        "games_above": 21,
+        "percentage": 0.6521739130434783
+      }
+    }
+  },
+  "community_5": {
+    "community_id": "5",
+    "representative_games": [
+      "370550",
+      "523440",
+      "872580",
+      "366610",
+      "536920"
+    ],
+    "mean_similarity": 0.517929752177373,
+    "median_similarity": 0.5227984663372555,
+    "max_similarity": 1.0000000000000002,
+    "threshold_analysis": {
+      "threshold_0.3": {
+        "games_above": 2999,
+        "percentage": 93.13664596273293
+      },
+      "threshold_0.4": {
+        "games_above": 2647,
+        "percentage": 82.20496894409938
+      },
+      "threshold_0.5": {
+        "games_above": 1828,
+        "percentage": 56.77018633540373
+      },
+      "threshold_0.6": {
+        "games_above": 867,
+        "percentage": 26.925465838509314
+      },
+      "threshold_0.7": {
+        "games_above": 299,
+        "percentage": 9.285714285714286
+      },
+      "threshold_0.8": {
+        "games_above": 89,
+        "percentage": 2.7639751552795033
+      },
+      "threshold_0.9": {
+        "games_above": 18,
+        "percentage": 0.5590062111801243
+      }
+    }
+  },
+  "community_6": {
+    "community_id": "6",
+    "representative_games": [
+      "370550",
+      "523440",
+      "872580",
+      "366610",
+      "536920"
+    ],
+    "mean_similarity": 0.517929752177373,
+    "median_similarity": 0.5227984663372555,
+    "max_similarity": 1.0000000000000002,
+    "threshold_analysis": {
+      "threshold_0.3": {
+        "games_above": 2999,
+        "percentage": 93.13664596273293
+      },
+      "threshold_0.4": {
+        "games_above": 2647,
+        "percentage": 82.20496894409938
+      },
+      "threshold_0.5": {
+        "games_above": 1828,
+        "percentage": 56.77018633540373
+      },
+      "threshold_0.6": {
+        "games_above": 867,
+        "percentage": 26.925465838509314
+      },
+      "threshold_0.7": {
+        "games_above": 299,
+        "percentage": 9.285714285714286
+      },
+      "threshold_0.8": {
+        "games_above": 89,
+        "percentage": 2.7639751552795033
+      },
+      "threshold_0.9": {
+        "games_above": 18,
+        "percentage": 0.5590062111801243
+      }
+    }
+  },
+  "community_7": {
+    "community_id": "7",
+    "representative_games": [
+      "370550",
+      "523440",
+      "872580",
+      "366610",
+      "536920"
+    ],
+    "mean_similarity": 0.517929752177373,
+    "median_similarity": 0.5227984663372555,
+    "max_similarity": 1.0000000000000002,
+    "threshold_analysis": {
+      "threshold_0.3": {
+        "games_above": 2999,
+        "percentage": 93.13664596273293
+      },
+      "threshold_0.4": {
+        "games_above": 2647,
+        "percentage": 82.20496894409938
+      },
+      "threshold_0.5": {
+        "games_above": 1828,
+        "percentage": 56.77018633540373
+      },
+      "threshold_0.6": {
+        "games_above": 867,
+        "percentage": 26.925465838509314
+      },
+      "threshold_0.7": {
+        "games_above": 299,
+        "percentage": 9.285714285714286
+      },
+      "threshold_0.8": {
+        "games_above": 89,
+        "percentage": 2.7639751552795033
+      },
+      "threshold_0.9": {
+        "games_above": 18,
+        "percentage": 0.5590062111801243
+      }
+    }
+  },
+  "community_8": {
+    "community_id": "8",
+    "representative_games": [
+      "370550",
+      "523440",
+      "872580",
+      "366610",
+      "536920"
+    ],
+    "mean_similarity": 0.517929752177373,
+    "median_similarity": 0.5227984663372555,
+    "max_similarity": 1.0000000000000002,
+    "threshold_analysis": {
+      "threshold_0.3": {
+        "games_above": 2999,
+        "percentage": 93.13664596273293
+      },
+      "threshold_0.4": {
+        "games_above": 2647,
+        "percentage": 82.20496894409938
+      },
+      "threshold_0.5": {
+        "games_above": 1828,
+        "percentage": 56.77018633540373
+      },
+      "threshold_0.6": {
+        "games_above": 867,
+        "percentage": 26.925465838509314
+      },
+      "threshold_0.7": {
+        "games_above": 299,
+        "percentage": 9.285714285714286
+      },
+      "threshold_0.8": {
+        "games_above": 89,
+        "percentage": 2.7639751552795033
+      },
+      "threshold_0.9": {
+        "games_above": 18,
+        "percentage": 0.5590062111801243
+      }
+    }
+  },
+  "community_9": {
+    "community_id": "9",
+    "representative_games": [
+      "1341200",
+      "1110100",
+      "1149940",
+      "282050",
+      "1233260"
+    ],
+    "mean_similarity": 0.31054661563709357,
+    "median_similarity": 0.3041093552299977,
+    "max_similarity": 1.0000000000000004,
+    "threshold_analysis": {
+      "threshold_0.3": {
+        "games_above": 1682,
+        "percentage": 52.2360248447205
+      },
+      "threshold_0.4": {
+        "games_above": 448,
+        "percentage": 13.91304347826087
+      },
+      "threshold_0.5": {
+        "games_above": 121,
+        "percentage": 3.7577639751552794
+      },
+      "threshold_0.6": {
+        "games_above": 54,
+        "percentage": 1.6770186335403725
+      },
+      "threshold_0.7": {
+        "games_above": 28,
+        "percentage": 0.8695652173913043
+      },
+      "threshold_0.8": {
+        "games_above": 17,
+        "percentage": 0.5279503105590062
+      },
+      "threshold_0.9": {
+        "games_above": 8,
+        "percentage": 0.2484472049689441
+      }
+    }
+  },
+  "community_10": {
+    "community_id": "10",
+    "representative_games": [
+      "1093280",
+      "516610",
+      "356730",
+      "2605980",
+      "1077540"
+    ],
+    "mean_similarity": 0.5260661108768409,
+    "median_similarity": 0.5323475736265109,
+    "max_similarity": 1.0000000000000009,
+    "threshold_analysis": {
+      "threshold_0.3": {
+        "games_above": 3054,
+        "percentage": 94.84472049689441
+      },
+      "threshold_0.4": {
+        "games_above": 2735,
+        "percentage": 84.93788819875776
+      },
+      "threshold_0.5": {
+        "games_above": 1965,
+        "percentage": 61.024844720496894
+      },
+      "threshold_0.6": {
+        "games_above": 930,
+        "percentage": 28.88198757763975
+      },
+      "threshold_0.7": {
+        "games_above": 264,
+        "percentage": 8.198757763975156
+      },
+      "threshold_0.8": {
+        "games_above": 52,
+        "percentage": 1.6149068322981366
+      },
+      "threshold_0.9": {
+        "games_above": 10,
+        "percentage": 0.3105590062111801
+      }
+    }
+  },
+  "community_11": {
+    "community_id": "11",
+    "representative_games": [
+      "277890",
+      "204860",
+      "258180",
+      "21030",
+      "503810"
+    ],
+    "mean_similarity": 0.30609329422893117,
+    "median_similarity": 0.3020401190717736,
+    "max_similarity": 1.0000000000000007,
+    "threshold_analysis": {
+      "threshold_0.3": {
+        "games_above": 1672,
+        "percentage": 51.925465838509325
+      },
+      "threshold_0.4": {
+        "games_above": 370,
+        "percentage": 11.490683229813664
+      },
+      "threshold_0.5": {
+        "games_above": 121,
+        "percentage": 3.7577639751552794
+      },
+      "threshold_0.6": {
+        "games_above": 84,
+        "percentage": 2.608695652173913
+      },
+      "threshold_0.7": {
+        "games_above": 52,
+        "percentage": 1.6149068322981366
+      },
+      "threshold_0.8": {
+        "games_above": 20,
+        "percentage": 0.6211180124223602
+      },
+      "threshold_0.9": {
+        "games_above": 9,
+        "percentage": 0.27950310559006214
+      }
+    }
+  },
+  "community_12": {
+    "community_id": "12",
+    "representative_games": [
+      "98610",
+      "1660370",
+      "673540",
+      "412430",
+      "1008610"
+    ],
+    "mean_similarity": 0.522840814276367,
+    "median_similarity": 0.5320101822547603,
+    "max_similarity": 1.0000000000000002,
+    "threshold_analysis": {
+      "threshold_0.3": {
+        "games_above": 2996,
+        "percentage": 93.04347826086956
+      },
+      "threshold_0.4": {
+        "games_above": 2676,
+        "percentage": 83.1055900621118
+      },
+      "threshold_0.5": {
+        "games_above": 1930,
+        "percentage": 59.93788819875776
+      },
+      "threshold_0.6": {
+        "games_above": 925,
+        "percentage": 28.726708074534162
+      },
+      "threshold_0.7": {
+        "games_above": 307,
+        "percentage": 9.53416149068323
+      },
+      "threshold_0.8": {
+        "games_above": 56,
+        "percentage": 1.7391304347826086
+      },
+      "threshold_0.9": {
+        "games_above": 7,
+        "percentage": 0.21739130434782608
+      }
+    }
+  },
+  "community_13": {
+    "community_id": "13",
+    "representative_games": [
+      "872580",
+      "795020",
+      "777760",
+      "366610",
+      "536920"
+    ],
+    "mean_similarity": 0.5113356920092974,
+    "median_similarity": 0.5152532298738828,
+    "max_similarity": 1.0000000000000004,
+    "threshold_analysis": {
+      "threshold_0.3": {
+        "games_above": 2989,
+        "percentage": 92.82608695652173
+      },
+      "threshold_0.4": {
+        "games_above": 2580,
+        "percentage": 80.12422360248446
+      },
+      "threshold_0.5": {
+        "games_above": 1755,
+        "percentage": 54.503105590062106
+      },
+      "threshold_0.6": {
+        "games_above": 806,
+        "percentage": 25.03105590062112
+      },
+      "threshold_0.7": {
+        "games_above": 291,
+        "percentage": 9.037267080745341
+      },
+      "threshold_0.8": {
+        "games_above": 89,
+        "percentage": 2.7639751552795033
+      },
+      "threshold_0.9": {
+        "games_above": 17,
+        "percentage": 0.5279503105590062
+      }
+    }
+  }
+}

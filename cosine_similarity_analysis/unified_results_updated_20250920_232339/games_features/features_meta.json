@@ -1,0 +1,108 @@
+{
+  "n_rows": 1610,
+  "n_cols": 487,
+  "id_col": "appid",
+  "label_col": "is_synthetic_community",
+  "numeric_cols": [
+    "required_age",
+    "metacritic_score",
+    "recommendations_total",
+    "achievements_total",
+    "dlc_count",
+    "discount_percent",
+    "initial_price",
+    "final_price",
+    "community_size"
+  ],
+  "onehot_cols": [
+    "type",
+    "is_free",
+    "coming_soon",
+    "windows",
+    "mac",
+    "linux",
+    "has_dlc"
+  ],
+  "multi_cols": [
+    "genres",
+    "tags",
+    "categories",
+    "developers",
+    "publishers",
+    "supported_languages"
+  ],
+  "hash_cols": [],
+  "exclude_cols": [
+    "avg_players_median_6m",
+    "community_id",
+    "controller_support",
+    "crawl_status",
+    "crawl_timestamp",
+    "first_month_in_window",
+    "label_dead",
+    "label_dead_binary",
+    "last_month",
+    "min_months_ok",
+    "min_months_required",
+    "months_used",
+    "name",
+    "pc_min_requirements",
+    "release_date"
+  ],
+  "multi_delim": ",;|",
+  "multi_topk": 100,
+  "hash_dims": 32,
+  "numeric_stats": {
+    "required_age": {
+      "median": 0.0,
+      "mean": 2.2396782027929567,
+      "std": 5.883981812764999
+    },
+    "metacritic_score": {
+      "median": 75.47,
+      "mean": 75.05975106253797,
+      "std": 4.8773985893459395
+    },
+    "recommendations_total": {
+      "median": 87.0,
+      "mean": 277.5514875531269,
+      "std": 497.8013631722109
+    },
+    "achievements_total": {
+      "median": 15.0,
+      "mean": 32.68165755919854,
+      "std": 191.79917498534928
+    },
+    "dlc_count": {
+      "median": 0.0,
+      "mean": 0.983825136612022,
+      "std": 4.01918069005758
+    },
+    "discount_percent": {
+      "median": 0.0,
+      "mean": 6.700188221007893,
+      "std": 19.365703019920787
+    },
+    "initial_price": {
+      "median": 36.95,
+      "mean": 60.69135397692775,
+      "std": 175.22613794186364
+    },
+    "final_price": {
+      "median": 25.95,
+      "mean": 39.28723132969034,
+      "std": 56.957513595074786
+    },
+    "community_size": {
+      "median": 334.0,
+      "mean": 335.14996964177294,
+      "std": 39.754910626771775
+    }
+  },
+  "feature_names_count": 487,
+  "parsed_price_cols": [
+    "final_price",
+    "initial_price"
+  ],
+  "dataset_type": "games"
+}

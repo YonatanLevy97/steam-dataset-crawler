@@ -1,0 +1,335 @@
+{
+  "0": {
+    "genres": [
+      "genres:Indie"
+    ],
+    "categories": [
+      "categories:Indie"
+    ],
+    "tags": [],
+    "developers": [],
+    "publishers": [],
+    "platforms": [
+      "windows=True",
+      "linux=False"
+    ],
+    "pricing": [
+      "is_free=False"
+    ],
+    "other": [
+      "type:game",
+      "supported_languages:English",
+      "coming_soon:False",
+      "has_dlc=False"
+    ]
+  },
+  "1": {
+    "genres": [],
+    "categories": [],
+    "tags": [
+      "tags:Singleplayer"
+    ],
+    "developers": [],
+    "publishers": [],
+    "platforms": [
+      "windows=True"
+    ],
+    "pricing": [
+      "is_free=False"
+    ],
+    "other": [
+      "type:game",
+      "supported_languages:English",
+      "coming_soon:False",
+      "has_dlc=False"
+    ]
+  },
+  "2": {
+    "genres": [
+      "genres:Indie"
+    ],
+    "categories": [
+      "categories:Indie"
+    ],
+    "tags": [],
+    "developers": [],
+    "publishers": [],
+    "platforms": [
+      "windows=True",
+      "mac=False",
+      "linux=False"
+    ],
+    "pricing": [
+      "is_free=False"
+    ],
+    "other": [
+      "type:game",
+      "supported_languages:English",
+      "coming_soon:False",
+      "has_dlc=False"
+    ]
+  },
+  "3": {
+    "genres": [
+      "genres:Indie"
+    ],
+    "categories": [
+      "categories:Indie"
+    ],
+    "tags": [],
+    "developers": [],
+    "publishers": [],
+    "platforms": [
+      "windows=True",
+      "linux=False"
+    ],
+    "pricing": [
+      "is_free=False"
+    ],
+    "other": [
+      "type:game",
+      "supported_languages:English",
+      "coming_soon:False",
+      "has_dlc=False"
+    ]
+  },
+  "4": {
+    "genres": [
+      "genres:Indie"
+    ],
+    "categories": [
+      "categories:Indie"
+    ],
+    "tags": [],
+    "developers": [],
+    "publishers": [],
+    "platforms": [
+      "windows=True",
+      "mac=False",
+      "linux=False"
+    ],
+    "pricing": [
+      "is_free=False"
+    ],
+    "other": [
+      "type:game",
+      "supported_languages:English",
+      "coming_soon:False",
+      "has_dlc=False"
+    ]
+  },
+  "5": {
+    "genres": [
+      "genres:Indie"
+    ],
+    "categories": [
+      "categories:Indie"
+    ],
+    "tags": [],
+    "developers": [],
+    "publishers": [],
+    "platforms": [
+      "windows=True",
+      "linux=False"
+    ],
+    "pricing": [
+      "is_free=False"
+    ],
+    "other": [
+      "type:game",
+      "supported_languages:English",
+      "coming_soon:False",
+      "has_dlc=False"
+    ]
+  },
+  "6": {
+    "genres": [
+      "genres:Indie"
+    ],
+    "categories": [
+      "categories:Indie"
+    ],
+    "tags": [],
+    "developers": [],
+    "publishers": [],
+    "platforms": [
+      "windows=True",
+      "linux=False"
+    ],
+    "pricing": [
+      "is_free=False"
+    ],
+    "other": [
+      "type:game",
+      "supported_languages:English",
+      "coming_soon:False",
+      "has_dlc=False"
+    ]
+  },
+  "7": {
+    "genres": [
+      "genres:Indie"
+    ],
+    "categories": [
+      "categories:Indie"
+    ],
+    "tags": [],
+    "developers": [],
+    "publishers": [],
+    "platforms": [
+      "windows=True",
+      "linux=False"
+    ],
+    "pricing": [
+      "is_free=False"
+    ],
+    "other": [
+      "type:game",
+      "supported_languages:English",
+      "coming_soon:False",
+      "has_dlc=False"
+    ]
+  },
+  "8": {
+    "genres": [
+      "genres:Indie"
+    ],
+    "categories": [
+      "categories:Indie"
+    ],
+    "tags": [],
+    "developers": [],
+    "publishers": [],
+    "platforms": [
+      "windows=True",
+      "mac=False",
+      "linux=False"
+    ],
+    "pricing": [
+      "is_free=False"
+    ],
+    "other": [
+      "type:game",
+      "supported_languages:English",
+      "coming_soon:False",
+      "has_dlc=False"
+    ]
+  },
+  "9": {
+    "genres": [],
+    "categories": [],
+    "tags": [],
+    "developers": [],
+    "publishers": [],
+    "platforms": [
+      "windows=True",
+      "mac=False",
+      "linux=False"
+    ],
+    "pricing": [
+      "is_free=False"
+    ],
+    "other": [
+      "type:game",
+      "supported_languages:English",
+      "coming_soon:False"
+    ]
+  },
+  "10": {
+    "genres": [
+      "genres:Indie"
+    ],
+    "categories": [
+      "categories:Indie"
+    ],
+    "tags": [
+      "tags:Indie"
+    ],
+    "developers": [],
+    "publishers": [],
+    "platforms": [
+      "windows=True",
+      "linux=False"
+    ],
+    "pricing": [
+      "is_free=False"
+    ],
+    "other": [
+      "type:game",
+      "supported_languages:English",
+      "coming_soon:False",
+      "has_dlc=False"
+    ]
+  },
+  "11": {
+    "genres": [],
+    "categories": [],
+    "tags": [
+      "tags:Singleplayer"
+    ],
+    "developers": [],
+    "publishers": [],
+    "platforms": [
+      "windows=True",
+      "mac=False",
+      "linux=False"
+    ],
+    "pricing": [
+      "is_free=False"
+    ],
+    "other": [
+      "type:game",
+      "supported_languages:English",
+      "coming_soon:False"
+    ]
+  },
+  "12": {
+    "genres": [
+      "genres:Indie"
+    ],
+    "categories": [
+      "categories:Indie"
+    ],
+    "tags": [],
+    "developers": [],
+    "publishers": [],
+    "platforms": [
+      "windows=True",
+      "mac=False",
+      "linux=False"
+    ],
+    "pricing": [
+      "is_free=False"
+    ],
+    "other": [
+      "type:game",
+      "supported_languages:English",
+      "coming_soon:False",
+      "has_dlc=False"
+    ]
+  },
+  "13": {
+    "genres": [
+      "genres:Indie"
+    ],
+    "categories": [
+      "categories:Indie"
+    ],
+    "tags": [],
+    "developers": [],
+    "publishers": [],
+    "platforms": [
+      "windows=True",
+      "linux=False"
+    ],
+    "pricing": [
+      "is_free=False"
+    ],
+    "other": [
+      "type:game",
+      "supported_languages:English",
+      "coming_soon:False",
+      "has_dlc=False"
+    ]
+  }
+}
