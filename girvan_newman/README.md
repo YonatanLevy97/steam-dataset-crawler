@@ -4,6 +4,7 @@ Complete implementation of Girvan-Newman community detection algorithm for analy
 
 ## 🚀 Quick Start
 
+### Mac/Linux
 ```bash
 # Run basic community detection
 ./scripts/run_girvan_newman.sh --edges ./out/graph_runs/.../edges_top100.csv.gz --giant-only
@@ -17,6 +18,20 @@ python3 scripts/detailed_community_feature_analysis.py \
 python3 scripts/community_feature_summary.py \
     --analysis ./out/detailed_analysis/detailed_feature_analysis.json
 ```
+
+### Windows
+```cmd
+REM Run basic community detection
+scripts\run_girvan_newman.bat --edges ..\out\graph_runs\...\edges_top100.csv.gz --giant-only
+
+REM Analyze community features in detail
+python scripts\detailed_community_feature_analysis.py --communities ..\out\girvan_newman_...\community_assignments_best.csv --metadata ..\out\dead_labels_enriched.csv
+
+REM Create readable summaries  
+python scripts\community_feature_summary.py --analysis ..\out\detailed_analysis\detailed_feature_analysis.json
+```
+
+**Windows users**: See [WINDOWS_SETUP.md](WINDOWS_SETUP.md) for detailed setup instructions.
 
 ## 📁 Directory Structure
 
@@ -65,20 +80,39 @@ girvan_newman/
 
 ## 🔧 Requirements
 
-Install required Python packages:
+### Mac/Linux
 ```bash
 pip install networkx matplotlib numpy pandas
 ```
 
+### Windows
+```cmd
+# Option 1: Use the installer script
+examples\install_requirements.bat
+
+# Option 2: Manual installation
+pip install networkx matplotlib numpy pandas
+```
+
+**Note**: Windows users typically use `python` instead of `python3`, and `pip` instead of `pip3`.
+
 ## 💡 Example Workflows
 
 ### Standard Community Detection
+**Mac/Linux:**
 ```bash
 cd girvan_newman
 ./scripts/run_girvan_newman.sh --edges ../out/graph_runs/.../edges_top100.csv.gz --giant-only --kcore 2
 ```
 
+**Windows:**
+```cmd
+cd girvan_newman
+scripts\run_girvan_newman.bat --edges ..\out\graph_runs\...\edges_top100.csv.gz --giant-only --kcore 2
+```
+
 ### Detailed Feature Analysis
+**Mac/Linux:**
 ```bash  
 cd girvan_newman
 python3 scripts/detailed_community_feature_analysis.py \
@@ -91,12 +125,25 @@ python3 scripts/community_feature_summary.py \
     --out-dir ../out/community_summary
 ```
 
+**Windows:**
+```cmd
+cd girvan_newman
+python scripts\detailed_community_feature_analysis.py --communities ..\out\girvan_newman_...\community_assignments_best.csv --metadata ..\out\dead_labels_enriched.csv --out-dir ..\out\detailed_analysis
+
+python scripts\community_feature_summary.py --analysis ..\out\detailed_analysis\detailed_feature_analysis.json --out-dir ..\out\community_summary
+```
+
 ### Quick Test
+**Mac/Linux:**
 ```bash
 cd girvan_newman  
-./scripts/run_girvan_newman.sh \
-    --edges ../out/graph_runs/.../edges_top100.csv.gz \
-    --max-edges 10000 --max-nodes 500 --giant-only
+./examples/quick_test.sh
+```
+
+**Windows:**
+```cmd
+cd girvan_newman
+examples\quick_test.bat
 ```
 
 ## 🎯 Key Features
