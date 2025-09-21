@@ -15,7 +15,7 @@ import numpy as np
 # Add parent directory to path
 sys.path.append(str(Path(__file__).parent.parent))
 
-from yoav.dominant_features_profiler import DominantFeaturesProfiler
+from community_detection.dominant_features_profiler import DominantFeaturesProfiler
 
 
 def create_realistic_demo_data():
