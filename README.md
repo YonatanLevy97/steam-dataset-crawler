@@ -1,4 +1,4 @@
-# Steam Dataset Crawler & Analysis Pipeline
+# How To Kill a Game Pipeline
 
 A comprehensive data pipeline for collecting Steam game data, analyzing player activity patterns, and building similarity graphs for dead game detection and analysis.
 
