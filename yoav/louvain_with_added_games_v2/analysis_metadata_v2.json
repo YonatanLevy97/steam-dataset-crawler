@@ -1,0 +1,12 @@
+{
+  "original_graph_nodes": 14418,
+  "original_graph_edges": 549686,
+  "updated_graph_nodes": 14418,
+  "updated_graph_edges": 549686,
+  "games_added": 50,
+  "total_communities": 326,
+  "modularity": 0.5171539653875766,
+  "games_in_graph": 50,
+  "max_communities_target": 15,
+  "community_limit_achieved": false
+}

@@ -1,0 +1,209 @@
+{
+  "high_risk_games": {
+    "count": 16561,
+    "percentage": 85.15528589058002,
+    "characteristics": {
+      "avg_players": 9.101105005736368,
+      "avg_price": 59.96528289354508,
+      "avg_metacritic": 73.69200968523002,
+      "avg_recommendations": 273.73223280937066,
+      "avg_achievements": 30.989621897190023,
+      "avg_language_count": 6.135016001449188,
+      "avg_tag_count": 14.484874101805447,
+      "avg_platform_count": 1.4852363987681902,
+      "free_percentage": 13.706901757140269,
+      "has_dlc_percentage": 29.59362357345571,
+      "controller_support_percentage": 40.377996497796026,
+      "multi_platform_percentage": 33.198478352756474
+    }
+  },
+  "low_risk_games": {
+    "count": 2829,
+    "percentage": 14.546482928835868,
+    "characteristics": {
+      "avg_players": 2486.82572640509,
+      "avg_price": 84.27565217391304,
+      "avg_metacritic": 80.2797619047619,
+      "avg_recommendations": 479.84172918899606,
+      "avg_achievements": 50.97534833869239,
+      "avg_language_count": 9.497348886532343,
+      "avg_tag_count": 18.155178508306822,
+      "avg_platform_count": 1.438670908448215,
+      "free_percentage": 18.734535171438672,
+      "has_dlc_percentage": 54.718981972428416,
+      "controller_support_percentage": 55.24920466595971,
+      "multi_platform_percentage": 31.88405797101449
+    }
+  },
+  "genre_Action, Indie": {
+    "count": 1452,
+    "death_rate": 0.8677685950413223,
+    "avg_death_probability": 0.8893450724106609,
+    "characteristics": {
+      "avg_players": 171.58798553719006,
+      "avg_price": 45.958395316804406,
+      "avg_metacritic": 74.72243346007605,
+      "avg_recommendations": 332.12396694214874,
+      "avg_achievements": 31.11914600550964,
+      "avg_language_count": 6.618457300275482,
+      "avg_tag_count": 16.08746556473829,
+      "avg_platform_count": 1.4683195592286502,
+      "free_percentage": 9.77961432506887,
+      "has_dlc_percentage": 36.570247933884296,
+      "controller_support_percentage": 66.94214876033058,
+      "multi_platform_percentage": 32.988980716253444
+    }
+  },
+  "genre_Action": {
+    "count": 6968,
+    "death_rate": 0.7916188289322618,
+    "avg_death_probability": 0.8189265751245464,
+    "characteristics": {
+      "avg_players": 670.0721110792192,
+      "avg_price": 60.75443886337544,
+      "avg_metacritic": 75.9084073820916,
+      "avg_recommendations": 381.3190298507463,
+      "avg_achievements": 38.55094718714122,
+      "avg_language_count": 7.525832376578645,
+      "avg_tag_count": 16.953358208955223,
+      "avg_platform_count": 1.342422502870264,
+      "free_percentage": 14.580941446613089,
+      "has_dlc_percentage": 38.088404133180255,
+      "controller_support_percentage": 65.11194029850746,
+      "multi_platform_percentage": 24.31113662456946
+    }
+  },
+  "genre_Adventure, Indie": {
+    "count": 2895,
+    "death_rate": 0.8632124352331606,
+    "avg_death_probability": 0.8862031677029856,
+    "characteristics": {
+      "avg_players": 223.49360276338513,
+      "avg_price": 71.16829360967185,
+      "avg_metacritic": 75.96302250803859,
+      "avg_recommendations": 344.4680483592401,
+      "avg_achievements": 30.596891191709844,
+      "avg_language_count": 6.297754749568221,
+      "avg_tag_count": 17.306735751295335,
+      "avg_platform_count": 1.558894645941278,
+      "free_percentage": 7.530224525043177,
+      "has_dlc_percentage": 44.766839378238345,
+      "controller_support_percentage": 60.06908462867012,
+      "multi_platform_percentage": 37.27115716753022
+    }
+  },
+  "genre_Action, Adventure, Indie": {
+    "count": 1441,
+    "death_rate": 0.8438584316446912,
+    "avg_death_probability": 0.8666244334928895,
+    "characteristics": {
+      "avg_players": 377.6757078417765,
+      "avg_price": 58.375176960444136,
+      "avg_metacritic": 76.08496732026144,
+      "avg_recommendations": 396.7168632893824,
+      "avg_achievements": 32.176960444136014,
+      "avg_language_count": 7.179042331714087,
+      "avg_tag_count": 17.866065232477446,
+      "avg_platform_count": 1.4253990284524636,
+      "free_percentage": 6.939625260235947,
+      "has_dlc_percentage": 43.23386537126995,
+      "controller_support_percentage": 72.86606523247745,
+      "multi_platform_percentage": 28.383067314365025
+    }
+  },
+  "genre_Action, Adventure": {
+    "count": 3205,
+    "death_rate": 0.7803432137285491,
+    "avg_death_probability": 0.8072602116131001,
+    "characteristics": {
+      "avg_players": 568.3536255850233,
+      "avg_price": 73.98588143525741,
+      "avg_metacritic": 76.07544378698225,
+      "avg_recommendations": 375.70140405616223,
+      "avg_achievements": 32.269578783151324,
+      "avg_language_count": 8.292667706708269,
+      "avg_tag_count": 17.861778471138845,
+      "avg_platform_count": 1.321996879875195,
+      "free_percentage": 12.761310452418096,
+      "has_dlc_percentage": 40.87363494539781,
+      "controller_support_percentage": 68.3619344773791,
+      "multi_platform_percentage": 22.433697347893915
+    }
+  },
+  "free_games": {
+    "count": 2809,
+    "death_rate": 0.7817728729085084,
+    "avg_death_probability": 0.8141699308815257,
+    "characteristics": {
+      "avg_players": 1163.8773691705233,
+      "avg_price": 0.5399644001423994,
+      "avg_metacritic": 74.05813953488372,
+      "avg_recommendations": 367.9181203275187,
+      "avg_achievements": 27.20754716981132,
+      "avg_language_count": 7.466714133143467,
+      "avg_tag_count": 15.794944820220719,
+      "avg_platform_count": 1.4001423994304023,
+      "free_percentage": 100.0,
+      "has_dlc_percentage": 26.877892488430042,
+      "controller_support_percentage": 25.73869704521182,
+      "multi_platform_percentage": 28.373086507653973
+    }
+  },
+  "paid_games": {
+    "count": 16639,
+    "death_rate": 0.835567041288539,
+    "avg_death_probability": 0.8604951417916804,
+    "characteristics": {
+      "avg_players": 235.63865045976326,
+      "avg_price": 74.03228559408619,
+      "avg_metacritic": 75.66796460176991,
+      "avg_recommendations": 292.34767610748,
+      "avg_achievements": 35.01192205277172,
+      "avg_language_count": 6.4848248091832446,
+      "avg_tag_count": 14.897830398461446,
+      "avg_platform_count": 1.4916160826972775,
+      "free_percentage": 0.0,
+      "has_dlc_percentage": 34.33499609351524,
+      "controller_support_percentage": 45.369313059679065,
+      "multi_platform_percentage": 33.800108179578096
+    }
+  },
+  "recent_games": {
+    "count": 4247,
+    "death_rate": 0.7831410407346362,
+    "avg_death_probability": 0.8136276863839279,
+    "characteristics": {
+      "avg_players": 326.756392747822,
+      "avg_price": 65.95064045208383,
+      "avg_metacritic": 80.20945945945945,
+      "avg_recommendations": 212.6025429715093,
+      "avg_achievements": 31.4549093477749,
+      "avg_language_count": 8.863668471862491,
+      "avg_tag_count": 18.56698846244408,
+      "avg_platform_count": 1.3400047092064986,
+      "free_percentage": 18.483635507417002,
+      "has_dlc_percentage": 38.968683776783614,
+      "controller_support_percentage": 47.44525547445255,
+      "multi_platform_percentage": 24.91170237814928
+    }
+  },
+  "old_games": {
+    "count": 2278,
+    "death_rate": 0.824846356453029,
+    "avg_death_probability": 0.8473206662108184,
+    "characteristics": {
+      "avg_players": 915.2214640035119,
+      "avg_price": 62.68671641791043,
+      "avg_metacritic": 74.0992438563327,
+      "avg_recommendations": 521.262510974539,
+      "avg_achievements": 25.42361720807726,
+      "avg_language_count": 4.811237928007023,
+      "avg_tag_count": 13.879719051799825,
+      "avg_platform_count": 1.5553116769095698,
+      "free_percentage": 5.487269534679543,
+      "has_dlc_percentage": 24.714661984196663,
+      "controller_support_percentage": 35.07462686567165,
+      "multi_platform_percentage": 37.26953467954346
+    }
+  }
+}

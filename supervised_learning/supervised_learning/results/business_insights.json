@@ -1,0 +1,154 @@
+{
+  "top_death_predictors": [
+    {
+      "feature": "avg_players_median_6m",
+      "importance": 0.4192855536803862,
+      "interpretation": "Average player count - lower values indicate higher death risk"
+    },
+    {
+      "feature": "avg_players_per_month",
+      "importance": 0.3035154820193491,
+      "interpretation": "Feature importance in game death prediction"
+    },
+    {
+      "feature": "player_engagement",
+      "importance": 0.1306260769533455,
+      "interpretation": "Feature importance in game death prediction"
+    },
+    {
+      "feature": "recommendations_total",
+      "importance": 0.016362331771657825,
+      "interpretation": "Total recommendations - fewer recommendations increase death risk"
+    },
+    {
+      "feature": "language_count",
+      "importance": 0.014573574135008165,
+      "interpretation": "Language support - more languages may indicate better market reach"
+    },
+    {
+      "feature": "tag_count",
+      "importance": 0.01252323410468129,
+      "interpretation": "Number of tags - more tags may indicate broader appeal"
+    },
+    {
+      "feature": "dlc_count",
+      "importance": 0.010387115142880486,
+      "interpretation": "Feature importance in game death prediction"
+    },
+    {
+      "feature": "tag_Multiplayer",
+      "importance": 0.010185343919876955,
+      "interpretation": "Feature importance in game death prediction"
+    },
+    {
+      "feature": "metacritic_score",
+      "importance": 0.008562600874158409,
+      "interpretation": "Metacritic score - lower scores correlate with higher death risk"
+    },
+    {
+      "feature": "final_price_numeric",
+      "importance": 0.008549561557359302,
+      "interpretation": "Feature importance in game death prediction"
+    },
+    {
+      "feature": "achievements_total",
+      "importance": 0.00850436886660829,
+      "interpretation": "Achievement count - more achievements may indicate better engagement"
+    },
+    {
+      "feature": "initial_price_numeric",
+      "importance": 0.007499109276344538,
+      "interpretation": "Initial price - pricing strategy affects game survival"
+    },
+    {
+      "feature": "achievement_ratio",
+      "importance": 0.006070008072672174,
+      "interpretation": "Feature importance in game death prediction"
+    },
+    {
+      "feature": "release_year",
+      "importance": 0.002999820482024024,
+      "interpretation": "Feature importance in game death prediction"
+    },
+    {
+      "feature": "game_age",
+      "importance": 0.0028294807302242002,
+      "interpretation": "Game age - older games may have different survival patterns"
+    }
+  ],
+  "risk_factors": {
+    "low_player_count": {
+      "threshold": 1.26,
+      "description": "Games with very low player counts are at high risk"
+    },
+    "few_recommendations": {
+      "threshold": 18.0,
+      "description": "Games with few recommendations struggle to maintain player base"
+    },
+    "low_metacritic": {
+      "threshold": 69.0,
+      "description": "Poor critical reception correlates with game death"
+    },
+    "limited_platform_support": {
+      "threshold": 1,
+      "description": "Single-platform games have higher death risk"
+    },
+    "minimal_language_support": {
+      "threshold": 1.0,
+      "description": "Limited language support restricts market reach"
+    }
+  },
+  "success_factors": {
+    "strong_player_base": {
+      "threshold": 575.995,
+      "description": "Games with strong player bases tend to survive"
+    },
+    "high_recommendations": {
+      "threshold": 296.0,
+      "description": "High recommendation count indicates community engagement"
+    },
+    "good_metacritic_score": {
+      "threshold": 85.0,
+      "description": "Good critical reception supports long-term survival"
+    },
+    "multi_platform_support": {
+      "threshold": 2,
+      "description": "Multi-platform games have better survival rates"
+    },
+    "extensive_language_support": {
+      "threshold": 13.0,
+      "description": "Broad language support expands market reach"
+    },
+    "dlc_content": {
+      "threshold": 1,
+      "description": "Games with DLC content tend to have longer lifespans"
+    }
+  },
+  "recommendations": {
+    "development_strategy": [
+      "Focus on building a strong initial player base through marketing and community engagement",
+      "Invest in quality assurance to achieve good Metacritic scores",
+      "Plan for multi-platform release to maximize market reach",
+      "Include comprehensive language support for target markets",
+      "Design games with DLC potential to extend lifespan"
+    ],
+    "pricing_strategy": [
+      "Consider free-to-play models for better initial adoption",
+      "Implement strategic discounting to maintain player interest",
+      "Balance initial pricing with long-term revenue goals",
+      "Monitor competitor pricing in similar genres"
+    ],
+    "content_strategy": [
+      "Include achievement systems to increase player engagement",
+      "Plan for post-launch content updates and DLC",
+      "Ensure controller support for broader accessibility",
+      "Develop games with multiple genre tags for broader appeal"
+    ],
+    "risk_mitigation": [
+      "Monitor player count trends closely in first 6 months",
+      "Actively seek player recommendations and reviews",
+      "Maintain regular communication with player community",
+      "Be prepared to pivot strategy based on early metrics"
+    ]
+  }
+}

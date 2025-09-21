@@ -1,0 +1,70 @@
+feature,importance
+dlc_count,0.15814721460660072
+language_count,0.14490453256162222
+tag_count,0.12338549339360383
+metacritic_score,0.09879555835955142
+achievements_total,0.09848174453564058
+final_price,0.08455256588482156
+initial_price,0.06388556586329694
+pc_min_requirements,0.04634234868242084
+years_since_release,0.04202303750078921
+categories,0.02625839617132638
+is_free,0.02099678968024608
+genres,0.019224989760197566
+publishers_SEGA,0.011560510132478432
+publishers_Electronic Arts,0.00893215305987728
+platform_count,0.008214276107049397
+category_count,0.006059126893146527
+type,0.005592427033322149
+developers_Square Enix,0.00556991976645527
+controller_support,0.005177741971071246
+genre_count,0.004122163399969287
+price_change,0.003561208991408433
+price_change_percent,0.0026209036478350607
+has_dlc,0.0017303400887682225
+"supported_languages_English, Simplified Chinese, Traditional Chinese",0.0014954560341941972
+windows,0.0011907376571790842
+publishers_Square Enix,0.0011360502917108473
+required_age,0.0010446615840346367
+publishers_Ubisoft,0.0009354161176339511
+age_rating,0.0008019745438311095
+supported_languages_English,0.0007208457808315621
+tags_Unknown,0.0006706161139317695
+"supported_languages_English, Russian",0.00046299150200666963
+release_era,0.0004466276382776916
+mac,0.0004217653232665407
+supported_languages_Simplified Chinese,0.0003212521359799889
+developers_Valve,0.00021259718562318707
+publishers_Unknown,0.0
+supported_languages_Unknown,0.0
+"supported_languages_English, Simplified Chinese",0.0
+publishers_Nacon,0.0
+publishers_Slitherine Ltd.,0.0
+"publishers_KOEI TECMO GAMES CO., LTD.",0.0
+publishers_Devolver Digital,0.0
+"supported_languages_English, French, Italian, German, Spanish - Spain",0.0
+publishers_THQ Nordic,0.0
+"supported_languages_English, Japanese, Simplified Chinese, Traditional Chinese",0.0
+"supported_languages_English, Japanese, Simplified Chinese",0.0
+"supported_languages_English, Japanese",0.0
+is_multi_platform,0.0
+developers_Humongous Entertainment,0.0
+developers_HeR Interactive,0.0
+discount_percent,0.0
+"tags_Adventure, Casual, Hidden Object",0.0
+"tags_Action, Indie",0.0
+"tags_Action, Indie, Casual",0.0
+tags_Utilities,0.0
+tags_Simulation,0.0
+tags_Strategy,0.0
+tags_Indie,0.0
+"tags_Action, Adventure, Indie",0.0
+developers_Unknown,0.0
+"developers_KOEI TECMO GAMES CO., LTD.",0.0
+linux,0.0
+"developers_CAPCOM Co., Ltd.",0.0
+"developers_Kairosoft Co.,Ltd",0.0
+developers_Milestone S.r.l.,0.0
+developers_Choice of Games,0.0
+coming_soon,0.0
+"tags_Indie, Casual",0.0
