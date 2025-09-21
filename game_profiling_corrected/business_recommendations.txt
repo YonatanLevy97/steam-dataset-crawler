@@ -1,8 +1,0 @@
-GAME DEATH PREVENTION RECOMMENDATIONS
-==================================================
-
-1. AVOID high-risk genres: 0, 800, 783 (death rates: 100.0%, 100.0%, 100.0%)
-2. CONSIDER low-risk genres: 527, 1243, 662 (death rates: 0.0%, 0.0%, 0.0%)
-3. OPTIMAL platform strategy: 2 platforms (lowest death rate: 81.2%)
-4. CONSIDER free-to-play model (death rate: 78.2% vs paid: 83.6%)
-5. INCLUDE DLC content (death rate: 72.2% vs no DLC: 88.1%)

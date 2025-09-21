@@ -12,7 +12,7 @@ from pathlib import Path
 import time
 
 # Add the communities_visualizations directory to Python path
-viz_dir = Path(__file__).parent / "communities_visualizations"
+viz_dir = Path(__file__).parent
 sys.path.insert(0, str(viz_dir))
 
 def main():
@@ -26,7 +26,7 @@ def main():
         print("🏗️ Initializing visualization orchestrator...")
         orchestrator = VisualizationOrchestrator(
             data_dir=None,  # Use default data paths
-            output_dir="communities_visualizations/outputs",
+            output_dir="./outputs",
             verbose=True
         )
         

@@ -172,7 +172,7 @@ class CommunityProfilingSystem:
         print(f"[INFO] Running Girvan-Newman on training set")
         
         # Import Girvan-Newman code
-        sys.path.append(str(Path('girvan_newman/scripts')))
+        sys.path.append(str(Path('scripts')))
         
         try:
             from girvan_newman_analysis import load_edges_from_csv, create_graph_from_edges, girvan_newman_communities
